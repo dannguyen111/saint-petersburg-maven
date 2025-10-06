@@ -1,0 +1,6 @@
+# Ignore all CSV files
+*.csv
+**/*.csv
+
+# But keep cards.csv tracked
+!cards.csv

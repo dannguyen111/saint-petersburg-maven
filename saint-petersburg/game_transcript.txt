@@ -1,0 +1,3702 @@
+Round: 1, Phase: Worker, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	     0 (0, 0, 0)	    25 (0, 0, 0)	          0	Worker, Aristocrat
+     2	     0 (0, 0, 0)	    25 (0, 0, 0)	          0	Building, Trading
+Deck Sizes: Worker: 27, Building: 28, Aristocrat: 27, Trading: 30
+
+Upper Card Row: Ship Builder (w7), Lumberjack (w3), Shepherd (w5), Shepherd (w5)
+Lower Card Row: 
+
+Player 1:
+Hand: 
+Workers: 
+Buildings: 
+Aristocrats: 
+
+Player 2:
+Hand: 
+Workers: 
+Buildings: 
+Aristocrats: 
+
+> Player 1 buys Lumberjack from the upper card row for 3 rubles.
+
+Round: 1, Phase: Worker, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	     0 (0, 0, 0)	    22 (3, 0, 0)	          0	Worker, Aristocrat
+     2	     0 (0, 0, 0)	    25 (0, 0, 0)	          0	Building, Trading
+Deck Sizes: Worker: 27, Building: 28, Aristocrat: 27, Trading: 30
+
+Upper Card Row: Ship Builder (w7), Shepherd (w5), Shepherd (w5)
+Lower Card Row: 
+
+Player 1:
+Hand: 
+Workers: Lumberjack (w3)
+Buildings: 
+Aristocrats: 
+
+Player 2:
+Hand: 
+Workers: 
+Buildings: 
+Aristocrats: 
+
+> Player 2 buys Ship Builder from the upper card row for 7 rubles.
+
+Round: 1, Phase: Worker, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	     0 (0, 0, 0)	    22 (3, 0, 0)	          0	Worker, Aristocrat
+     2	     0 (0, 0, 0)	    18 (3, 0, 0)	          0	Building, Trading
+Deck Sizes: Worker: 27, Building: 28, Aristocrat: 27, Trading: 30
+
+Upper Card Row: Shepherd (w5), Shepherd (w5)
+Lower Card Row: 
+
+Player 1:
+Hand: 
+Workers: Lumberjack (w3)
+Buildings: 
+Aristocrats: 
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7)
+Buildings: 
+Aristocrats: 
+
+> Player 1 buys Shepherd from the upper card row for 5 rubles.
+
+Round: 1, Phase: Worker, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	     0 (0, 0, 0)	    17 (6, 0, 0)	          0	Worker, Aristocrat
+     2	     0 (0, 0, 0)	    18 (3, 0, 0)	          0	Building, Trading
+Deck Sizes: Worker: 27, Building: 28, Aristocrat: 27, Trading: 30
+
+Upper Card Row: Shepherd (w5)
+Lower Card Row: 
+
+Player 1:
+Hand: 
+Workers: Lumberjack (w3), Shepherd (w5)
+Buildings: 
+Aristocrats: 
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7)
+Buildings: 
+Aristocrats: 
+
+> Player 2 buys Shepherd from the upper card row for 5 rubles.
+
+Round: 1, Phase: Worker, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	     0 (0, 0, 0)	    17 (6, 0, 0)	          0	Worker, Aristocrat
+     2	     0 (0, 0, 0)	    13 (6, 0, 0)	          0	Building, Trading
+Deck Sizes: Worker: 27, Building: 28, Aristocrat: 27, Trading: 30
+
+Upper Card Row: 
+Lower Card Row: 
+
+Player 1:
+Hand: 
+Workers: Lumberjack (w3), Shepherd (w5)
+Buildings: 
+Aristocrats: 
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5)
+Buildings: 
+Aristocrats: 
+
+> Player 1 passes.
+
+Round: 1, Phase: Worker, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	     0 (0, 0, 0)	    17 (6, 0, 0)	          0	Worker, Aristocrat
+     2	     0 (0, 0, 0)	    13 (6, 0, 0)	          0	Building, Trading
+Deck Sizes: Worker: 27, Building: 28, Aristocrat: 27, Trading: 30
+
+Upper Card Row: 
+Lower Card Row: 
+
+Player 1:
+Hand: 
+Workers: Lumberjack (w3), Shepherd (w5)
+Buildings: 
+Aristocrats: 
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5)
+Buildings: 
+Aristocrats: 
+
+> Player 2 passes.
+
+Round: 1, Phase: Building, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	     0 (0, 0, 0)	    23 (6, 0, 0)	          0	Worker, Aristocrat
+     2	     0 (0, 0, 0)	    19 (6, 0, 0)	          0	Building, Trading
+Deck Sizes: Worker: 27, Building: 20, Aristocrat: 27, Trading: 30
+
+Upper Card Row: Pub (bpu), Pub (bpu), Theater (b20), Customs House (b8), Market (b5), Market (b5), Library (b17), Academy (b23)
+Lower Card Row: 
+
+Player 1:
+Hand: 
+Workers: Lumberjack (w3), Shepherd (w5)
+Buildings: 
+Aristocrats: 
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5)
+Buildings: 
+Aristocrats: 
+
+> Player 2 buys Library from the upper card row for 17 rubles.
+
+Round: 1, Phase: Building, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	     0 (0, 0, 0)	    23 (6, 0, 0)	          0	Worker, Aristocrat
+     2	     0 (0, 5, 0)	     2 (6, 0, 0)	          0	Building, Trading
+Deck Sizes: Worker: 27, Building: 20, Aristocrat: 27, Trading: 30
+
+Upper Card Row: Pub (bpu), Pub (bpu), Theater (b20), Customs House (b8), Market (b5), Market (b5), Academy (b23)
+Lower Card Row: 
+
+Player 1:
+Hand: 
+Workers: Lumberjack (w3), Shepherd (w5)
+Buildings: 
+Aristocrats: 
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5)
+Buildings: Library (b17)
+Aristocrats: 
+
+> Player 1 buys Academy from the upper card row for 23 rubles.
+
+Round: 1, Phase: Building, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	     0 (0, 7, 0)	     0 (6, 0, 0)	          0	Worker, Aristocrat
+     2	     0 (0, 5, 0)	     2 (6, 0, 0)	          0	Building, Trading
+Deck Sizes: Worker: 27, Building: 20, Aristocrat: 27, Trading: 30
+
+Upper Card Row: Pub (bpu), Pub (bpu), Theater (b20), Customs House (b8), Market (b5), Market (b5)
+Lower Card Row: 
+
+Player 1:
+Hand: 
+Workers: Lumberjack (w3), Shepherd (w5)
+Buildings: Academy (b23)
+Aristocrats: 
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5)
+Buildings: Library (b17)
+Aristocrats: 
+
+> Player 2 buys Pub from the upper card row for 1 ruble.
+
+Round: 1, Phase: Building, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	     0 (0, 7, 0)	     0 (6, 0, 0)	          0	Worker, Aristocrat
+     2	     0 (0, 5, 0)	     1 (6, 0, 0)	          0	Building, Trading
+Deck Sizes: Worker: 27, Building: 20, Aristocrat: 27, Trading: 30
+
+Upper Card Row: Pub (bpu), Theater (b20), Customs House (b8), Market (b5), Market (b5)
+Lower Card Row: 
+
+Player 1:
+Hand: 
+Workers: Lumberjack (w3), Shepherd (w5)
+Buildings: Academy (b23)
+Aristocrats: 
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5)
+Buildings: Library (b17), Pub (bpu)
+Aristocrats: 
+
+> Player 1 adds Market to their hand from the upper card row.
+
+Round: 1, Phase: Building, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	     0 (0, 7, 0)	     0 (6, 0, 0)	          0	Worker, Aristocrat
+     2	     0 (0, 5, 0)	     1 (6, 0, 0)	          0	Building, Trading
+Deck Sizes: Worker: 27, Building: 20, Aristocrat: 27, Trading: 30
+
+Upper Card Row: Pub (bpu), Theater (b20), Customs House (b8), Market (b5)
+Lower Card Row: 
+
+Player 1:
+Hand: Market (b5)
+Workers: Lumberjack (w3), Shepherd (w5)
+Buildings: Academy (b23)
+Aristocrats: 
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5)
+Buildings: Library (b17), Pub (bpu)
+Aristocrats: 
+
+> Player 2 passes.
+
+Round: 1, Phase: Building, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	     0 (0, 7, 0)	     0 (6, 0, 0)	          0	Worker, Aristocrat
+     2	     0 (0, 5, 0)	     1 (6, 0, 0)	          0	Building, Trading
+Deck Sizes: Worker: 27, Building: 20, Aristocrat: 27, Trading: 30
+
+Upper Card Row: Pub (bpu), Theater (b20), Customs House (b8), Market (b5)
+Lower Card Row: 
+
+Player 1:
+Hand: Market (b5)
+Workers: Lumberjack (w3), Shepherd (w5)
+Buildings: Academy (b23)
+Aristocrats: 
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5)
+Buildings: Library (b17), Pub (bpu)
+Aristocrats: 
+
+> Player 1 passes.
+
+Round: 1, Phase: Pub, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	     7 (0, 7, 0)	     0 (6, 0, 0)	          0	Worker, Aristocrat
+     2	     5 (0, 5, 0)	     1 (6, 0, 0)	          0	Building, Trading
+Deck Sizes: Worker: 27, Building: 20, Aristocrat: 27, Trading: 30
+
+Upper Card Row: Pub (bpu), Theater (b20), Customs House (b8), Market (b5)
+Lower Card Row: 
+
+Player 1:
+Hand: Market (b5)
+Workers: Lumberjack (w3), Shepherd (w5)
+Buildings: Academy (b23)
+Aristocrats: 
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5)
+Buildings: Library (b17), Pub (bpu)
+Aristocrats: 
+
+> Player 2 opts not to use the pub.
+
+Round: 1, Phase: Aristocrat, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	     7 (0, 7, 0)	     0 (6, 0, 0)	          0	Worker, Aristocrat
+     2	     5 (0, 5, 0)	     1 (6, 0, 0)	          0	Building, Trading
+Deck Sizes: Worker: 27, Building: 20, Aristocrat: 23, Trading: 30
+
+Upper Card Row: Pub (bpu), Theater (b20), Customs House (b8), Market (b5), Administrator (a7), Mistress of Ceremonies (a18), Author (a4), Administrator (a7)
+Lower Card Row: 
+
+Player 1:
+Hand: Market (b5)
+Workers: Lumberjack (w3), Shepherd (w5)
+Buildings: Academy (b23)
+Aristocrats: 
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5)
+Buildings: Library (b17), Pub (bpu)
+Aristocrats: 
+
+> Player 1 adds Theater to their hand from the upper card row.
+
+Round: 1, Phase: Aristocrat, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	     7 (0, 7, 0)	     0 (6, 0, 0)	          0	Worker, Aristocrat
+     2	     5 (0, 5, 0)	     1 (6, 0, 0)	          0	Building, Trading
+Deck Sizes: Worker: 27, Building: 20, Aristocrat: 23, Trading: 30
+
+Upper Card Row: Pub (bpu), Customs House (b8), Market (b5), Administrator (a7), Mistress of Ceremonies (a18), Author (a4), Administrator (a7)
+Lower Card Row: 
+
+Player 1:
+Hand: Market (b5), Theater (b20)
+Workers: Lumberjack (w3), Shepherd (w5)
+Buildings: Academy (b23)
+Aristocrats: 
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5)
+Buildings: Library (b17), Pub (bpu)
+Aristocrats: 
+
+> Player 2 buys Pub from the upper card row for 1 ruble.
+
+Round: 1, Phase: Aristocrat, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	     7 (0, 7, 0)	     0 (6, 0, 0)	          0	Worker, Aristocrat
+     2	     5 (0, 5, 0)	     0 (6, 0, 0)	          0	Building, Trading
+Deck Sizes: Worker: 27, Building: 20, Aristocrat: 23, Trading: 30
+
+Upper Card Row: Customs House (b8), Market (b5), Administrator (a7), Mistress of Ceremonies (a18), Author (a4), Administrator (a7)
+Lower Card Row: 
+
+Player 1:
+Hand: Market (b5), Theater (b20)
+Workers: Lumberjack (w3), Shepherd (w5)
+Buildings: Academy (b23)
+Aristocrats: 
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5)
+Buildings: Library (b17), Pub (bpu), Pub (bpu)
+Aristocrats: 
+
+> Player 1 adds Market to their hand from the upper card row.
+
+Round: 1, Phase: Aristocrat, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	     7 (0, 7, 0)	     0 (6, 0, 0)	          0	Worker, Aristocrat
+     2	     5 (0, 5, 0)	     0 (6, 0, 0)	          0	Building, Trading
+Deck Sizes: Worker: 27, Building: 20, Aristocrat: 23, Trading: 30
+
+Upper Card Row: Customs House (b8), Administrator (a7), Mistress of Ceremonies (a18), Author (a4), Administrator (a7)
+Lower Card Row: 
+
+Player 1:
+Hand: Market (b5), Theater (b20), Market (b5)
+Workers: Lumberjack (w3), Shepherd (w5)
+Buildings: Academy (b23)
+Aristocrats: 
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5)
+Buildings: Library (b17), Pub (bpu), Pub (bpu)
+Aristocrats: 
+
+> Player 2 passes.
+
+Round: 1, Phase: Aristocrat, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	     7 (0, 7, 0)	     0 (6, 0, 0)	          0	Worker, Aristocrat
+     2	     5 (0, 5, 0)	     0 (6, 0, 0)	          0	Building, Trading
+Deck Sizes: Worker: 27, Building: 20, Aristocrat: 23, Trading: 30
+
+Upper Card Row: Customs House (b8), Administrator (a7), Mistress of Ceremonies (a18), Author (a4), Administrator (a7)
+Lower Card Row: 
+
+Player 1:
+Hand: Market (b5), Theater (b20), Market (b5)
+Workers: Lumberjack (w3), Shepherd (w5)
+Buildings: Academy (b23)
+Aristocrats: 
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5)
+Buildings: Library (b17), Pub (bpu), Pub (bpu)
+Aristocrats: 
+
+> Player 1 passes.
+
+Round: 1, Phase: Trading, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	     7 (0, 7, 0)	     0 (6, 0, 0)	          0	Worker, Aristocrat
+     2	     5 (0, 5, 0)	     0 (6, 0, 0)	          0	Building, Trading
+Deck Sizes: Worker: 27, Building: 20, Aristocrat: 23, Trading: 27
+
+Upper Card Row: Customs House (b8), Administrator (a7), Mistress of Ceremonies (a18), Author (a4), Administrator (a7), Weaving Mill (tw8), Fur Shop (tw10), Senator (ta12)
+Lower Card Row: 
+
+Player 1:
+Hand: Market (b5), Theater (b20), Market (b5)
+Workers: Lumberjack (w3), Shepherd (w5)
+Buildings: Academy (b23)
+Aristocrats: 
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5)
+Buildings: Library (b17), Pub (bpu), Pub (bpu)
+Aristocrats: 
+
+> Player 2 passes.
+
+Round: 1, Phase: Trading, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	     7 (0, 7, 0)	     0 (6, 0, 0)	          0	Worker, Aristocrat
+     2	     5 (0, 5, 0)	     0 (6, 0, 0)	          0	Building, Trading
+Deck Sizes: Worker: 27, Building: 20, Aristocrat: 23, Trading: 27
+
+Upper Card Row: Customs House (b8), Administrator (a7), Mistress of Ceremonies (a18), Author (a4), Administrator (a7), Weaving Mill (tw8), Fur Shop (tw10), Senator (ta12)
+Lower Card Row: 
+
+Player 1:
+Hand: Market (b5), Theater (b20), Market (b5)
+Workers: Lumberjack (w3), Shepherd (w5)
+Buildings: Academy (b23)
+Aristocrats: 
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5)
+Buildings: Library (b17), Pub (bpu), Pub (bpu)
+Aristocrats: 
+
+> Player 1 passes.
+
+Round: 2, Phase: Worker, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	     7 (0, 7, 0)	     0 (6, 0, 0)	          0	Building, Trading
+     2	     5 (0, 5, 0)	     0 (6, 0, 0)	          0	Worker, Aristocrat
+Deck Sizes: Worker: 27, Building: 20, Aristocrat: 23, Trading: 27
+
+Upper Card Row: 
+Lower Card Row: Customs House (b8), Administrator (a7), Mistress of Ceremonies (a18), Author (a4), Administrator (a7), Weaving Mill (tw8), Fur Shop (tw10), Senator (ta12)
+
+Player 1:
+Hand: Market (b5), Theater (b20), Market (b5)
+Workers: Lumberjack (w3), Shepherd (w5)
+Buildings: Academy (b23)
+Aristocrats: 
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5)
+Buildings: Library (b17), Pub (bpu), Pub (bpu)
+Aristocrats: 
+
+> Player 2 passes.
+
+Round: 2, Phase: Worker, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	     7 (0, 7, 0)	     0 (6, 0, 0)	          0	Building, Trading
+     2	     5 (0, 5, 0)	     0 (6, 0, 0)	          0	Worker, Aristocrat
+Deck Sizes: Worker: 27, Building: 20, Aristocrat: 23, Trading: 27
+
+Upper Card Row: 
+Lower Card Row: Customs House (b8), Administrator (a7), Mistress of Ceremonies (a18), Author (a4), Administrator (a7), Weaving Mill (tw8), Fur Shop (tw10), Senator (ta12)
+
+Player 1:
+Hand: Market (b5), Theater (b20), Market (b5)
+Workers: Lumberjack (w3), Shepherd (w5)
+Buildings: Academy (b23)
+Aristocrats: 
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5)
+Buildings: Library (b17), Pub (bpu), Pub (bpu)
+Aristocrats: 
+
+> Player 1 passes.
+
+Round: 2, Phase: Building, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	     7 (0, 7, 0)	     6 (6, 0, 0)	          0	Building, Trading
+     2	     5 (0, 5, 0)	     6 (6, 0, 0)	          0	Worker, Aristocrat
+Deck Sizes: Worker: 27, Building: 20, Aristocrat: 23, Trading: 27
+
+Upper Card Row: 
+Lower Card Row: Customs House (b8), Administrator (a7), Mistress of Ceremonies (a18), Author (a4), Administrator (a7), Weaving Mill (tw8), Fur Shop (tw10), Senator (ta12)
+
+Player 1:
+Hand: Market (b5), Theater (b20), Market (b5)
+Workers: Lumberjack (w3), Shepherd (w5)
+Buildings: Academy (b23)
+Aristocrats: 
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5)
+Buildings: Library (b17), Pub (bpu), Pub (bpu)
+Aristocrats: 
+
+> Player 1 buys Weaving Mill from the lower card row for 2 rubles replacing Shepherd.
+
+Round: 2, Phase: Building, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	     7 (0, 7, 0)	     4 (9, 0, 0)	          0	Building, Trading
+     2	     5 (0, 5, 0)	     6 (6, 0, 0)	          0	Worker, Aristocrat
+Deck Sizes: Worker: 27, Building: 20, Aristocrat: 23, Trading: 27
+
+Upper Card Row: 
+Lower Card Row: Customs House (b8), Administrator (a7), Mistress of Ceremonies (a18), Author (a4), Administrator (a7), Fur Shop (tw10), Senator (ta12)
+
+Player 1:
+Hand: Market (b5), Theater (b20), Market (b5)
+Workers: Lumberjack (w3), Weaving Mill (tw8)
+Buildings: Academy (b23)
+Aristocrats: 
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5)
+Buildings: Library (b17), Pub (bpu), Pub (bpu)
+Aristocrats: 
+
+> Player 2 buys Administrator from the lower card row for 6 rubles.
+
+Round: 2, Phase: Building, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	     7 (0, 7, 0)	     4 (9, 0, 0)	          0	Building, Trading
+     2	     5 (0, 5, 0)	     0 (6, 0, 2)	          1	Worker, Aristocrat
+Deck Sizes: Worker: 27, Building: 20, Aristocrat: 23, Trading: 27
+
+Upper Card Row: 
+Lower Card Row: Customs House (b8), Mistress of Ceremonies (a18), Author (a4), Administrator (a7), Fur Shop (tw10), Senator (ta12)
+
+Player 1:
+Hand: Market (b5), Theater (b20), Market (b5)
+Workers: Lumberjack (w3), Weaving Mill (tw8)
+Buildings: Academy (b23)
+Aristocrats: 
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5)
+Buildings: Library (b17), Pub (bpu), Pub (bpu)
+Aristocrats: Administrator (a7)
+
+> Player 1 buys Author from the lower card row for 3 rubles.
+
+Round: 2, Phase: Building, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	     7 (0, 7, 0)	     1 (9, 0, 1)	          1	Building, Trading
+     2	     5 (0, 5, 0)	     0 (6, 0, 2)	          1	Worker, Aristocrat
+Deck Sizes: Worker: 27, Building: 20, Aristocrat: 23, Trading: 27
+
+Upper Card Row: 
+Lower Card Row: Customs House (b8), Mistress of Ceremonies (a18), Administrator (a7), Fur Shop (tw10), Senator (ta12)
+
+Player 1:
+Hand: Market (b5), Theater (b20), Market (b5)
+Workers: Lumberjack (w3), Weaving Mill (tw8)
+Buildings: Academy (b23)
+Aristocrats: Author (a4)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5)
+Buildings: Library (b17), Pub (bpu), Pub (bpu)
+Aristocrats: Administrator (a7)
+
+> Player 2 passes.
+
+Round: 2, Phase: Building, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	     7 (0, 7, 0)	     1 (9, 0, 1)	          1	Building, Trading
+     2	     5 (0, 5, 0)	     0 (6, 0, 2)	          1	Worker, Aristocrat
+Deck Sizes: Worker: 27, Building: 20, Aristocrat: 23, Trading: 27
+
+Upper Card Row: 
+Lower Card Row: Customs House (b8), Mistress of Ceremonies (a18), Administrator (a7), Fur Shop (tw10), Senator (ta12)
+
+Player 1:
+Hand: Market (b5), Theater (b20), Market (b5)
+Workers: Lumberjack (w3), Weaving Mill (tw8)
+Buildings: Academy (b23)
+Aristocrats: Author (a4)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5)
+Buildings: Library (b17), Pub (bpu), Pub (bpu)
+Aristocrats: Administrator (a7)
+
+> Player 1 passes.
+
+Round: 2, Phase: Pub, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    14 (0, 7, 0)	     1 (9, 0, 1)	          1	Building, Trading
+     2	    10 (0, 5, 0)	     0 (6, 0, 2)	          1	Worker, Aristocrat
+Deck Sizes: Worker: 27, Building: 20, Aristocrat: 23, Trading: 27
+
+Upper Card Row: 
+Lower Card Row: Customs House (b8), Mistress of Ceremonies (a18), Administrator (a7), Fur Shop (tw10), Senator (ta12)
+
+Player 1:
+Hand: Market (b5), Theater (b20), Market (b5)
+Workers: Lumberjack (w3), Weaving Mill (tw8)
+Buildings: Academy (b23)
+Aristocrats: Author (a4)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5)
+Buildings: Library (b17), Pub (bpu), Pub (bpu)
+Aristocrats: Administrator (a7)
+
+> Player 2 opts not to use the pub.
+
+Round: 2, Phase: Aristocrat, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    14 (0, 7, 0)	     1 (9, 0, 1)	          1	Building, Trading
+     2	    10 (0, 5, 0)	     0 (6, 0, 2)	          1	Worker, Aristocrat
+Deck Sizes: Worker: 27, Building: 20, Aristocrat: 20, Trading: 27
+
+Upper Card Row: Author (a4), Author (a4), Author (a4)
+Lower Card Row: Customs House (b8), Mistress of Ceremonies (a18), Administrator (a7), Fur Shop (tw10), Senator (ta12)
+
+Player 1:
+Hand: Market (b5), Theater (b20), Market (b5)
+Workers: Lumberjack (w3), Weaving Mill (tw8)
+Buildings: Academy (b23)
+Aristocrats: Author (a4)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5)
+Buildings: Library (b17), Pub (bpu), Pub (bpu)
+Aristocrats: Administrator (a7)
+
+> Player 2 passes.
+
+Round: 2, Phase: Aristocrat, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    14 (0, 7, 0)	     1 (9, 0, 1)	          1	Building, Trading
+     2	    10 (0, 5, 0)	     0 (6, 0, 2)	          1	Worker, Aristocrat
+Deck Sizes: Worker: 27, Building: 20, Aristocrat: 20, Trading: 27
+
+Upper Card Row: Author (a4), Author (a4), Author (a4)
+Lower Card Row: Customs House (b8), Mistress of Ceremonies (a18), Administrator (a7), Fur Shop (tw10), Senator (ta12)
+
+Player 1:
+Hand: Market (b5), Theater (b20), Market (b5)
+Workers: Lumberjack (w3), Weaving Mill (tw8)
+Buildings: Academy (b23)
+Aristocrats: Author (a4)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5)
+Buildings: Library (b17), Pub (bpu), Pub (bpu)
+Aristocrats: Administrator (a7)
+
+> Player 1 passes.
+
+Round: 2, Phase: Trading, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    14 (0, 7, 0)	     2 (9, 0, 1)	          1	Building, Trading
+     2	    10 (0, 5, 0)	     2 (6, 0, 2)	          1	Worker, Aristocrat
+Deck Sizes: Worker: 27, Building: 20, Aristocrat: 20, Trading: 27
+
+Upper Card Row: Author (a4), Author (a4), Author (a4)
+Lower Card Row: Customs House (b8), Mistress of Ceremonies (a18), Administrator (a7), Fur Shop (tw10), Senator (ta12)
+
+Player 1:
+Hand: Market (b5), Theater (b20), Market (b5)
+Workers: Lumberjack (w3), Weaving Mill (tw8)
+Buildings: Academy (b23)
+Aristocrats: Author (a4)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5)
+Buildings: Library (b17), Pub (bpu), Pub (bpu)
+Aristocrats: Administrator (a7)
+
+> Player 1 passes.
+
+Round: 2, Phase: Trading, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    14 (0, 7, 0)	     2 (9, 0, 1)	          1	Building, Trading
+     2	    10 (0, 5, 0)	     2 (6, 0, 2)	          1	Worker, Aristocrat
+Deck Sizes: Worker: 27, Building: 20, Aristocrat: 20, Trading: 27
+
+Upper Card Row: Author (a4), Author (a4), Author (a4)
+Lower Card Row: Customs House (b8), Mistress of Ceremonies (a18), Administrator (a7), Fur Shop (tw10), Senator (ta12)
+
+Player 1:
+Hand: Market (b5), Theater (b20), Market (b5)
+Workers: Lumberjack (w3), Weaving Mill (tw8)
+Buildings: Academy (b23)
+Aristocrats: Author (a4)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5)
+Buildings: Library (b17), Pub (bpu), Pub (bpu)
+Aristocrats: Administrator (a7)
+
+> Player 2 passes.
+
+Round: 3, Phase: Worker, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    14 (0, 7, 0)	     2 (9, 0, 1)	          1	Worker, Aristocrat
+     2	    10 (0, 5, 0)	     2 (6, 0, 2)	          1	Building, Trading
+Deck Sizes: Worker: 22, Building: 20, Aristocrat: 20, Trading: 27
+
+Upper Card Row: Fur Trapper (w6), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Czar and Carpenter (w8)
+Lower Card Row: Author (a4), Author (a4), Author (a4)
+
+Player 1:
+Hand: Market (b5), Theater (b20), Market (b5)
+Workers: Lumberjack (w3), Weaving Mill (tw8)
+Buildings: Academy (b23)
+Aristocrats: Author (a4)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5)
+Buildings: Library (b17), Pub (bpu), Pub (bpu)
+Aristocrats: Administrator (a7)
+
+> Player 1 buys Lumberjack from the upper card row for 2 rubles.
+
+Round: 3, Phase: Worker, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    14 (0, 7, 0)	     0 (12, 0, 1)	          1	Worker, Aristocrat
+     2	    10 (0, 5, 0)	     2 (6, 0, 2)	          1	Building, Trading
+Deck Sizes: Worker: 22, Building: 20, Aristocrat: 20, Trading: 27
+
+Upper Card Row: Fur Trapper (w6), Lumberjack (w3), Fur Trapper (w6), Czar and Carpenter (w8)
+Lower Card Row: Author (a4), Author (a4), Author (a4)
+
+Player 1:
+Hand: Market (b5), Theater (b20), Market (b5)
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3)
+Buildings: Academy (b23)
+Aristocrats: Author (a4)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5)
+Buildings: Library (b17), Pub (bpu), Pub (bpu)
+Aristocrats: Administrator (a7)
+
+> Player 2 passes.
+
+Round: 3, Phase: Worker, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    14 (0, 7, 0)	     0 (12, 0, 1)	          1	Worker, Aristocrat
+     2	    10 (0, 5, 0)	     2 (6, 0, 2)	          1	Building, Trading
+Deck Sizes: Worker: 22, Building: 20, Aristocrat: 20, Trading: 27
+
+Upper Card Row: Fur Trapper (w6), Lumberjack (w3), Fur Trapper (w6), Czar and Carpenter (w8)
+Lower Card Row: Author (a4), Author (a4), Author (a4)
+
+Player 1:
+Hand: Market (b5), Theater (b20), Market (b5)
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3)
+Buildings: Academy (b23)
+Aristocrats: Author (a4)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5)
+Buildings: Library (b17), Pub (bpu), Pub (bpu)
+Aristocrats: Administrator (a7)
+
+> Player 1 passes.
+
+Round: 3, Phase: Building, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    14 (0, 7, 0)	    12 (12, 0, 1)	          1	Worker, Aristocrat
+     2	    10 (0, 5, 0)	     8 (6, 0, 2)	          1	Building, Trading
+Deck Sizes: Worker: 22, Building: 19, Aristocrat: 20, Trading: 27
+
+Upper Card Row: Fur Trapper (w6), Lumberjack (w3), Fur Trapper (w6), Czar and Carpenter (w8), Customs House (b8)
+Lower Card Row: Author (a4), Author (a4), Author (a4)
+
+Player 1:
+Hand: Market (b5), Theater (b20), Market (b5)
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3)
+Buildings: Academy (b23)
+Aristocrats: Author (a4)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5)
+Buildings: Library (b17), Pub (bpu), Pub (bpu)
+Aristocrats: Administrator (a7)
+
+> Player 2 buys Fur Trapper from the upper card row for 6 rubles.
+
+Round: 3, Phase: Building, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    14 (0, 7, 0)	    12 (12, 0, 1)	          1	Worker, Aristocrat
+     2	    10 (0, 5, 0)	     2 (9, 0, 2)	          1	Building, Trading
+Deck Sizes: Worker: 22, Building: 19, Aristocrat: 20, Trading: 27
+
+Upper Card Row: Lumberjack (w3), Fur Trapper (w6), Czar and Carpenter (w8), Customs House (b8)
+Lower Card Row: Author (a4), Author (a4), Author (a4)
+
+Player 1:
+Hand: Market (b5), Theater (b20), Market (b5)
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3)
+Buildings: Academy (b23)
+Aristocrats: Author (a4)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6)
+Buildings: Library (b17), Pub (bpu), Pub (bpu)
+Aristocrats: Administrator (a7)
+
+> Player 1 buys Lumberjack from the upper card row for 1 ruble.
+
+Round: 3, Phase: Building, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    14 (0, 7, 0)	    11 (15, 0, 1)	          1	Worker, Aristocrat
+     2	    10 (0, 5, 0)	     2 (9, 0, 2)	          1	Building, Trading
+Deck Sizes: Worker: 22, Building: 19, Aristocrat: 20, Trading: 27
+
+Upper Card Row: Fur Trapper (w6), Czar and Carpenter (w8), Customs House (b8)
+Lower Card Row: Author (a4), Author (a4), Author (a4)
+
+Player 1:
+Hand: Market (b5), Theater (b20), Market (b5)
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3)
+Buildings: Academy (b23)
+Aristocrats: Author (a4)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6)
+Buildings: Library (b17), Pub (bpu), Pub (bpu)
+Aristocrats: Administrator (a7)
+
+> Player 2 passes.
+
+Round: 3, Phase: Building, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    14 (0, 7, 0)	    11 (15, 0, 1)	          1	Worker, Aristocrat
+     2	    10 (0, 5, 0)	     2 (9, 0, 2)	          1	Building, Trading
+Deck Sizes: Worker: 22, Building: 19, Aristocrat: 20, Trading: 27
+
+Upper Card Row: Fur Trapper (w6), Czar and Carpenter (w8), Customs House (b8)
+Lower Card Row: Author (a4), Author (a4), Author (a4)
+
+Player 1:
+Hand: Market (b5), Theater (b20), Market (b5)
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3)
+Buildings: Academy (b23)
+Aristocrats: Author (a4)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6)
+Buildings: Library (b17), Pub (bpu), Pub (bpu)
+Aristocrats: Administrator (a7)
+
+> Player 1 buys Fur Trapper from the upper card row for 6 rubles.
+
+Round: 3, Phase: Building, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    14 (0, 7, 0)	     5 (18, 0, 1)	          1	Worker, Aristocrat
+     2	    10 (0, 5, 0)	     2 (9, 0, 2)	          1	Building, Trading
+Deck Sizes: Worker: 22, Building: 19, Aristocrat: 20, Trading: 27
+
+Upper Card Row: Czar and Carpenter (w8), Customs House (b8)
+Lower Card Row: Author (a4), Author (a4), Author (a4)
+
+Player 1:
+Hand: Market (b5), Theater (b20), Market (b5)
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6)
+Buildings: Academy (b23)
+Aristocrats: Author (a4)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6)
+Buildings: Library (b17), Pub (bpu), Pub (bpu)
+Aristocrats: Administrator (a7)
+
+> Player 2 passes.
+
+Round: 3, Phase: Building, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    14 (0, 7, 0)	     5 (18, 0, 1)	          1	Worker, Aristocrat
+     2	    10 (0, 5, 0)	     2 (9, 0, 2)	          1	Building, Trading
+Deck Sizes: Worker: 22, Building: 19, Aristocrat: 20, Trading: 27
+
+Upper Card Row: Czar and Carpenter (w8), Customs House (b8)
+Lower Card Row: Author (a4), Author (a4), Author (a4)
+
+Player 1:
+Hand: Market (b5), Theater (b20), Market (b5)
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6)
+Buildings: Academy (b23)
+Aristocrats: Author (a4)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6)
+Buildings: Library (b17), Pub (bpu), Pub (bpu)
+Aristocrats: Administrator (a7)
+
+> Player 1 buys Author from the lower card row for 2 rubles.
+
+Round: 3, Phase: Building, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    14 (0, 7, 0)	     3 (18, 0, 2)	          1	Worker, Aristocrat
+     2	    10 (0, 5, 0)	     2 (9, 0, 2)	          1	Building, Trading
+Deck Sizes: Worker: 22, Building: 19, Aristocrat: 20, Trading: 27
+
+Upper Card Row: Czar and Carpenter (w8), Customs House (b8)
+Lower Card Row: Author (a4), Author (a4)
+
+Player 1:
+Hand: Market (b5), Theater (b20), Market (b5)
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6)
+Buildings: Academy (b23)
+Aristocrats: Author (a4), Author (a4)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6)
+Buildings: Library (b17), Pub (bpu), Pub (bpu)
+Aristocrats: Administrator (a7)
+
+> Player 2 passes.
+
+Round: 3, Phase: Building, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    14 (0, 7, 0)	     3 (18, 0, 2)	          1	Worker, Aristocrat
+     2	    10 (0, 5, 0)	     2 (9, 0, 2)	          1	Building, Trading
+Deck Sizes: Worker: 22, Building: 19, Aristocrat: 20, Trading: 27
+
+Upper Card Row: Czar and Carpenter (w8), Customs House (b8)
+Lower Card Row: Author (a4), Author (a4)
+
+Player 1:
+Hand: Market (b5), Theater (b20), Market (b5)
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6)
+Buildings: Academy (b23)
+Aristocrats: Author (a4), Author (a4)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6)
+Buildings: Library (b17), Pub (bpu), Pub (bpu)
+Aristocrats: Administrator (a7)
+
+> Player 1 buys Author from the lower card row for 1 ruble.
+
+Round: 3, Phase: Building, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    14 (0, 7, 0)	     2 (18, 0, 3)	          1	Worker, Aristocrat
+     2	    10 (0, 5, 0)	     2 (9, 0, 2)	          1	Building, Trading
+Deck Sizes: Worker: 22, Building: 19, Aristocrat: 20, Trading: 27
+
+Upper Card Row: Czar and Carpenter (w8), Customs House (b8)
+Lower Card Row: Author (a4)
+
+Player 1:
+Hand: Market (b5), Theater (b20), Market (b5)
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6)
+Buildings: Academy (b23)
+Aristocrats: Author (a4), Author (a4), Author (a4)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6)
+Buildings: Library (b17), Pub (bpu), Pub (bpu)
+Aristocrats: Administrator (a7)
+
+> Player 2 passes.
+
+Round: 3, Phase: Building, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    14 (0, 7, 0)	     2 (18, 0, 3)	          1	Worker, Aristocrat
+     2	    10 (0, 5, 0)	     2 (9, 0, 2)	          1	Building, Trading
+Deck Sizes: Worker: 22, Building: 19, Aristocrat: 20, Trading: 27
+
+Upper Card Row: Czar and Carpenter (w8), Customs House (b8)
+Lower Card Row: Author (a4)
+
+Player 1:
+Hand: Market (b5), Theater (b20), Market (b5)
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6)
+Buildings: Academy (b23)
+Aristocrats: Author (a4), Author (a4), Author (a4)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6)
+Buildings: Library (b17), Pub (bpu), Pub (bpu)
+Aristocrats: Administrator (a7)
+
+> Player 1 buys Author from the lower card row for 1 ruble.
+
+Round: 3, Phase: Building, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    14 (0, 7, 0)	     1 (18, 0, 4)	          1	Worker, Aristocrat
+     2	    10 (0, 5, 0)	     2 (9, 0, 2)	          1	Building, Trading
+Deck Sizes: Worker: 22, Building: 19, Aristocrat: 20, Trading: 27
+
+Upper Card Row: Czar and Carpenter (w8), Customs House (b8)
+Lower Card Row: 
+
+Player 1:
+Hand: Market (b5), Theater (b20), Market (b5)
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6)
+Buildings: Academy (b23)
+Aristocrats: Author (a4), Author (a4), Author (a4), Author (a4)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6)
+Buildings: Library (b17), Pub (bpu), Pub (bpu)
+Aristocrats: Administrator (a7)
+
+> Player 2 passes.
+
+Round: 3, Phase: Building, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    14 (0, 7, 0)	     1 (18, 0, 4)	          1	Worker, Aristocrat
+     2	    10 (0, 5, 0)	     2 (9, 0, 2)	          1	Building, Trading
+Deck Sizes: Worker: 22, Building: 19, Aristocrat: 20, Trading: 27
+
+Upper Card Row: Czar and Carpenter (w8), Customs House (b8)
+Lower Card Row: 
+
+Player 1:
+Hand: Market (b5), Theater (b20), Market (b5)
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6)
+Buildings: Academy (b23)
+Aristocrats: Author (a4), Author (a4), Author (a4), Author (a4)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6)
+Buildings: Library (b17), Pub (bpu), Pub (bpu)
+Aristocrats: Administrator (a7)
+
+> Player 1 passes.
+
+Round: 3, Phase: Pub, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    21 (0, 7, 0)	     1 (18, 0, 4)	          1	Worker, Aristocrat
+     2	    15 (0, 5, 0)	     2 (9, 0, 2)	          1	Building, Trading
+Deck Sizes: Worker: 22, Building: 19, Aristocrat: 20, Trading: 27
+
+Upper Card Row: Czar and Carpenter (w8), Customs House (b8)
+Lower Card Row: 
+
+Player 1:
+Hand: Market (b5), Theater (b20), Market (b5)
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6)
+Buildings: Academy (b23)
+Aristocrats: Author (a4), Author (a4), Author (a4), Author (a4)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6)
+Buildings: Library (b17), Pub (bpu), Pub (bpu)
+Aristocrats: Administrator (a7)
+
+> Player 2 opts not to use the pub.
+
+Round: 3, Phase: Aristocrat, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    21 (0, 7, 0)	     1 (18, 0, 4)	          1	Worker, Aristocrat
+     2	    15 (0, 5, 0)	     2 (9, 0, 2)	          1	Building, Trading
+Deck Sizes: Worker: 22, Building: 19, Aristocrat: 14, Trading: 27
+
+Upper Card Row: Czar and Carpenter (w8), Customs House (b8), Administrator (a7), Secretary (a12), Controller (a14), Secretary (a12), Warehouse Manager (a10), Author (a4)
+Lower Card Row: 
+
+Player 1:
+Hand: Market (b5), Theater (b20), Market (b5)
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6)
+Buildings: Academy (b23)
+Aristocrats: Author (a4), Author (a4), Author (a4), Author (a4)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6)
+Buildings: Library (b17), Pub (bpu), Pub (bpu)
+Aristocrats: Administrator (a7)
+
+> Player 1 buys Author from the upper card row for 1 ruble.
+
+Round: 3, Phase: Aristocrat, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    21 (0, 7, 0)	     0 (18, 0, 5)	          1	Worker, Aristocrat
+     2	    15 (0, 5, 0)	     2 (9, 0, 2)	          1	Building, Trading
+Deck Sizes: Worker: 22, Building: 19, Aristocrat: 14, Trading: 27
+
+Upper Card Row: Czar and Carpenter (w8), Customs House (b8), Administrator (a7), Secretary (a12), Controller (a14), Secretary (a12), Warehouse Manager (a10)
+Lower Card Row: 
+
+Player 1:
+Hand: Market (b5), Theater (b20), Market (b5)
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6)
+Buildings: Academy (b23)
+Aristocrats: Author (a4), Author (a4), Author (a4), Author (a4), Author (a4)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6)
+Buildings: Library (b17), Pub (bpu), Pub (bpu)
+Aristocrats: Administrator (a7)
+
+> Player 2 passes.
+
+Round: 3, Phase: Aristocrat, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    21 (0, 7, 0)	     0 (18, 0, 5)	          1	Worker, Aristocrat
+     2	    15 (0, 5, 0)	     2 (9, 0, 2)	          1	Building, Trading
+Deck Sizes: Worker: 22, Building: 19, Aristocrat: 14, Trading: 27
+
+Upper Card Row: Czar and Carpenter (w8), Customs House (b8), Administrator (a7), Secretary (a12), Controller (a14), Secretary (a12), Warehouse Manager (a10)
+Lower Card Row: 
+
+Player 1:
+Hand: Market (b5), Theater (b20), Market (b5)
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6)
+Buildings: Academy (b23)
+Aristocrats: Author (a4), Author (a4), Author (a4), Author (a4), Author (a4)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6)
+Buildings: Library (b17), Pub (bpu), Pub (bpu)
+Aristocrats: Administrator (a7)
+
+> Player 1 passes.
+
+Round: 3, Phase: Trading, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    21 (0, 7, 0)	     5 (18, 0, 5)	          1	Worker, Aristocrat
+     2	    15 (0, 5, 0)	     4 (9, 0, 2)	          1	Building, Trading
+Deck Sizes: Worker: 22, Building: 19, Aristocrat: 14, Trading: 26
+
+Upper Card Row: Czar and Carpenter (w8), Customs House (b8), Administrator (a7), Secretary (a12), Controller (a14), Secretary (a12), Warehouse Manager (a10), Builder (ta10)
+Lower Card Row: 
+
+Player 1:
+Hand: Market (b5), Theater (b20), Market (b5)
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6)
+Buildings: Academy (b23)
+Aristocrats: Author (a4), Author (a4), Author (a4), Author (a4), Author (a4)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6)
+Buildings: Library (b17), Pub (bpu), Pub (bpu)
+Aristocrats: Administrator (a7)
+
+> Player 2 buys Builder from the upper card row for 3 rubles replacing Administrator.
+
+Round: 3, Phase: Trading, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    21 (0, 7, 0)	     5 (18, 0, 5)	          1	Worker, Aristocrat
+     2	    15 (0, 5, 0)	     1 (9, 0, 5)	          1	Building, Trading
+Deck Sizes: Worker: 22, Building: 19, Aristocrat: 14, Trading: 26
+
+Upper Card Row: Czar and Carpenter (w8), Customs House (b8), Administrator (a7), Secretary (a12), Controller (a14), Secretary (a12), Warehouse Manager (a10)
+Lower Card Row: 
+
+Player 1:
+Hand: Market (b5), Theater (b20), Market (b5)
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6)
+Buildings: Academy (b23)
+Aristocrats: Author (a4), Author (a4), Author (a4), Author (a4), Author (a4)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6)
+Buildings: Library (b17), Pub (bpu), Pub (bpu)
+Aristocrats: Builder (ta10)
+
+> Player 1 passes.
+
+Round: 3, Phase: Trading, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    21 (0, 7, 0)	     5 (18, 0, 5)	          1	Worker, Aristocrat
+     2	    15 (0, 5, 0)	     1 (9, 0, 5)	          1	Building, Trading
+Deck Sizes: Worker: 22, Building: 19, Aristocrat: 14, Trading: 26
+
+Upper Card Row: Czar and Carpenter (w8), Customs House (b8), Administrator (a7), Secretary (a12), Controller (a14), Secretary (a12), Warehouse Manager (a10)
+Lower Card Row: 
+
+Player 1:
+Hand: Market (b5), Theater (b20), Market (b5)
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6)
+Buildings: Academy (b23)
+Aristocrats: Author (a4), Author (a4), Author (a4), Author (a4), Author (a4)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6)
+Buildings: Library (b17), Pub (bpu), Pub (bpu)
+Aristocrats: Builder (ta10)
+
+> Player 2 passes.
+
+Round: 4, Phase: Worker, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    21 (0, 7, 0)	     5 (18, 0, 5)	          1	Building, Trading
+     2	    15 (0, 5, 0)	     1 (9, 0, 5)	          1	Worker, Aristocrat
+Deck Sizes: Worker: 21, Building: 19, Aristocrat: 14, Trading: 26
+
+Upper Card Row: Ship Builder (w7)
+Lower Card Row: Czar and Carpenter (w8), Customs House (b8), Administrator (a7), Secretary (a12), Controller (a14), Secretary (a12), Warehouse Manager (a10)
+
+Player 1:
+Hand: Market (b5), Theater (b20), Market (b5)
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6)
+Buildings: Academy (b23)
+Aristocrats: Author (a4), Author (a4), Author (a4), Author (a4), Author (a4)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6)
+Buildings: Library (b17), Pub (bpu), Pub (bpu)
+Aristocrats: Builder (ta10)
+
+> Player 2 passes.
+
+Round: 4, Phase: Worker, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    21 (0, 7, 0)	     5 (18, 0, 5)	          1	Building, Trading
+     2	    15 (0, 5, 0)	     1 (9, 0, 5)	          1	Worker, Aristocrat
+Deck Sizes: Worker: 21, Building: 19, Aristocrat: 14, Trading: 26
+
+Upper Card Row: Ship Builder (w7)
+Lower Card Row: Czar and Carpenter (w8), Customs House (b8), Administrator (a7), Secretary (a12), Controller (a14), Secretary (a12), Warehouse Manager (a10)
+
+Player 1:
+Hand: Market (b5), Theater (b20), Market (b5)
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6)
+Buildings: Academy (b23)
+Aristocrats: Author (a4), Author (a4), Author (a4), Author (a4), Author (a4)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6)
+Buildings: Library (b17), Pub (bpu), Pub (bpu)
+Aristocrats: Builder (ta10)
+
+> Player 1 passes.
+
+Round: 4, Phase: Building, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    21 (0, 7, 0)	    23 (18, 0, 5)	          1	Building, Trading
+     2	    15 (0, 5, 0)	    10 (9, 0, 5)	          1	Worker, Aristocrat
+Deck Sizes: Worker: 21, Building: 19, Aristocrat: 14, Trading: 26
+
+Upper Card Row: Ship Builder (w7)
+Lower Card Row: Czar and Carpenter (w8), Customs House (b8), Administrator (a7), Secretary (a12), Controller (a14), Secretary (a12), Warehouse Manager (a10)
+
+Player 1:
+Hand: Market (b5), Theater (b20), Market (b5)
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6)
+Buildings: Academy (b23)
+Aristocrats: Author (a4), Author (a4), Author (a4), Author (a4), Author (a4)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6)
+Buildings: Library (b17), Pub (bpu), Pub (bpu)
+Aristocrats: Builder (ta10)
+
+> Player 1 buys Administrator from the lower card row for 6 rubles.
+
+Round: 4, Phase: Building, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    21 (0, 7, 0)	    17 (18, 0, 7)	          2	Building, Trading
+     2	    15 (0, 5, 0)	    10 (9, 0, 5)	          1	Worker, Aristocrat
+Deck Sizes: Worker: 21, Building: 19, Aristocrat: 14, Trading: 26
+
+Upper Card Row: Ship Builder (w7)
+Lower Card Row: Czar and Carpenter (w8), Customs House (b8), Secretary (a12), Controller (a14), Secretary (a12), Warehouse Manager (a10)
+
+Player 1:
+Hand: Market (b5), Theater (b20), Market (b5)
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6)
+Buildings: Academy (b23)
+Aristocrats: Author (a4), Author (a4), Author (a4), Author (a4), Author (a4), Administrator (a7)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6)
+Buildings: Library (b17), Pub (bpu), Pub (bpu)
+Aristocrats: Builder (ta10)
+
+> Player 2 passes.
+
+Round: 4, Phase: Building, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    21 (0, 7, 0)	    17 (18, 0, 7)	          2	Building, Trading
+     2	    15 (0, 5, 0)	    10 (9, 0, 5)	          1	Worker, Aristocrat
+Deck Sizes: Worker: 21, Building: 19, Aristocrat: 14, Trading: 26
+
+Upper Card Row: Ship Builder (w7)
+Lower Card Row: Czar and Carpenter (w8), Customs House (b8), Secretary (a12), Controller (a14), Secretary (a12), Warehouse Manager (a10)
+
+Player 1:
+Hand: Market (b5), Theater (b20), Market (b5)
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6)
+Buildings: Academy (b23)
+Aristocrats: Author (a4), Author (a4), Author (a4), Author (a4), Author (a4), Administrator (a7)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6)
+Buildings: Library (b17), Pub (bpu), Pub (bpu)
+Aristocrats: Builder (ta10)
+
+> Player 1 passes.
+
+Round: 4, Phase: Pub, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    28 (0, 7, 0)	    17 (18, 0, 7)	          2	Building, Trading
+     2	    20 (0, 5, 0)	    10 (9, 0, 5)	          1	Worker, Aristocrat
+Deck Sizes: Worker: 21, Building: 19, Aristocrat: 14, Trading: 26
+
+Upper Card Row: Ship Builder (w7)
+Lower Card Row: Czar and Carpenter (w8), Customs House (b8), Secretary (a12), Controller (a14), Secretary (a12), Warehouse Manager (a10)
+
+Player 1:
+Hand: Market (b5), Theater (b20), Market (b5)
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6)
+Buildings: Academy (b23)
+Aristocrats: Author (a4), Author (a4), Author (a4), Author (a4), Author (a4), Administrator (a7)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6)
+Buildings: Library (b17), Pub (bpu), Pub (bpu)
+Aristocrats: Builder (ta10)
+
+> Player 2 buys 4 points for 8 rubles with the Pub.
+
+Round: 4, Phase: Aristocrat, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    28 (0, 7, 0)	    17 (18, 0, 7)	          2	Building, Trading
+     2	    24 (0, 5, 0)	     2 (9, 0, 5)	          1	Worker, Aristocrat
+Deck Sizes: Worker: 21, Building: 19, Aristocrat: 13, Trading: 26
+
+Upper Card Row: Ship Builder (w7), Judge (a16)
+Lower Card Row: Czar and Carpenter (w8), Customs House (b8), Secretary (a12), Controller (a14), Secretary (a12), Warehouse Manager (a10)
+
+Player 1:
+Hand: Market (b5), Theater (b20), Market (b5)
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6)
+Buildings: Academy (b23)
+Aristocrats: Author (a4), Author (a4), Author (a4), Author (a4), Author (a4), Administrator (a7)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6)
+Buildings: Library (b17), Pub (bpu), Pub (bpu)
+Aristocrats: Builder (ta10)
+
+> Player 2 passes.
+
+Round: 4, Phase: Aristocrat, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    28 (0, 7, 0)	    17 (18, 0, 7)	          2	Building, Trading
+     2	    24 (0, 5, 0)	     2 (9, 0, 5)	          1	Worker, Aristocrat
+Deck Sizes: Worker: 21, Building: 19, Aristocrat: 13, Trading: 26
+
+Upper Card Row: Ship Builder (w7), Judge (a16)
+Lower Card Row: Czar and Carpenter (w8), Customs House (b8), Secretary (a12), Controller (a14), Secretary (a12), Warehouse Manager (a10)
+
+Player 1:
+Hand: Market (b5), Theater (b20), Market (b5)
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6)
+Buildings: Academy (b23)
+Aristocrats: Author (a4), Author (a4), Author (a4), Author (a4), Author (a4), Administrator (a7)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6)
+Buildings: Library (b17), Pub (bpu), Pub (bpu)
+Aristocrats: Builder (ta10)
+
+> Player 1 buys Judge from the upper card row for 16 rubles.
+
+Round: 4, Phase: Aristocrat, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    28 (0, 7, 2)	     1 (18, 0, 12)	          3	Building, Trading
+     2	    24 (0, 5, 0)	     2 (9, 0, 5)	          1	Worker, Aristocrat
+Deck Sizes: Worker: 21, Building: 19, Aristocrat: 13, Trading: 26
+
+Upper Card Row: Ship Builder (w7)
+Lower Card Row: Czar and Carpenter (w8), Customs House (b8), Secretary (a12), Controller (a14), Secretary (a12), Warehouse Manager (a10)
+
+Player 1:
+Hand: Market (b5), Theater (b20), Market (b5)
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6)
+Buildings: Academy (b23)
+Aristocrats: Author (a4), Author (a4), Author (a4), Author (a4), Author (a4), Administrator (a7), Judge (a16)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6)
+Buildings: Library (b17), Pub (bpu), Pub (bpu)
+Aristocrats: Builder (ta10)
+
+> Player 2 passes.
+
+Round: 4, Phase: Aristocrat, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    28 (0, 7, 2)	     1 (18, 0, 12)	          3	Building, Trading
+     2	    24 (0, 5, 0)	     2 (9, 0, 5)	          1	Worker, Aristocrat
+Deck Sizes: Worker: 21, Building: 19, Aristocrat: 13, Trading: 26
+
+Upper Card Row: Ship Builder (w7)
+Lower Card Row: Czar and Carpenter (w8), Customs House (b8), Secretary (a12), Controller (a14), Secretary (a12), Warehouse Manager (a10)
+
+Player 1:
+Hand: Market (b5), Theater (b20), Market (b5)
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6)
+Buildings: Academy (b23)
+Aristocrats: Author (a4), Author (a4), Author (a4), Author (a4), Author (a4), Administrator (a7), Judge (a16)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6)
+Buildings: Library (b17), Pub (bpu), Pub (bpu)
+Aristocrats: Builder (ta10)
+
+> Player 1 passes.
+
+Round: 4, Phase: Trading, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    30 (0, 7, 2)	    13 (18, 0, 12)	          3	Building, Trading
+     2	    24 (0, 5, 0)	     7 (9, 0, 5)	          1	Worker, Aristocrat
+Deck Sizes: Worker: 21, Building: 19, Aristocrat: 13, Trading: 25
+
+Upper Card Row: Ship Builder (w7), Minister of Foreign Affairs (ta20)
+Lower Card Row: Czar and Carpenter (w8), Customs House (b8), Secretary (a12), Controller (a14), Secretary (a12), Warehouse Manager (a10)
+
+Player 1:
+Hand: Market (b5), Theater (b20), Market (b5)
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6)
+Buildings: Academy (b23)
+Aristocrats: Author (a4), Author (a4), Author (a4), Author (a4), Author (a4), Administrator (a7), Judge (a16)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6)
+Buildings: Library (b17), Pub (bpu), Pub (bpu)
+Aristocrats: Builder (ta10)
+
+> Player 1 buys Controller from the lower card row for 13 rubles.
+
+Round: 4, Phase: Trading, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    30 (0, 7, 3)	     0 (18, 0, 16)	          4	Building, Trading
+     2	    24 (0, 5, 0)	     7 (9, 0, 5)	          1	Worker, Aristocrat
+Deck Sizes: Worker: 21, Building: 19, Aristocrat: 13, Trading: 25
+
+Upper Card Row: Ship Builder (w7), Minister of Foreign Affairs (ta20)
+Lower Card Row: Czar and Carpenter (w8), Customs House (b8), Secretary (a12), Secretary (a12), Warehouse Manager (a10)
+
+Player 1:
+Hand: Market (b5), Theater (b20), Market (b5)
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6)
+Buildings: Academy (b23)
+Aristocrats: Author (a4), Author (a4), Author (a4), Author (a4), Author (a4), Administrator (a7), Judge (a16), Controller (a14)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6)
+Buildings: Library (b17), Pub (bpu), Pub (bpu)
+Aristocrats: Builder (ta10)
+
+> Player 2 buys Customs House from the lower card row for 7 rubles.
+
+Round: 4, Phase: Trading, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    30 (0, 7, 3)	     0 (18, 0, 16)	          4	Building, Trading
+     2	    24 (0, 7, 0)	     0 (9, 0, 5)	          1	Worker, Aristocrat
+Deck Sizes: Worker: 21, Building: 19, Aristocrat: 13, Trading: 25
+
+Upper Card Row: Ship Builder (w7), Minister of Foreign Affairs (ta20)
+Lower Card Row: Czar and Carpenter (w8), Secretary (a12), Secretary (a12), Warehouse Manager (a10)
+
+Player 1:
+Hand: Market (b5), Theater (b20), Market (b5)
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6)
+Buildings: Academy (b23)
+Aristocrats: Author (a4), Author (a4), Author (a4), Author (a4), Author (a4), Administrator (a7), Judge (a16), Controller (a14)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6)
+Buildings: Library (b17), Pub (bpu), Pub (bpu), Customs House (b8)
+Aristocrats: Builder (ta10)
+
+> Player 1 passes.
+
+Round: 4, Phase: Trading, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    30 (0, 7, 3)	     0 (18, 0, 16)	          4	Building, Trading
+     2	    24 (0, 7, 0)	     0 (9, 0, 5)	          1	Worker, Aristocrat
+Deck Sizes: Worker: 21, Building: 19, Aristocrat: 13, Trading: 25
+
+Upper Card Row: Ship Builder (w7), Minister of Foreign Affairs (ta20)
+Lower Card Row: Czar and Carpenter (w8), Secretary (a12), Secretary (a12), Warehouse Manager (a10)
+
+Player 1:
+Hand: Market (b5), Theater (b20), Market (b5)
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6)
+Buildings: Academy (b23)
+Aristocrats: Author (a4), Author (a4), Author (a4), Author (a4), Author (a4), Administrator (a7), Judge (a16), Controller (a14)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6)
+Buildings: Library (b17), Pub (bpu), Pub (bpu), Customs House (b8)
+Aristocrats: Builder (ta10)
+
+> Player 2 passes.
+
+Round: 5, Phase: Worker, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    30 (0, 7, 3)	     0 (18, 0, 16)	          4	Worker, Aristocrat
+     2	    24 (0, 7, 0)	     0 (9, 0, 5)	          1	Building, Trading
+Deck Sizes: Worker: 15, Building: 19, Aristocrat: 13, Trading: 25
+
+Upper Card Row: Fur Trapper (w6), Fur Trapper (w6), Lumberjack (w3), Ship Builder (w7), Shepherd (w5), Ship Builder (w7)
+Lower Card Row: Ship Builder (w7), Minister of Foreign Affairs (ta20)
+
+Player 1:
+Hand: Market (b5), Theater (b20), Market (b5)
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6)
+Buildings: Academy (b23)
+Aristocrats: Author (a4), Author (a4), Author (a4), Author (a4), Author (a4), Administrator (a7), Judge (a16), Controller (a14)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6)
+Buildings: Library (b17), Pub (bpu), Pub (bpu), Customs House (b8)
+Aristocrats: Builder (ta10)
+
+> Player 1 passes.
+
+Round: 5, Phase: Worker, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    30 (0, 7, 3)	     0 (18, 0, 16)	          4	Worker, Aristocrat
+     2	    24 (0, 7, 0)	     0 (9, 0, 5)	          1	Building, Trading
+Deck Sizes: Worker: 15, Building: 19, Aristocrat: 13, Trading: 25
+
+Upper Card Row: Fur Trapper (w6), Fur Trapper (w6), Lumberjack (w3), Ship Builder (w7), Shepherd (w5), Ship Builder (w7)
+Lower Card Row: Ship Builder (w7), Minister of Foreign Affairs (ta20)
+
+Player 1:
+Hand: Market (b5), Theater (b20), Market (b5)
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6)
+Buildings: Academy (b23)
+Aristocrats: Author (a4), Author (a4), Author (a4), Author (a4), Author (a4), Administrator (a7), Judge (a16), Controller (a14)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6)
+Buildings: Library (b17), Pub (bpu), Pub (bpu), Customs House (b8)
+Aristocrats: Builder (ta10)
+
+> Player 2 passes.
+
+Round: 5, Phase: Building, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    30 (0, 7, 3)	    18 (18, 0, 16)	          4	Worker, Aristocrat
+     2	    24 (0, 7, 0)	     9 (9, 0, 5)	          1	Building, Trading
+Deck Sizes: Worker: 15, Building: 19, Aristocrat: 13, Trading: 25
+
+Upper Card Row: Fur Trapper (w6), Fur Trapper (w6), Lumberjack (w3), Ship Builder (w7), Shepherd (w5), Ship Builder (w7)
+Lower Card Row: Ship Builder (w7), Minister of Foreign Affairs (ta20)
+
+Player 1:
+Hand: Market (b5), Theater (b20), Market (b5)
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6)
+Buildings: Academy (b23)
+Aristocrats: Author (a4), Author (a4), Author (a4), Author (a4), Author (a4), Administrator (a7), Judge (a16), Controller (a14)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6)
+Buildings: Library (b17), Pub (bpu), Pub (bpu), Customs House (b8)
+Aristocrats: Builder (ta10)
+
+> Player 2 buys Ship Builder from the lower card row for 5 rubles.
+
+Round: 5, Phase: Building, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    30 (0, 7, 3)	    18 (18, 0, 16)	          4	Worker, Aristocrat
+     2	    24 (0, 7, 0)	     4 (12, 0, 5)	          1	Building, Trading
+Deck Sizes: Worker: 15, Building: 19, Aristocrat: 13, Trading: 25
+
+Upper Card Row: Fur Trapper (w6), Fur Trapper (w6), Lumberjack (w3), Ship Builder (w7), Shepherd (w5), Ship Builder (w7)
+Lower Card Row: Minister of Foreign Affairs (ta20)
+
+Player 1:
+Hand: Market (b5), Theater (b20), Market (b5)
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6)
+Buildings: Academy (b23)
+Aristocrats: Author (a4), Author (a4), Author (a4), Author (a4), Author (a4), Administrator (a7), Judge (a16), Controller (a14)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7)
+Buildings: Library (b17), Pub (bpu), Pub (bpu), Customs House (b8)
+Aristocrats: Builder (ta10)
+
+> Player 1 buys Minister of Foreign Affairs from the lower card row for 15 rubles replacing Author.
+
+Round: 5, Phase: Building, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    30 (0, 7, 7)	     3 (18, 0, 17)	          5	Worker, Aristocrat
+     2	    24 (0, 7, 0)	     4 (12, 0, 5)	          1	Building, Trading
+Deck Sizes: Worker: 15, Building: 19, Aristocrat: 13, Trading: 25
+
+Upper Card Row: Fur Trapper (w6), Fur Trapper (w6), Lumberjack (w3), Ship Builder (w7), Shepherd (w5), Ship Builder (w7)
+Lower Card Row: 
+
+Player 1:
+Hand: Market (b5), Theater (b20), Market (b5)
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6)
+Buildings: Academy (b23)
+Aristocrats: Author (a4), Author (a4), Author (a4), Author (a4), Administrator (a7), Judge (a16), Controller (a14), Minister of Foreign Affairs (ta20)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7)
+Buildings: Library (b17), Pub (bpu), Pub (bpu), Customs House (b8)
+Aristocrats: Builder (ta10)
+
+> Player 2 passes.
+
+Round: 5, Phase: Building, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    30 (0, 7, 7)	     3 (18, 0, 17)	          5	Worker, Aristocrat
+     2	    24 (0, 7, 0)	     4 (12, 0, 5)	          1	Building, Trading
+Deck Sizes: Worker: 15, Building: 19, Aristocrat: 13, Trading: 25
+
+Upper Card Row: Fur Trapper (w6), Fur Trapper (w6), Lumberjack (w3), Ship Builder (w7), Shepherd (w5), Ship Builder (w7)
+Lower Card Row: 
+
+Player 1:
+Hand: Market (b5), Theater (b20), Market (b5)
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6)
+Buildings: Academy (b23)
+Aristocrats: Author (a4), Author (a4), Author (a4), Author (a4), Administrator (a7), Judge (a16), Controller (a14), Minister of Foreign Affairs (ta20)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7)
+Buildings: Library (b17), Pub (bpu), Pub (bpu), Customs House (b8)
+Aristocrats: Builder (ta10)
+
+> Player 1 buys Lumberjack from the upper card row for 1 ruble.
+
+Round: 5, Phase: Building, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    30 (0, 7, 7)	     2 (21, 0, 17)	          5	Worker, Aristocrat
+     2	    24 (0, 7, 0)	     4 (12, 0, 5)	          1	Building, Trading
+Deck Sizes: Worker: 15, Building: 19, Aristocrat: 13, Trading: 25
+
+Upper Card Row: Fur Trapper (w6), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Ship Builder (w7)
+Lower Card Row: 
+
+Player 1:
+Hand: Market (b5), Theater (b20), Market (b5)
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3)
+Buildings: Academy (b23)
+Aristocrats: Author (a4), Author (a4), Author (a4), Author (a4), Administrator (a7), Judge (a16), Controller (a14), Minister of Foreign Affairs (ta20)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7)
+Buildings: Library (b17), Pub (bpu), Pub (bpu), Customs House (b8)
+Aristocrats: Builder (ta10)
+
+> Player 2 buys Shepherd from the upper card row for 4 rubles.
+
+Round: 5, Phase: Building, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    30 (0, 7, 7)	     2 (21, 0, 17)	          5	Worker, Aristocrat
+     2	    24 (0, 7, 0)	     0 (15, 0, 5)	          1	Building, Trading
+Deck Sizes: Worker: 15, Building: 19, Aristocrat: 13, Trading: 25
+
+Upper Card Row: Fur Trapper (w6), Fur Trapper (w6), Ship Builder (w7), Ship Builder (w7)
+Lower Card Row: 
+
+Player 1:
+Hand: Market (b5), Theater (b20), Market (b5)
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3)
+Buildings: Academy (b23)
+Aristocrats: Author (a4), Author (a4), Author (a4), Author (a4), Administrator (a7), Judge (a16), Controller (a14), Minister of Foreign Affairs (ta20)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5)
+Buildings: Library (b17), Pub (bpu), Pub (bpu), Customs House (b8)
+Aristocrats: Builder (ta10)
+
+> Player 1 passes.
+
+Round: 5, Phase: Building, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    30 (0, 7, 7)	     2 (21, 0, 17)	          5	Worker, Aristocrat
+     2	    24 (0, 7, 0)	     0 (15, 0, 5)	          1	Building, Trading
+Deck Sizes: Worker: 15, Building: 19, Aristocrat: 13, Trading: 25
+
+Upper Card Row: Fur Trapper (w6), Fur Trapper (w6), Ship Builder (w7), Ship Builder (w7)
+Lower Card Row: 
+
+Player 1:
+Hand: Market (b5), Theater (b20), Market (b5)
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3)
+Buildings: Academy (b23)
+Aristocrats: Author (a4), Author (a4), Author (a4), Author (a4), Administrator (a7), Judge (a16), Controller (a14), Minister of Foreign Affairs (ta20)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5)
+Buildings: Library (b17), Pub (bpu), Pub (bpu), Customs House (b8)
+Aristocrats: Builder (ta10)
+
+> Player 2 passes.
+
+Round: 5, Phase: Pub, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    37 (0, 7, 7)	     2 (21, 0, 17)	          5	Worker, Aristocrat
+     2	    31 (0, 7, 0)	     0 (15, 0, 5)	          1	Building, Trading
+Deck Sizes: Worker: 15, Building: 19, Aristocrat: 13, Trading: 25
+
+Upper Card Row: Fur Trapper (w6), Fur Trapper (w6), Ship Builder (w7), Ship Builder (w7)
+Lower Card Row: 
+
+Player 1:
+Hand: Market (b5), Theater (b20), Market (b5)
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3)
+Buildings: Academy (b23)
+Aristocrats: Author (a4), Author (a4), Author (a4), Author (a4), Administrator (a7), Judge (a16), Controller (a14), Minister of Foreign Affairs (ta20)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5)
+Buildings: Library (b17), Pub (bpu), Pub (bpu), Customs House (b8)
+Aristocrats: Builder (ta10)
+
+> Player 2 opts not to use the pub.
+
+Round: 5, Phase: Aristocrat, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    37 (0, 7, 7)	     2 (21, 0, 17)	          5	Worker, Aristocrat
+     2	    31 (0, 7, 0)	     0 (15, 0, 5)	          1	Building, Trading
+Deck Sizes: Worker: 15, Building: 19, Aristocrat: 9, Trading: 25
+
+Upper Card Row: Fur Trapper (w6), Fur Trapper (w6), Ship Builder (w7), Ship Builder (w7), Warehouse Manager (a10), Secretary (a12), Secretary (a12), Controller (a14)
+Lower Card Row: 
+
+Player 1:
+Hand: Market (b5), Theater (b20), Market (b5)
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3)
+Buildings: Academy (b23)
+Aristocrats: Author (a4), Author (a4), Author (a4), Author (a4), Administrator (a7), Judge (a16), Controller (a14), Minister of Foreign Affairs (ta20)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5)
+Buildings: Library (b17), Pub (bpu), Pub (bpu), Customs House (b8)
+Aristocrats: Builder (ta10)
+
+> Player 1 passes.
+
+Round: 5, Phase: Aristocrat, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    37 (0, 7, 7)	     2 (21, 0, 17)	          5	Worker, Aristocrat
+     2	    31 (0, 7, 0)	     0 (15, 0, 5)	          1	Building, Trading
+Deck Sizes: Worker: 15, Building: 19, Aristocrat: 9, Trading: 25
+
+Upper Card Row: Fur Trapper (w6), Fur Trapper (w6), Ship Builder (w7), Ship Builder (w7), Warehouse Manager (a10), Secretary (a12), Secretary (a12), Controller (a14)
+Lower Card Row: 
+
+Player 1:
+Hand: Market (b5), Theater (b20), Market (b5)
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3)
+Buildings: Academy (b23)
+Aristocrats: Author (a4), Author (a4), Author (a4), Author (a4), Administrator (a7), Judge (a16), Controller (a14), Minister of Foreign Affairs (ta20)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5)
+Buildings: Library (b17), Pub (bpu), Pub (bpu), Customs House (b8)
+Aristocrats: Builder (ta10)
+
+> Player 2 passes.
+
+Round: 5, Phase: Trading, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    44 (0, 7, 7)	    19 (21, 0, 17)	          5	Worker, Aristocrat
+     2	    31 (0, 7, 0)	     5 (15, 0, 5)	          1	Building, Trading
+Deck Sizes: Worker: 15, Building: 19, Aristocrat: 9, Trading: 25
+
+Upper Card Row: Fur Trapper (w6), Fur Trapper (w6), Ship Builder (w7), Ship Builder (w7), Warehouse Manager (a10), Secretary (a12), Secretary (a12), Controller (a14)
+Lower Card Row: 
+
+Player 1:
+Hand: Market (b5), Theater (b20), Market (b5)
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3)
+Buildings: Academy (b23)
+Aristocrats: Author (a4), Author (a4), Author (a4), Author (a4), Administrator (a7), Judge (a16), Controller (a14), Minister of Foreign Affairs (ta20)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5)
+Buildings: Library (b17), Pub (bpu), Pub (bpu), Customs House (b8)
+Aristocrats: Builder (ta10)
+
+> Player 2 buys Fur Trapper from the upper card row for 5 rubles.
+
+Round: 5, Phase: Trading, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    44 (0, 7, 7)	    19 (21, 0, 17)	          5	Worker, Aristocrat
+     2	    31 (0, 7, 0)	     0 (18, 0, 5)	          1	Building, Trading
+Deck Sizes: Worker: 15, Building: 19, Aristocrat: 9, Trading: 25
+
+Upper Card Row: Fur Trapper (w6), Ship Builder (w7), Ship Builder (w7), Warehouse Manager (a10), Secretary (a12), Secretary (a12), Controller (a14)
+Lower Card Row: 
+
+Player 1:
+Hand: Market (b5), Theater (b20), Market (b5)
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3)
+Buildings: Academy (b23)
+Aristocrats: Author (a4), Author (a4), Author (a4), Author (a4), Administrator (a7), Judge (a16), Controller (a14), Minister of Foreign Affairs (ta20)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Fur Trapper (w6)
+Buildings: Library (b17), Pub (bpu), Pub (bpu), Customs House (b8)
+Aristocrats: Builder (ta10)
+
+> Player 1 buys Warehouse Manager from the upper card row for 10 rubles.
+
+Round: 5, Phase: Trading, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    44 (0, 7, 7)	     9 (21, 0, 20)	          6	Worker, Aristocrat
+     2	    31 (0, 7, 0)	     0 (18, 0, 5)	          1	Building, Trading
+Deck Sizes: Worker: 15, Building: 19, Aristocrat: 9, Trading: 25
+
+Upper Card Row: Fur Trapper (w6), Ship Builder (w7), Ship Builder (w7), Secretary (a12), Secretary (a12), Controller (a14)
+Lower Card Row: 
+
+Player 1:
+Hand: Market (b5), Theater (b20), Market (b5)
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3)
+Buildings: Academy (b23)
+Aristocrats: Author (a4), Author (a4), Author (a4), Author (a4), Administrator (a7), Judge (a16), Controller (a14), Minister of Foreign Affairs (ta20), Warehouse Manager (a10)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Fur Trapper (w6)
+Buildings: Library (b17), Pub (bpu), Pub (bpu), Customs House (b8)
+Aristocrats: Builder (ta10)
+
+> Player 2 passes.
+
+Round: 5, Phase: Trading, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    44 (0, 7, 7)	     9 (21, 0, 20)	          6	Worker, Aristocrat
+     2	    31 (0, 7, 0)	     0 (18, 0, 5)	          1	Building, Trading
+Deck Sizes: Worker: 15, Building: 19, Aristocrat: 9, Trading: 25
+
+Upper Card Row: Fur Trapper (w6), Ship Builder (w7), Ship Builder (w7), Secretary (a12), Secretary (a12), Controller (a14)
+Lower Card Row: 
+
+Player 1:
+Hand: Market (b5), Theater (b20), Market (b5)
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3)
+Buildings: Academy (b23)
+Aristocrats: Author (a4), Author (a4), Author (a4), Author (a4), Administrator (a7), Judge (a16), Controller (a14), Minister of Foreign Affairs (ta20), Warehouse Manager (a10)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Fur Trapper (w6)
+Buildings: Library (b17), Pub (bpu), Pub (bpu), Customs House (b8)
+Aristocrats: Builder (ta10)
+
+> Player 1 buys Fur Trapper from the upper card row for 5 rubles.
+
+Round: 5, Phase: Trading, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    44 (0, 7, 7)	     4 (24, 0, 20)	          6	Worker, Aristocrat
+     2	    31 (0, 7, 0)	     0 (18, 0, 5)	          1	Building, Trading
+Deck Sizes: Worker: 15, Building: 19, Aristocrat: 9, Trading: 25
+
+Upper Card Row: Ship Builder (w7), Ship Builder (w7), Secretary (a12), Secretary (a12), Controller (a14)
+Lower Card Row: 
+
+Player 1:
+Hand: Market (b5), Theater (b20), Market (b5)
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Fur Trapper (w6)
+Buildings: Academy (b23)
+Aristocrats: Author (a4), Author (a4), Author (a4), Author (a4), Administrator (a7), Judge (a16), Controller (a14), Minister of Foreign Affairs (ta20), Warehouse Manager (a10)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Fur Trapper (w6)
+Buildings: Library (b17), Pub (bpu), Pub (bpu), Customs House (b8)
+Aristocrats: Builder (ta10)
+
+> Player 2 passes.
+
+Round: 5, Phase: Trading, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    44 (0, 7, 7)	     4 (24, 0, 20)	          6	Worker, Aristocrat
+     2	    31 (0, 7, 0)	     0 (18, 0, 5)	          1	Building, Trading
+Deck Sizes: Worker: 15, Building: 19, Aristocrat: 9, Trading: 25
+
+Upper Card Row: Ship Builder (w7), Ship Builder (w7), Secretary (a12), Secretary (a12), Controller (a14)
+Lower Card Row: 
+
+Player 1:
+Hand: Market (b5), Theater (b20), Market (b5)
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Fur Trapper (w6)
+Buildings: Academy (b23)
+Aristocrats: Author (a4), Author (a4), Author (a4), Author (a4), Administrator (a7), Judge (a16), Controller (a14), Minister of Foreign Affairs (ta20), Warehouse Manager (a10)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Fur Trapper (w6)
+Buildings: Library (b17), Pub (bpu), Pub (bpu), Customs House (b8)
+Aristocrats: Builder (ta10)
+
+> Player 1 passes.
+
+Round: 6, Phase: Worker, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    44 (0, 7, 7)	     4 (24, 0, 20)	          6	Building, Trading
+     2	    31 (0, 7, 0)	     0 (18, 0, 5)	          1	Worker, Aristocrat
+Deck Sizes: Worker: 12, Building: 19, Aristocrat: 9, Trading: 25
+
+Upper Card Row: Shepherd (w5), Ship Builder (w7), Fur Trapper (w6)
+Lower Card Row: Ship Builder (w7), Ship Builder (w7), Secretary (a12), Secretary (a12), Controller (a14)
+
+Player 1:
+Hand: Market (b5), Theater (b20), Market (b5)
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Fur Trapper (w6)
+Buildings: Academy (b23)
+Aristocrats: Author (a4), Author (a4), Author (a4), Author (a4), Administrator (a7), Judge (a16), Controller (a14), Minister of Foreign Affairs (ta20), Warehouse Manager (a10)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Fur Trapper (w6)
+Buildings: Library (b17), Pub (bpu), Pub (bpu), Customs House (b8)
+Aristocrats: Builder (ta10)
+
+> Player 2 passes.
+
+Round: 6, Phase: Worker, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    44 (0, 7, 7)	     4 (24, 0, 20)	          6	Building, Trading
+     2	    31 (0, 7, 0)	     0 (18, 0, 5)	          1	Worker, Aristocrat
+Deck Sizes: Worker: 12, Building: 19, Aristocrat: 9, Trading: 25
+
+Upper Card Row: Shepherd (w5), Ship Builder (w7), Fur Trapper (w6)
+Lower Card Row: Ship Builder (w7), Ship Builder (w7), Secretary (a12), Secretary (a12), Controller (a14)
+
+Player 1:
+Hand: Market (b5), Theater (b20), Market (b5)
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Fur Trapper (w6)
+Buildings: Academy (b23)
+Aristocrats: Author (a4), Author (a4), Author (a4), Author (a4), Administrator (a7), Judge (a16), Controller (a14), Minister of Foreign Affairs (ta20), Warehouse Manager (a10)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Fur Trapper (w6)
+Buildings: Library (b17), Pub (bpu), Pub (bpu), Customs House (b8)
+Aristocrats: Builder (ta10)
+
+> Player 1 passes.
+
+Round: 6, Phase: Building, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    44 (0, 7, 7)	    28 (24, 0, 20)	          6	Building, Trading
+     2	    31 (0, 7, 0)	    18 (18, 0, 5)	          1	Worker, Aristocrat
+Deck Sizes: Worker: 12, Building: 19, Aristocrat: 9, Trading: 25
+
+Upper Card Row: Shepherd (w5), Ship Builder (w7), Fur Trapper (w6)
+Lower Card Row: Ship Builder (w7), Ship Builder (w7), Secretary (a12), Secretary (a12), Controller (a14)
+
+Player 1:
+Hand: Market (b5), Theater (b20), Market (b5)
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Fur Trapper (w6)
+Buildings: Academy (b23)
+Aristocrats: Author (a4), Author (a4), Author (a4), Author (a4), Administrator (a7), Judge (a16), Controller (a14), Minister of Foreign Affairs (ta20), Warehouse Manager (a10)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Fur Trapper (w6)
+Buildings: Library (b17), Pub (bpu), Pub (bpu), Customs House (b8)
+Aristocrats: Builder (ta10)
+
+> Player 1 buys Secretary from the lower card row for 11 rubles.
+
+Round: 6, Phase: Building, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    44 (0, 7, 7)	    17 (24, 0, 24)	          7	Building, Trading
+     2	    31 (0, 7, 0)	    18 (18, 0, 5)	          1	Worker, Aristocrat
+Deck Sizes: Worker: 12, Building: 19, Aristocrat: 9, Trading: 25
+
+Upper Card Row: Shepherd (w5), Ship Builder (w7), Fur Trapper (w6)
+Lower Card Row: Ship Builder (w7), Ship Builder (w7), Secretary (a12), Controller (a14)
+
+Player 1:
+Hand: Market (b5), Theater (b20), Market (b5)
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Fur Trapper (w6)
+Buildings: Academy (b23)
+Aristocrats: Author (a4), Author (a4), Author (a4), Author (a4), Administrator (a7), Judge (a16), Controller (a14), Minister of Foreign Affairs (ta20), Warehouse Manager (a10), Secretary (a12)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Fur Trapper (w6)
+Buildings: Library (b17), Pub (bpu), Pub (bpu), Customs House (b8)
+Aristocrats: Builder (ta10)
+
+> Player 2 buys Ship Builder from the lower card row for 4 rubles.
+
+Round: 6, Phase: Building, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    44 (0, 7, 7)	    17 (24, 0, 24)	          7	Building, Trading
+     2	    31 (0, 7, 0)	    14 (21, 0, 5)	          1	Worker, Aristocrat
+Deck Sizes: Worker: 12, Building: 19, Aristocrat: 9, Trading: 25
+
+Upper Card Row: Shepherd (w5), Ship Builder (w7), Fur Trapper (w6)
+Lower Card Row: Ship Builder (w7), Secretary (a12), Controller (a14)
+
+Player 1:
+Hand: Market (b5), Theater (b20), Market (b5)
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Fur Trapper (w6)
+Buildings: Academy (b23)
+Aristocrats: Author (a4), Author (a4), Author (a4), Author (a4), Administrator (a7), Judge (a16), Controller (a14), Minister of Foreign Affairs (ta20), Warehouse Manager (a10), Secretary (a12)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7)
+Buildings: Library (b17), Pub (bpu), Pub (bpu), Customs House (b8)
+Aristocrats: Builder (ta10)
+
+> Player 1 buys Fur Trapper from the upper card row for 4 rubles.
+
+Round: 6, Phase: Building, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    44 (0, 7, 7)	    13 (27, 0, 24)	          7	Building, Trading
+     2	    31 (0, 7, 0)	    14 (21, 0, 5)	          1	Worker, Aristocrat
+Deck Sizes: Worker: 12, Building: 19, Aristocrat: 9, Trading: 25
+
+Upper Card Row: Shepherd (w5), Ship Builder (w7)
+Lower Card Row: Ship Builder (w7), Secretary (a12), Controller (a14)
+
+Player 1:
+Hand: Market (b5), Theater (b20), Market (b5)
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Fur Trapper (w6), Fur Trapper (w6)
+Buildings: Academy (b23)
+Aristocrats: Author (a4), Author (a4), Author (a4), Author (a4), Administrator (a7), Judge (a16), Controller (a14), Minister of Foreign Affairs (ta20), Warehouse Manager (a10), Secretary (a12)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7)
+Buildings: Library (b17), Pub (bpu), Pub (bpu), Customs House (b8)
+Aristocrats: Builder (ta10)
+
+> Player 2 passes.
+
+Round: 6, Phase: Building, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    44 (0, 7, 7)	    13 (27, 0, 24)	          7	Building, Trading
+     2	    31 (0, 7, 0)	    14 (21, 0, 5)	          1	Worker, Aristocrat
+Deck Sizes: Worker: 12, Building: 19, Aristocrat: 9, Trading: 25
+
+Upper Card Row: Shepherd (w5), Ship Builder (w7)
+Lower Card Row: Ship Builder (w7), Secretary (a12), Controller (a14)
+
+Player 1:
+Hand: Market (b5), Theater (b20), Market (b5)
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Fur Trapper (w6), Fur Trapper (w6)
+Buildings: Academy (b23)
+Aristocrats: Author (a4), Author (a4), Author (a4), Author (a4), Administrator (a7), Judge (a16), Controller (a14), Minister of Foreign Affairs (ta20), Warehouse Manager (a10), Secretary (a12)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7)
+Buildings: Library (b17), Pub (bpu), Pub (bpu), Customs House (b8)
+Aristocrats: Builder (ta10)
+
+> Player 1 buys Market from their hand for 5 rubles.
+
+Round: 6, Phase: Building, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    44 (0, 8, 7)	     8 (27, 0, 24)	          7	Building, Trading
+     2	    31 (0, 7, 0)	    14 (21, 0, 5)	          1	Worker, Aristocrat
+Deck Sizes: Worker: 12, Building: 19, Aristocrat: 9, Trading: 25
+
+Upper Card Row: Shepherd (w5), Ship Builder (w7)
+Lower Card Row: Ship Builder (w7), Secretary (a12), Controller (a14)
+
+Player 1:
+Hand: Theater (b20), Market (b5)
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Fur Trapper (w6), Fur Trapper (w6)
+Buildings: Academy (b23), Market (b5)
+Aristocrats: Author (a4), Author (a4), Author (a4), Author (a4), Administrator (a7), Judge (a16), Controller (a14), Minister of Foreign Affairs (ta20), Warehouse Manager (a10), Secretary (a12)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7)
+Buildings: Library (b17), Pub (bpu), Pub (bpu), Customs House (b8)
+Aristocrats: Builder (ta10)
+
+> Player 2 passes.
+
+Round: 6, Phase: Building, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    44 (0, 8, 7)	     8 (27, 0, 24)	          7	Building, Trading
+     2	    31 (0, 7, 0)	    14 (21, 0, 5)	          1	Worker, Aristocrat
+Deck Sizes: Worker: 12, Building: 19, Aristocrat: 9, Trading: 25
+
+Upper Card Row: Shepherd (w5), Ship Builder (w7)
+Lower Card Row: Ship Builder (w7), Secretary (a12), Controller (a14)
+
+Player 1:
+Hand: Theater (b20), Market (b5)
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Fur Trapper (w6), Fur Trapper (w6)
+Buildings: Academy (b23), Market (b5)
+Aristocrats: Author (a4), Author (a4), Author (a4), Author (a4), Administrator (a7), Judge (a16), Controller (a14), Minister of Foreign Affairs (ta20), Warehouse Manager (a10), Secretary (a12)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7)
+Buildings: Library (b17), Pub (bpu), Pub (bpu), Customs House (b8)
+Aristocrats: Builder (ta10)
+
+> Player 1 buys Market from their hand for 4 rubles.
+
+Round: 6, Phase: Building, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    44 (0, 9, 7)	     4 (27, 0, 24)	          7	Building, Trading
+     2	    31 (0, 7, 0)	    14 (21, 0, 5)	          1	Worker, Aristocrat
+Deck Sizes: Worker: 12, Building: 19, Aristocrat: 9, Trading: 25
+
+Upper Card Row: Shepherd (w5), Ship Builder (w7)
+Lower Card Row: Ship Builder (w7), Secretary (a12), Controller (a14)
+
+Player 1:
+Hand: Theater (b20)
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Fur Trapper (w6), Fur Trapper (w6)
+Buildings: Academy (b23), Market (b5), Market (b5)
+Aristocrats: Author (a4), Author (a4), Author (a4), Author (a4), Administrator (a7), Judge (a16), Controller (a14), Minister of Foreign Affairs (ta20), Warehouse Manager (a10), Secretary (a12)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7)
+Buildings: Library (b17), Pub (bpu), Pub (bpu), Customs House (b8)
+Aristocrats: Builder (ta10)
+
+> Player 2 passes.
+
+Round: 6, Phase: Building, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    44 (0, 9, 7)	     4 (27, 0, 24)	          7	Building, Trading
+     2	    31 (0, 7, 0)	    14 (21, 0, 5)	          1	Worker, Aristocrat
+Deck Sizes: Worker: 12, Building: 19, Aristocrat: 9, Trading: 25
+
+Upper Card Row: Shepherd (w5), Ship Builder (w7)
+Lower Card Row: Ship Builder (w7), Secretary (a12), Controller (a14)
+
+Player 1:
+Hand: Theater (b20)
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Fur Trapper (w6), Fur Trapper (w6)
+Buildings: Academy (b23), Market (b5), Market (b5)
+Aristocrats: Author (a4), Author (a4), Author (a4), Author (a4), Administrator (a7), Judge (a16), Controller (a14), Minister of Foreign Affairs (ta20), Warehouse Manager (a10), Secretary (a12)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7)
+Buildings: Library (b17), Pub (bpu), Pub (bpu), Customs House (b8)
+Aristocrats: Builder (ta10)
+
+> Player 1 passes.
+
+Round: 6, Phase: Pub, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    53 (0, 9, 7)	     4 (27, 0, 24)	          7	Building, Trading
+     2	    38 (0, 7, 0)	    14 (21, 0, 5)	          1	Worker, Aristocrat
+Deck Sizes: Worker: 12, Building: 19, Aristocrat: 9, Trading: 25
+
+Upper Card Row: Shepherd (w5), Ship Builder (w7)
+Lower Card Row: Ship Builder (w7), Secretary (a12), Controller (a14)
+
+Player 1:
+Hand: Theater (b20)
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Fur Trapper (w6), Fur Trapper (w6)
+Buildings: Academy (b23), Market (b5), Market (b5)
+Aristocrats: Author (a4), Author (a4), Author (a4), Author (a4), Administrator (a7), Judge (a16), Controller (a14), Minister of Foreign Affairs (ta20), Warehouse Manager (a10), Secretary (a12)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7)
+Buildings: Library (b17), Pub (bpu), Pub (bpu), Customs House (b8)
+Aristocrats: Builder (ta10)
+
+> Player 2 buys 4 points for 8 rubles with the Pub.
+
+Round: 6, Phase: Aristocrat, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    53 (0, 9, 7)	     4 (27, 0, 24)	          7	Building, Trading
+     2	    42 (0, 7, 0)	     6 (21, 0, 5)	          1	Worker, Aristocrat
+Deck Sizes: Worker: 12, Building: 19, Aristocrat: 6, Trading: 25
+
+Upper Card Row: Shepherd (w5), Ship Builder (w7), Controller (a14), Warehouse Manager (a10), Mistress of Ceremonies (a18)
+Lower Card Row: Ship Builder (w7), Secretary (a12), Controller (a14)
+
+Player 1:
+Hand: Theater (b20)
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Fur Trapper (w6), Fur Trapper (w6)
+Buildings: Academy (b23), Market (b5), Market (b5)
+Aristocrats: Author (a4), Author (a4), Author (a4), Author (a4), Administrator (a7), Judge (a16), Controller (a14), Minister of Foreign Affairs (ta20), Warehouse Manager (a10), Secretary (a12)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7)
+Buildings: Library (b17), Pub (bpu), Pub (bpu), Customs House (b8)
+Aristocrats: Builder (ta10)
+
+> Player 2 passes.
+
+Round: 6, Phase: Aristocrat, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    53 (0, 9, 7)	     4 (27, 0, 24)	          7	Building, Trading
+     2	    42 (0, 7, 0)	     6 (21, 0, 5)	          1	Worker, Aristocrat
+Deck Sizes: Worker: 12, Building: 19, Aristocrat: 6, Trading: 25
+
+Upper Card Row: Shepherd (w5), Ship Builder (w7), Controller (a14), Warehouse Manager (a10), Mistress of Ceremonies (a18)
+Lower Card Row: Ship Builder (w7), Secretary (a12), Controller (a14)
+
+Player 1:
+Hand: Theater (b20)
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Fur Trapper (w6), Fur Trapper (w6)
+Buildings: Academy (b23), Market (b5), Market (b5)
+Aristocrats: Author (a4), Author (a4), Author (a4), Author (a4), Administrator (a7), Judge (a16), Controller (a14), Minister of Foreign Affairs (ta20), Warehouse Manager (a10), Secretary (a12)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7)
+Buildings: Library (b17), Pub (bpu), Pub (bpu), Customs House (b8)
+Aristocrats: Builder (ta10)
+
+> Player 1 passes.
+
+Round: 6, Phase: Trading, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    60 (0, 9, 7)	    28 (27, 0, 24)	          7	Building, Trading
+     2	    42 (0, 7, 0)	    11 (21, 0, 5)	          1	Worker, Aristocrat
+Deck Sizes: Worker: 12, Building: 19, Aristocrat: 6, Trading: 25
+
+Upper Card Row: Shepherd (w5), Ship Builder (w7), Controller (a14), Warehouse Manager (a10), Mistress of Ceremonies (a18)
+Lower Card Row: Ship Builder (w7), Secretary (a12), Controller (a14)
+
+Player 1:
+Hand: Theater (b20)
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Fur Trapper (w6), Fur Trapper (w6)
+Buildings: Academy (b23), Market (b5), Market (b5)
+Aristocrats: Author (a4), Author (a4), Author (a4), Author (a4), Administrator (a7), Judge (a16), Controller (a14), Minister of Foreign Affairs (ta20), Warehouse Manager (a10), Secretary (a12)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7)
+Buildings: Library (b17), Pub (bpu), Pub (bpu), Customs House (b8)
+Aristocrats: Builder (ta10)
+
+> Player 1 buys Mistress of Ceremonies from the upper card row for 18 rubles.
+
+Round: 6, Phase: Trading, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    60 (0, 9, 10)	    10 (27, 0, 30)	          8	Building, Trading
+     2	    42 (0, 7, 0)	    11 (21, 0, 5)	          1	Worker, Aristocrat
+Deck Sizes: Worker: 12, Building: 19, Aristocrat: 6, Trading: 25
+
+Upper Card Row: Shepherd (w5), Ship Builder (w7), Controller (a14), Warehouse Manager (a10)
+Lower Card Row: Ship Builder (w7), Secretary (a12), Controller (a14)
+
+Player 1:
+Hand: Theater (b20)
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Fur Trapper (w6), Fur Trapper (w6)
+Buildings: Academy (b23), Market (b5), Market (b5)
+Aristocrats: Author (a4), Author (a4), Author (a4), Author (a4), Administrator (a7), Judge (a16), Controller (a14), Minister of Foreign Affairs (ta20), Warehouse Manager (a10), Secretary (a12), Mistress of Ceremonies (a18)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7)
+Buildings: Library (b17), Pub (bpu), Pub (bpu), Customs House (b8)
+Aristocrats: Builder (ta10)
+
+> Player 2 buys Shepherd from the upper card row for 3 rubles.
+
+Round: 6, Phase: Trading, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    60 (0, 9, 10)	    10 (27, 0, 30)	          8	Building, Trading
+     2	    42 (0, 7, 0)	     8 (24, 0, 5)	          1	Worker, Aristocrat
+Deck Sizes: Worker: 12, Building: 19, Aristocrat: 6, Trading: 25
+
+Upper Card Row: Ship Builder (w7), Controller (a14), Warehouse Manager (a10)
+Lower Card Row: Ship Builder (w7), Secretary (a12), Controller (a14)
+
+Player 1:
+Hand: Theater (b20)
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Fur Trapper (w6), Fur Trapper (w6)
+Buildings: Academy (b23), Market (b5), Market (b5)
+Aristocrats: Author (a4), Author (a4), Author (a4), Author (a4), Administrator (a7), Judge (a16), Controller (a14), Minister of Foreign Affairs (ta20), Warehouse Manager (a10), Secretary (a12), Mistress of Ceremonies (a18)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5)
+Buildings: Library (b17), Pub (bpu), Pub (bpu), Customs House (b8)
+Aristocrats: Builder (ta10)
+
+> Player 1 passes.
+
+Round: 6, Phase: Trading, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    60 (0, 9, 10)	    10 (27, 0, 30)	          8	Building, Trading
+     2	    42 (0, 7, 0)	     8 (24, 0, 5)	          1	Worker, Aristocrat
+Deck Sizes: Worker: 12, Building: 19, Aristocrat: 6, Trading: 25
+
+Upper Card Row: Ship Builder (w7), Controller (a14), Warehouse Manager (a10)
+Lower Card Row: Ship Builder (w7), Secretary (a12), Controller (a14)
+
+Player 1:
+Hand: Theater (b20)
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Fur Trapper (w6), Fur Trapper (w6)
+Buildings: Academy (b23), Market (b5), Market (b5)
+Aristocrats: Author (a4), Author (a4), Author (a4), Author (a4), Administrator (a7), Judge (a16), Controller (a14), Minister of Foreign Affairs (ta20), Warehouse Manager (a10), Secretary (a12), Mistress of Ceremonies (a18)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5)
+Buildings: Library (b17), Pub (bpu), Pub (bpu), Customs House (b8)
+Aristocrats: Builder (ta10)
+
+> Player 2 passes.
+
+Round: 7, Phase: Worker, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    60 (0, 9, 10)	    10 (27, 0, 30)	          8	Worker, Aristocrat
+     2	    42 (0, 7, 0)	     8 (24, 0, 5)	          1	Building, Trading
+Deck Sizes: Worker: 7, Building: 19, Aristocrat: 6, Trading: 25
+
+Upper Card Row: Lumberjack (w3), Gold Miner (w4), Gold Miner (w4), Ship Builder (w7), Gold Miner (w4)
+Lower Card Row: Ship Builder (w7), Controller (a14), Warehouse Manager (a10)
+
+Player 1:
+Hand: Theater (b20)
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Fur Trapper (w6), Fur Trapper (w6)
+Buildings: Academy (b23), Market (b5), Market (b5)
+Aristocrats: Author (a4), Author (a4), Author (a4), Author (a4), Administrator (a7), Judge (a16), Controller (a14), Minister of Foreign Affairs (ta20), Warehouse Manager (a10), Secretary (a12), Mistress of Ceremonies (a18)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5)
+Buildings: Library (b17), Pub (bpu), Pub (bpu), Customs House (b8)
+Aristocrats: Builder (ta10)
+
+> Player 1 buys Lumberjack from the upper card row for 1 ruble.
+
+Round: 7, Phase: Worker, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    60 (0, 9, 10)	     9 (30, 0, 30)	          8	Worker, Aristocrat
+     2	    42 (0, 7, 0)	     8 (24, 0, 5)	          1	Building, Trading
+Deck Sizes: Worker: 7, Building: 19, Aristocrat: 6, Trading: 25
+
+Upper Card Row: Gold Miner (w4), Gold Miner (w4), Ship Builder (w7), Gold Miner (w4)
+Lower Card Row: Ship Builder (w7), Controller (a14), Warehouse Manager (a10)
+
+Player 1:
+Hand: Theater (b20)
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Fur Trapper (w6), Fur Trapper (w6), Lumberjack (w3)
+Buildings: Academy (b23), Market (b5), Market (b5)
+Aristocrats: Author (a4), Author (a4), Author (a4), Author (a4), Administrator (a7), Judge (a16), Controller (a14), Minister of Foreign Affairs (ta20), Warehouse Manager (a10), Secretary (a12), Mistress of Ceremonies (a18)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5)
+Buildings: Library (b17), Pub (bpu), Pub (bpu), Customs House (b8)
+Aristocrats: Builder (ta10)
+
+> Player 2 buys Gold Miner from the upper card row for 4 rubles.
+
+Round: 7, Phase: Worker, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    60 (0, 9, 10)	     9 (30, 0, 30)	          8	Worker, Aristocrat
+     2	    42 (0, 7, 0)	     4 (27, 0, 5)	          1	Building, Trading
+Deck Sizes: Worker: 7, Building: 19, Aristocrat: 6, Trading: 25
+
+Upper Card Row: Gold Miner (w4), Ship Builder (w7), Gold Miner (w4)
+Lower Card Row: Ship Builder (w7), Controller (a14), Warehouse Manager (a10)
+
+Player 1:
+Hand: Theater (b20)
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Fur Trapper (w6), Fur Trapper (w6), Lumberjack (w3)
+Buildings: Academy (b23), Market (b5), Market (b5)
+Aristocrats: Author (a4), Author (a4), Author (a4), Author (a4), Administrator (a7), Judge (a16), Controller (a14), Minister of Foreign Affairs (ta20), Warehouse Manager (a10), Secretary (a12), Mistress of Ceremonies (a18)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Gold Miner (w4)
+Buildings: Library (b17), Pub (bpu), Pub (bpu), Customs House (b8)
+Aristocrats: Builder (ta10)
+
+> Player 1 passes.
+
+Round: 7, Phase: Worker, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    60 (0, 9, 10)	     9 (30, 0, 30)	          8	Worker, Aristocrat
+     2	    42 (0, 7, 0)	     4 (27, 0, 5)	          1	Building, Trading
+Deck Sizes: Worker: 7, Building: 19, Aristocrat: 6, Trading: 25
+
+Upper Card Row: Gold Miner (w4), Ship Builder (w7), Gold Miner (w4)
+Lower Card Row: Ship Builder (w7), Controller (a14), Warehouse Manager (a10)
+
+Player 1:
+Hand: Theater (b20)
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Fur Trapper (w6), Fur Trapper (w6), Lumberjack (w3)
+Buildings: Academy (b23), Market (b5), Market (b5)
+Aristocrats: Author (a4), Author (a4), Author (a4), Author (a4), Administrator (a7), Judge (a16), Controller (a14), Minister of Foreign Affairs (ta20), Warehouse Manager (a10), Secretary (a12), Mistress of Ceremonies (a18)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Gold Miner (w4)
+Buildings: Library (b17), Pub (bpu), Pub (bpu), Customs House (b8)
+Aristocrats: Builder (ta10)
+
+> Player 2 buys Gold Miner from the upper card row for 3 rubles.
+
+Round: 7, Phase: Worker, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    60 (0, 9, 10)	     9 (30, 0, 30)	          8	Worker, Aristocrat
+     2	    42 (0, 7, 0)	     1 (30, 0, 5)	          1	Building, Trading
+Deck Sizes: Worker: 7, Building: 19, Aristocrat: 6, Trading: 25
+
+Upper Card Row: Ship Builder (w7), Gold Miner (w4)
+Lower Card Row: Ship Builder (w7), Controller (a14), Warehouse Manager (a10)
+
+Player 1:
+Hand: Theater (b20)
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Fur Trapper (w6), Fur Trapper (w6), Lumberjack (w3)
+Buildings: Academy (b23), Market (b5), Market (b5)
+Aristocrats: Author (a4), Author (a4), Author (a4), Author (a4), Administrator (a7), Judge (a16), Controller (a14), Minister of Foreign Affairs (ta20), Warehouse Manager (a10), Secretary (a12), Mistress of Ceremonies (a18)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Gold Miner (w4), Gold Miner (w4)
+Buildings: Library (b17), Pub (bpu), Pub (bpu), Customs House (b8)
+Aristocrats: Builder (ta10)
+
+> Player 1 passes.
+
+Round: 7, Phase: Worker, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    60 (0, 9, 10)	     9 (30, 0, 30)	          8	Worker, Aristocrat
+     2	    42 (0, 7, 0)	     1 (30, 0, 5)	          1	Building, Trading
+Deck Sizes: Worker: 7, Building: 19, Aristocrat: 6, Trading: 25
+
+Upper Card Row: Ship Builder (w7), Gold Miner (w4)
+Lower Card Row: Ship Builder (w7), Controller (a14), Warehouse Manager (a10)
+
+Player 1:
+Hand: Theater (b20)
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Fur Trapper (w6), Fur Trapper (w6), Lumberjack (w3)
+Buildings: Academy (b23), Market (b5), Market (b5)
+Aristocrats: Author (a4), Author (a4), Author (a4), Author (a4), Administrator (a7), Judge (a16), Controller (a14), Minister of Foreign Affairs (ta20), Warehouse Manager (a10), Secretary (a12), Mistress of Ceremonies (a18)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Gold Miner (w4), Gold Miner (w4)
+Buildings: Library (b17), Pub (bpu), Pub (bpu), Customs House (b8)
+Aristocrats: Builder (ta10)
+
+> Player 2 passes.
+
+Round: 7, Phase: Building, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    60 (0, 9, 10)	    39 (30, 0, 30)	          8	Worker, Aristocrat
+     2	    42 (0, 7, 0)	    31 (30, 0, 5)	          1	Building, Trading
+Deck Sizes: Worker: 7, Building: 16, Aristocrat: 6, Trading: 25
+
+Upper Card Row: Ship Builder (w7), Gold Miner (w4), Hospital (b14), Market (b5), Warehouse (bw)
+Lower Card Row: Ship Builder (w7), Controller (a14), Warehouse Manager (a10)
+
+Player 1:
+Hand: Theater (b20)
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Fur Trapper (w6), Fur Trapper (w6), Lumberjack (w3)
+Buildings: Academy (b23), Market (b5), Market (b5)
+Aristocrats: Author (a4), Author (a4), Author (a4), Author (a4), Administrator (a7), Judge (a16), Controller (a14), Minister of Foreign Affairs (ta20), Warehouse Manager (a10), Secretary (a12), Mistress of Ceremonies (a18)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Gold Miner (w4), Gold Miner (w4)
+Buildings: Library (b17), Pub (bpu), Pub (bpu), Customs House (b8)
+Aristocrats: Builder (ta10)
+
+> Player 2 buys Warehouse from the upper card row for 2 rubles.
+
+Round: 7, Phase: Building, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    60 (0, 9, 10)	    39 (30, 0, 30)	          8	Worker, Aristocrat
+     2	    42 (0, 7, 0)	    29 (30, 0, 5)	          1	Building, Trading
+Deck Sizes: Worker: 7, Building: 16, Aristocrat: 6, Trading: 25
+
+Upper Card Row: Ship Builder (w7), Gold Miner (w4), Hospital (b14), Market (b5)
+Lower Card Row: Ship Builder (w7), Controller (a14), Warehouse Manager (a10)
+
+Player 1:
+Hand: Theater (b20)
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Fur Trapper (w6), Fur Trapper (w6), Lumberjack (w3)
+Buildings: Academy (b23), Market (b5), Market (b5)
+Aristocrats: Author (a4), Author (a4), Author (a4), Author (a4), Administrator (a7), Judge (a16), Controller (a14), Minister of Foreign Affairs (ta20), Warehouse Manager (a10), Secretary (a12), Mistress of Ceremonies (a18)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Gold Miner (w4), Gold Miner (w4)
+Buildings: Library (b17), Pub (bpu), Pub (bpu), Customs House (b8), Warehouse (bw)
+Aristocrats: Builder (ta10)
+
+> Player 1 buys Theater from their hand for 20 rubles.
+
+Round: 7, Phase: Building, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    60 (0, 15, 10)	    19 (30, 0, 30)	          8	Worker, Aristocrat
+     2	    42 (0, 7, 0)	    29 (30, 0, 5)	          1	Building, Trading
+Deck Sizes: Worker: 7, Building: 16, Aristocrat: 6, Trading: 25
+
+Upper Card Row: Ship Builder (w7), Gold Miner (w4), Hospital (b14), Market (b5)
+Lower Card Row: Ship Builder (w7), Controller (a14), Warehouse Manager (a10)
+
+Player 1:
+Hand: 
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Fur Trapper (w6), Fur Trapper (w6), Lumberjack (w3)
+Buildings: Academy (b23), Market (b5), Market (b5), Theater (b20)
+Aristocrats: Author (a4), Author (a4), Author (a4), Author (a4), Administrator (a7), Judge (a16), Controller (a14), Minister of Foreign Affairs (ta20), Warehouse Manager (a10), Secretary (a12), Mistress of Ceremonies (a18)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Gold Miner (w4), Gold Miner (w4)
+Buildings: Library (b17), Pub (bpu), Pub (bpu), Customs House (b8), Warehouse (bw)
+Aristocrats: Builder (ta10)
+
+> Player 2 buys Ship Builder from the upper card row for 4 rubles.
+
+Round: 7, Phase: Building, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    60 (0, 15, 10)	    19 (30, 0, 30)	          8	Worker, Aristocrat
+     2	    42 (0, 7, 0)	    25 (33, 0, 5)	          1	Building, Trading
+Deck Sizes: Worker: 7, Building: 16, Aristocrat: 6, Trading: 25
+
+Upper Card Row: Gold Miner (w4), Hospital (b14), Market (b5)
+Lower Card Row: Ship Builder (w7), Controller (a14), Warehouse Manager (a10)
+
+Player 1:
+Hand: 
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Fur Trapper (w6), Fur Trapper (w6), Lumberjack (w3)
+Buildings: Academy (b23), Market (b5), Market (b5), Theater (b20)
+Aristocrats: Author (a4), Author (a4), Author (a4), Author (a4), Administrator (a7), Judge (a16), Controller (a14), Minister of Foreign Affairs (ta20), Warehouse Manager (a10), Secretary (a12), Mistress of Ceremonies (a18)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Gold Miner (w4), Gold Miner (w4), Ship Builder (w7)
+Buildings: Library (b17), Pub (bpu), Pub (bpu), Customs House (b8), Warehouse (bw)
+Aristocrats: Builder (ta10)
+
+> Player 1 passes.
+
+Round: 7, Phase: Building, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    60 (0, 15, 10)	    19 (30, 0, 30)	          8	Worker, Aristocrat
+     2	    42 (0, 7, 0)	    25 (33, 0, 5)	          1	Building, Trading
+Deck Sizes: Worker: 7, Building: 16, Aristocrat: 6, Trading: 25
+
+Upper Card Row: Gold Miner (w4), Hospital (b14), Market (b5)
+Lower Card Row: Ship Builder (w7), Controller (a14), Warehouse Manager (a10)
+
+Player 1:
+Hand: 
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Fur Trapper (w6), Fur Trapper (w6), Lumberjack (w3)
+Buildings: Academy (b23), Market (b5), Market (b5), Theater (b20)
+Aristocrats: Author (a4), Author (a4), Author (a4), Author (a4), Administrator (a7), Judge (a16), Controller (a14), Minister of Foreign Affairs (ta20), Warehouse Manager (a10), Secretary (a12), Mistress of Ceremonies (a18)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Gold Miner (w4), Gold Miner (w4), Ship Builder (w7)
+Buildings: Library (b17), Pub (bpu), Pub (bpu), Customs House (b8), Warehouse (bw)
+Aristocrats: Builder (ta10)
+
+> Player 2 buys Warehouse Manager from the lower card row for 9 rubles.
+
+Round: 7, Phase: Building, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    60 (0, 15, 10)	    19 (30, 0, 30)	          8	Worker, Aristocrat
+     2	    42 (0, 7, 0)	    16 (33, 0, 8)	          2	Building, Trading
+Deck Sizes: Worker: 7, Building: 16, Aristocrat: 6, Trading: 25
+
+Upper Card Row: Gold Miner (w4), Hospital (b14), Market (b5)
+Lower Card Row: Ship Builder (w7), Controller (a14)
+
+Player 1:
+Hand: 
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Fur Trapper (w6), Fur Trapper (w6), Lumberjack (w3)
+Buildings: Academy (b23), Market (b5), Market (b5), Theater (b20)
+Aristocrats: Author (a4), Author (a4), Author (a4), Author (a4), Administrator (a7), Judge (a16), Controller (a14), Minister of Foreign Affairs (ta20), Warehouse Manager (a10), Secretary (a12), Mistress of Ceremonies (a18)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Gold Miner (w4), Gold Miner (w4), Ship Builder (w7)
+Buildings: Library (b17), Pub (bpu), Pub (bpu), Customs House (b8), Warehouse (bw)
+Aristocrats: Builder (ta10), Warehouse Manager (a10)
+
+> Player 1 passes.
+
+Round: 7, Phase: Building, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    60 (0, 15, 10)	    19 (30, 0, 30)	          8	Worker, Aristocrat
+     2	    42 (0, 7, 0)	    16 (33, 0, 8)	          2	Building, Trading
+Deck Sizes: Worker: 7, Building: 16, Aristocrat: 6, Trading: 25
+
+Upper Card Row: Gold Miner (w4), Hospital (b14), Market (b5)
+Lower Card Row: Ship Builder (w7), Controller (a14)
+
+Player 1:
+Hand: 
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Fur Trapper (w6), Fur Trapper (w6), Lumberjack (w3)
+Buildings: Academy (b23), Market (b5), Market (b5), Theater (b20)
+Aristocrats: Author (a4), Author (a4), Author (a4), Author (a4), Administrator (a7), Judge (a16), Controller (a14), Minister of Foreign Affairs (ta20), Warehouse Manager (a10), Secretary (a12), Mistress of Ceremonies (a18)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Gold Miner (w4), Gold Miner (w4), Ship Builder (w7)
+Buildings: Library (b17), Pub (bpu), Pub (bpu), Customs House (b8), Warehouse (bw)
+Aristocrats: Builder (ta10), Warehouse Manager (a10)
+
+> Player 2 buys Controller from the lower card row for 13 rubles.
+
+Round: 7, Phase: Building, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    60 (0, 15, 10)	    19 (30, 0, 30)	          8	Worker, Aristocrat
+     2	    42 (0, 7, 1)	     3 (33, 0, 12)	          3	Building, Trading
+Deck Sizes: Worker: 7, Building: 16, Aristocrat: 6, Trading: 25
+
+Upper Card Row: Gold Miner (w4), Hospital (b14), Market (b5)
+Lower Card Row: Ship Builder (w7)
+
+Player 1:
+Hand: 
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Fur Trapper (w6), Fur Trapper (w6), Lumberjack (w3)
+Buildings: Academy (b23), Market (b5), Market (b5), Theater (b20)
+Aristocrats: Author (a4), Author (a4), Author (a4), Author (a4), Administrator (a7), Judge (a16), Controller (a14), Minister of Foreign Affairs (ta20), Warehouse Manager (a10), Secretary (a12), Mistress of Ceremonies (a18)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Gold Miner (w4), Gold Miner (w4), Ship Builder (w7)
+Buildings: Library (b17), Pub (bpu), Pub (bpu), Customs House (b8), Warehouse (bw)
+Aristocrats: Builder (ta10), Warehouse Manager (a10), Controller (a14)
+
+> Player 1 passes.
+
+Round: 7, Phase: Building, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    60 (0, 15, 10)	    19 (30, 0, 30)	          8	Worker, Aristocrat
+     2	    42 (0, 7, 1)	     3 (33, 0, 12)	          3	Building, Trading
+Deck Sizes: Worker: 7, Building: 16, Aristocrat: 6, Trading: 25
+
+Upper Card Row: Gold Miner (w4), Hospital (b14), Market (b5)
+Lower Card Row: Ship Builder (w7)
+
+Player 1:
+Hand: 
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Fur Trapper (w6), Fur Trapper (w6), Lumberjack (w3)
+Buildings: Academy (b23), Market (b5), Market (b5), Theater (b20)
+Aristocrats: Author (a4), Author (a4), Author (a4), Author (a4), Administrator (a7), Judge (a16), Controller (a14), Minister of Foreign Affairs (ta20), Warehouse Manager (a10), Secretary (a12), Mistress of Ceremonies (a18)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Gold Miner (w4), Gold Miner (w4), Ship Builder (w7)
+Buildings: Library (b17), Pub (bpu), Pub (bpu), Customs House (b8), Warehouse (bw)
+Aristocrats: Builder (ta10), Warehouse Manager (a10), Controller (a14)
+
+> Player 2 buys Ship Builder from the lower card row for 2 rubles.
+
+Round: 7, Phase: Building, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    60 (0, 15, 10)	    19 (30, 0, 30)	          8	Worker, Aristocrat
+     2	    42 (0, 7, 1)	     1 (36, 0, 12)	          3	Building, Trading
+Deck Sizes: Worker: 7, Building: 16, Aristocrat: 6, Trading: 25
+
+Upper Card Row: Gold Miner (w4), Hospital (b14), Market (b5)
+Lower Card Row: 
+
+Player 1:
+Hand: 
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Fur Trapper (w6), Fur Trapper (w6), Lumberjack (w3)
+Buildings: Academy (b23), Market (b5), Market (b5), Theater (b20)
+Aristocrats: Author (a4), Author (a4), Author (a4), Author (a4), Administrator (a7), Judge (a16), Controller (a14), Minister of Foreign Affairs (ta20), Warehouse Manager (a10), Secretary (a12), Mistress of Ceremonies (a18)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Gold Miner (w4), Gold Miner (w4), Ship Builder (w7), Ship Builder (w7)
+Buildings: Library (b17), Pub (bpu), Pub (bpu), Customs House (b8), Warehouse (bw)
+Aristocrats: Builder (ta10), Warehouse Manager (a10), Controller (a14)
+
+> Player 1 passes.
+
+Round: 7, Phase: Building, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    60 (0, 15, 10)	    19 (30, 0, 30)	          8	Worker, Aristocrat
+     2	    42 (0, 7, 1)	     1 (36, 0, 12)	          3	Building, Trading
+Deck Sizes: Worker: 7, Building: 16, Aristocrat: 6, Trading: 25
+
+Upper Card Row: Gold Miner (w4), Hospital (b14), Market (b5)
+Lower Card Row: 
+
+Player 1:
+Hand: 
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Fur Trapper (w6), Fur Trapper (w6), Lumberjack (w3)
+Buildings: Academy (b23), Market (b5), Market (b5), Theater (b20)
+Aristocrats: Author (a4), Author (a4), Author (a4), Author (a4), Administrator (a7), Judge (a16), Controller (a14), Minister of Foreign Affairs (ta20), Warehouse Manager (a10), Secretary (a12), Mistress of Ceremonies (a18)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Gold Miner (w4), Gold Miner (w4), Ship Builder (w7), Ship Builder (w7)
+Buildings: Library (b17), Pub (bpu), Pub (bpu), Customs House (b8), Warehouse (bw)
+Aristocrats: Builder (ta10), Warehouse Manager (a10), Controller (a14)
+
+> Player 2 passes.
+
+Round: 7, Phase: Pub, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    75 (0, 15, 10)	    19 (30, 0, 30)	          8	Worker, Aristocrat
+     2	    49 (0, 7, 1)	     1 (36, 0, 12)	          3	Building, Trading
+Deck Sizes: Worker: 7, Building: 16, Aristocrat: 6, Trading: 25
+
+Upper Card Row: Gold Miner (w4), Hospital (b14), Market (b5)
+Lower Card Row: 
+
+Player 1:
+Hand: 
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Fur Trapper (w6), Fur Trapper (w6), Lumberjack (w3)
+Buildings: Academy (b23), Market (b5), Market (b5), Theater (b20)
+Aristocrats: Author (a4), Author (a4), Author (a4), Author (a4), Administrator (a7), Judge (a16), Controller (a14), Minister of Foreign Affairs (ta20), Warehouse Manager (a10), Secretary (a12), Mistress of Ceremonies (a18)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Gold Miner (w4), Gold Miner (w4), Ship Builder (w7), Ship Builder (w7)
+Buildings: Library (b17), Pub (bpu), Pub (bpu), Customs House (b8), Warehouse (bw)
+Aristocrats: Builder (ta10), Warehouse Manager (a10), Controller (a14)
+
+> Player 2 opts not to use the pub.
+
+Round: 7, Phase: Aristocrat, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    75 (0, 15, 10)	    19 (30, 0, 30)	          8	Worker, Aristocrat
+     2	    49 (0, 7, 1)	     1 (36, 0, 12)	          3	Building, Trading
+Deck Sizes: Worker: 7, Building: 16, Aristocrat: 1, Trading: 25
+
+Upper Card Row: Gold Miner (w4), Hospital (b14), Market (b5), Warehouse Manager (a10), Author (a4), Administrator (a7), Warehouse Manager (a10), Administrator (a7)
+Lower Card Row: 
+
+Player 1:
+Hand: 
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Fur Trapper (w6), Fur Trapper (w6), Lumberjack (w3)
+Buildings: Academy (b23), Market (b5), Market (b5), Theater (b20)
+Aristocrats: Author (a4), Author (a4), Author (a4), Author (a4), Administrator (a7), Judge (a16), Controller (a14), Minister of Foreign Affairs (ta20), Warehouse Manager (a10), Secretary (a12), Mistress of Ceremonies (a18)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Gold Miner (w4), Gold Miner (w4), Ship Builder (w7), Ship Builder (w7)
+Buildings: Library (b17), Pub (bpu), Pub (bpu), Customs House (b8), Warehouse (bw)
+Aristocrats: Builder (ta10), Warehouse Manager (a10), Controller (a14)
+
+> Player 1 passes.
+
+Round: 7, Phase: Aristocrat, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    75 (0, 15, 10)	    19 (30, 0, 30)	          8	Worker, Aristocrat
+     2	    49 (0, 7, 1)	     1 (36, 0, 12)	          3	Building, Trading
+Deck Sizes: Worker: 7, Building: 16, Aristocrat: 1, Trading: 25
+
+Upper Card Row: Gold Miner (w4), Hospital (b14), Market (b5), Warehouse Manager (a10), Author (a4), Administrator (a7), Warehouse Manager (a10), Administrator (a7)
+Lower Card Row: 
+
+Player 1:
+Hand: 
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Fur Trapper (w6), Fur Trapper (w6), Lumberjack (w3)
+Buildings: Academy (b23), Market (b5), Market (b5), Theater (b20)
+Aristocrats: Author (a4), Author (a4), Author (a4), Author (a4), Administrator (a7), Judge (a16), Controller (a14), Minister of Foreign Affairs (ta20), Warehouse Manager (a10), Secretary (a12), Mistress of Ceremonies (a18)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Gold Miner (w4), Gold Miner (w4), Ship Builder (w7), Ship Builder (w7)
+Buildings: Library (b17), Pub (bpu), Pub (bpu), Customs House (b8), Warehouse (bw)
+Aristocrats: Builder (ta10), Warehouse Manager (a10), Controller (a14)
+
+> Player 2 passes.
+
+Round: 7, Phase: Trading, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    85 (0, 15, 10)	    49 (30, 0, 30)	          8	Worker, Aristocrat
+     2	    50 (0, 7, 1)	    13 (36, 0, 12)	          3	Building, Trading
+Deck Sizes: Worker: 7, Building: 16, Aristocrat: 1, Trading: 25
+
+Upper Card Row: Gold Miner (w4), Hospital (b14), Market (b5), Warehouse Manager (a10), Author (a4), Administrator (a7), Warehouse Manager (a10), Administrator (a7)
+Lower Card Row: 
+
+Player 1:
+Hand: 
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Fur Trapper (w6), Fur Trapper (w6), Lumberjack (w3)
+Buildings: Academy (b23), Market (b5), Market (b5), Theater (b20)
+Aristocrats: Author (a4), Author (a4), Author (a4), Author (a4), Administrator (a7), Judge (a16), Controller (a14), Minister of Foreign Affairs (ta20), Warehouse Manager (a10), Secretary (a12), Mistress of Ceremonies (a18)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Gold Miner (w4), Gold Miner (w4), Ship Builder (w7), Ship Builder (w7)
+Buildings: Library (b17), Pub (bpu), Pub (bpu), Customs House (b8), Warehouse (bw)
+Aristocrats: Builder (ta10), Warehouse Manager (a10), Controller (a14)
+
+> Player 2 passes.
+
+Round: 7, Phase: Trading, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    85 (0, 15, 10)	    49 (30, 0, 30)	          8	Worker, Aristocrat
+     2	    50 (0, 7, 1)	    13 (36, 0, 12)	          3	Building, Trading
+Deck Sizes: Worker: 7, Building: 16, Aristocrat: 1, Trading: 25
+
+Upper Card Row: Gold Miner (w4), Hospital (b14), Market (b5), Warehouse Manager (a10), Author (a4), Administrator (a7), Warehouse Manager (a10), Administrator (a7)
+Lower Card Row: 
+
+Player 1:
+Hand: 
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Fur Trapper (w6), Fur Trapper (w6), Lumberjack (w3)
+Buildings: Academy (b23), Market (b5), Market (b5), Theater (b20)
+Aristocrats: Author (a4), Author (a4), Author (a4), Author (a4), Administrator (a7), Judge (a16), Controller (a14), Minister of Foreign Affairs (ta20), Warehouse Manager (a10), Secretary (a12), Mistress of Ceremonies (a18)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Gold Miner (w4), Gold Miner (w4), Ship Builder (w7), Ship Builder (w7)
+Buildings: Library (b17), Pub (bpu), Pub (bpu), Customs House (b8), Warehouse (bw)
+Aristocrats: Builder (ta10), Warehouse Manager (a10), Controller (a14)
+
+> Player 1 buys Author from the upper card row for 1 ruble.
+
+Round: 7, Phase: Trading, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    85 (0, 15, 10)	    48 (30, 0, 31)	          8	Worker, Aristocrat
+     2	    50 (0, 7, 1)	    13 (36, 0, 12)	          3	Building, Trading
+Deck Sizes: Worker: 7, Building: 16, Aristocrat: 1, Trading: 25
+
+Upper Card Row: Gold Miner (w4), Hospital (b14), Market (b5), Warehouse Manager (a10), Administrator (a7), Warehouse Manager (a10), Administrator (a7)
+Lower Card Row: 
+
+Player 1:
+Hand: 
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Fur Trapper (w6), Fur Trapper (w6), Lumberjack (w3)
+Buildings: Academy (b23), Market (b5), Market (b5), Theater (b20)
+Aristocrats: Author (a4), Author (a4), Author (a4), Author (a4), Administrator (a7), Judge (a16), Controller (a14), Minister of Foreign Affairs (ta20), Warehouse Manager (a10), Secretary (a12), Mistress of Ceremonies (a18), Author (a4)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Gold Miner (w4), Gold Miner (w4), Ship Builder (w7), Ship Builder (w7)
+Buildings: Library (b17), Pub (bpu), Pub (bpu), Customs House (b8), Warehouse (bw)
+Aristocrats: Builder (ta10), Warehouse Manager (a10), Controller (a14)
+
+> Player 2 buys Administrator from the upper card row for 7 rubles.
+
+Round: 7, Phase: Trading, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    85 (0, 15, 10)	    48 (30, 0, 31)	          8	Worker, Aristocrat
+     2	    50 (0, 7, 1)	     6 (36, 0, 14)	          4	Building, Trading
+Deck Sizes: Worker: 7, Building: 16, Aristocrat: 1, Trading: 25
+
+Upper Card Row: Gold Miner (w4), Hospital (b14), Market (b5), Warehouse Manager (a10), Warehouse Manager (a10), Administrator (a7)
+Lower Card Row: 
+
+Player 1:
+Hand: 
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Fur Trapper (w6), Fur Trapper (w6), Lumberjack (w3)
+Buildings: Academy (b23), Market (b5), Market (b5), Theater (b20)
+Aristocrats: Author (a4), Author (a4), Author (a4), Author (a4), Administrator (a7), Judge (a16), Controller (a14), Minister of Foreign Affairs (ta20), Warehouse Manager (a10), Secretary (a12), Mistress of Ceremonies (a18), Author (a4)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Gold Miner (w4), Gold Miner (w4), Ship Builder (w7), Ship Builder (w7)
+Buildings: Library (b17), Pub (bpu), Pub (bpu), Customs House (b8), Warehouse (bw)
+Aristocrats: Builder (ta10), Warehouse Manager (a10), Controller (a14), Administrator (a7)
+
+> Player 1 passes.
+
+Round: 7, Phase: Trading, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    85 (0, 15, 10)	    48 (30, 0, 31)	          8	Worker, Aristocrat
+     2	    50 (0, 7, 1)	     6 (36, 0, 14)	          4	Building, Trading
+Deck Sizes: Worker: 7, Building: 16, Aristocrat: 1, Trading: 25
+
+Upper Card Row: Gold Miner (w4), Hospital (b14), Market (b5), Warehouse Manager (a10), Warehouse Manager (a10), Administrator (a7)
+Lower Card Row: 
+
+Player 1:
+Hand: 
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Fur Trapper (w6), Fur Trapper (w6), Lumberjack (w3)
+Buildings: Academy (b23), Market (b5), Market (b5), Theater (b20)
+Aristocrats: Author (a4), Author (a4), Author (a4), Author (a4), Administrator (a7), Judge (a16), Controller (a14), Minister of Foreign Affairs (ta20), Warehouse Manager (a10), Secretary (a12), Mistress of Ceremonies (a18), Author (a4)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Gold Miner (w4), Gold Miner (w4), Ship Builder (w7), Ship Builder (w7)
+Buildings: Library (b17), Pub (bpu), Pub (bpu), Customs House (b8), Warehouse (bw)
+Aristocrats: Builder (ta10), Warehouse Manager (a10), Controller (a14), Administrator (a7)
+
+> Player 2 buys Administrator from the upper card row for 6 rubles.
+
+Round: 7, Phase: Trading, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    85 (0, 15, 10)	    48 (30, 0, 31)	          8	Worker, Aristocrat
+     2	    50 (0, 7, 1)	     0 (36, 0, 16)	          4	Building, Trading
+Deck Sizes: Worker: 7, Building: 16, Aristocrat: 1, Trading: 25
+
+Upper Card Row: Gold Miner (w4), Hospital (b14), Market (b5), Warehouse Manager (a10), Warehouse Manager (a10)
+Lower Card Row: 
+
+Player 1:
+Hand: 
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Fur Trapper (w6), Fur Trapper (w6), Lumberjack (w3)
+Buildings: Academy (b23), Market (b5), Market (b5), Theater (b20)
+Aristocrats: Author (a4), Author (a4), Author (a4), Author (a4), Administrator (a7), Judge (a16), Controller (a14), Minister of Foreign Affairs (ta20), Warehouse Manager (a10), Secretary (a12), Mistress of Ceremonies (a18), Author (a4)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Gold Miner (w4), Gold Miner (w4), Ship Builder (w7), Ship Builder (w7)
+Buildings: Library (b17), Pub (bpu), Pub (bpu), Customs House (b8), Warehouse (bw)
+Aristocrats: Builder (ta10), Warehouse Manager (a10), Controller (a14), Administrator (a7), Administrator (a7)
+
+> Player 1 passes.
+
+Round: 7, Phase: Trading, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    85 (0, 15, 10)	    48 (30, 0, 31)	          8	Worker, Aristocrat
+     2	    50 (0, 7, 1)	     0 (36, 0, 16)	          4	Building, Trading
+Deck Sizes: Worker: 7, Building: 16, Aristocrat: 1, Trading: 25
+
+Upper Card Row: Gold Miner (w4), Hospital (b14), Market (b5), Warehouse Manager (a10), Warehouse Manager (a10)
+Lower Card Row: 
+
+Player 1:
+Hand: 
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Fur Trapper (w6), Fur Trapper (w6), Lumberjack (w3)
+Buildings: Academy (b23), Market (b5), Market (b5), Theater (b20)
+Aristocrats: Author (a4), Author (a4), Author (a4), Author (a4), Administrator (a7), Judge (a16), Controller (a14), Minister of Foreign Affairs (ta20), Warehouse Manager (a10), Secretary (a12), Mistress of Ceremonies (a18), Author (a4)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Gold Miner (w4), Gold Miner (w4), Ship Builder (w7), Ship Builder (w7)
+Buildings: Library (b17), Pub (bpu), Pub (bpu), Customs House (b8), Warehouse (bw)
+Aristocrats: Builder (ta10), Warehouse Manager (a10), Controller (a14), Administrator (a7), Administrator (a7)
+
+> Player 2 passes.
+
+Round: 8, Phase: Worker, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    85 (0, 15, 10)	    48 (30, 0, 31)	          8	Building, Trading
+     2	    50 (0, 7, 1)	     0 (36, 0, 16)	          4	Worker, Aristocrat
+Deck Sizes: Worker: 4, Building: 16, Aristocrat: 1, Trading: 25
+
+Upper Card Row: Fur Trapper (w6), Shepherd (w5), Gold Miner (w4)
+Lower Card Row: Gold Miner (w4), Hospital (b14), Market (b5), Warehouse Manager (a10), Warehouse Manager (a10)
+
+Player 1:
+Hand: 
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Fur Trapper (w6), Fur Trapper (w6), Lumberjack (w3)
+Buildings: Academy (b23), Market (b5), Market (b5), Theater (b20)
+Aristocrats: Author (a4), Author (a4), Author (a4), Author (a4), Administrator (a7), Judge (a16), Controller (a14), Minister of Foreign Affairs (ta20), Warehouse Manager (a10), Secretary (a12), Mistress of Ceremonies (a18), Author (a4)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Gold Miner (w4), Gold Miner (w4), Ship Builder (w7), Ship Builder (w7)
+Buildings: Library (b17), Pub (bpu), Pub (bpu), Customs House (b8), Warehouse (bw)
+Aristocrats: Builder (ta10), Warehouse Manager (a10), Controller (a14), Administrator (a7), Administrator (a7)
+
+> Player 2 passes.
+
+Round: 8, Phase: Worker, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    85 (0, 15, 10)	    48 (30, 0, 31)	          8	Building, Trading
+     2	    50 (0, 7, 1)	     0 (36, 0, 16)	          4	Worker, Aristocrat
+Deck Sizes: Worker: 4, Building: 16, Aristocrat: 1, Trading: 25
+
+Upper Card Row: Fur Trapper (w6), Shepherd (w5), Gold Miner (w4)
+Lower Card Row: Gold Miner (w4), Hospital (b14), Market (b5), Warehouse Manager (a10), Warehouse Manager (a10)
+
+Player 1:
+Hand: 
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Fur Trapper (w6), Fur Trapper (w6), Lumberjack (w3)
+Buildings: Academy (b23), Market (b5), Market (b5), Theater (b20)
+Aristocrats: Author (a4), Author (a4), Author (a4), Author (a4), Administrator (a7), Judge (a16), Controller (a14), Minister of Foreign Affairs (ta20), Warehouse Manager (a10), Secretary (a12), Mistress of Ceremonies (a18), Author (a4)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Gold Miner (w4), Gold Miner (w4), Ship Builder (w7), Ship Builder (w7)
+Buildings: Library (b17), Pub (bpu), Pub (bpu), Customs House (b8), Warehouse (bw)
+Aristocrats: Builder (ta10), Warehouse Manager (a10), Controller (a14), Administrator (a7), Administrator (a7)
+
+> Player 1 passes.
+
+Round: 8, Phase: Building, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    85 (0, 15, 10)	    78 (30, 0, 31)	          8	Building, Trading
+     2	    50 (0, 7, 1)	    36 (36, 0, 16)	          4	Worker, Aristocrat
+Deck Sizes: Worker: 4, Building: 16, Aristocrat: 1, Trading: 25
+
+Upper Card Row: Fur Trapper (w6), Shepherd (w5), Gold Miner (w4)
+Lower Card Row: Gold Miner (w4), Hospital (b14), Market (b5), Warehouse Manager (a10), Warehouse Manager (a10)
+
+Player 1:
+Hand: 
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Fur Trapper (w6), Fur Trapper (w6), Lumberjack (w3)
+Buildings: Academy (b23), Market (b5), Market (b5), Theater (b20)
+Aristocrats: Author (a4), Author (a4), Author (a4), Author (a4), Administrator (a7), Judge (a16), Controller (a14), Minister of Foreign Affairs (ta20), Warehouse Manager (a10), Secretary (a12), Mistress of Ceremonies (a18), Author (a4)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Gold Miner (w4), Gold Miner (w4), Ship Builder (w7), Ship Builder (w7)
+Buildings: Library (b17), Pub (bpu), Pub (bpu), Customs House (b8), Warehouse (bw)
+Aristocrats: Builder (ta10), Warehouse Manager (a10), Controller (a14), Administrator (a7), Administrator (a7)
+
+> Player 1 passes.
+
+Round: 8, Phase: Building, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    85 (0, 15, 10)	    78 (30, 0, 31)	          8	Building, Trading
+     2	    50 (0, 7, 1)	    36 (36, 0, 16)	          4	Worker, Aristocrat
+Deck Sizes: Worker: 4, Building: 16, Aristocrat: 1, Trading: 25
+
+Upper Card Row: Fur Trapper (w6), Shepherd (w5), Gold Miner (w4)
+Lower Card Row: Gold Miner (w4), Hospital (b14), Market (b5), Warehouse Manager (a10), Warehouse Manager (a10)
+
+Player 1:
+Hand: 
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Fur Trapper (w6), Fur Trapper (w6), Lumberjack (w3)
+Buildings: Academy (b23), Market (b5), Market (b5), Theater (b20)
+Aristocrats: Author (a4), Author (a4), Author (a4), Author (a4), Administrator (a7), Judge (a16), Controller (a14), Minister of Foreign Affairs (ta20), Warehouse Manager (a10), Secretary (a12), Mistress of Ceremonies (a18), Author (a4)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Gold Miner (w4), Gold Miner (w4), Ship Builder (w7), Ship Builder (w7)
+Buildings: Library (b17), Pub (bpu), Pub (bpu), Customs House (b8), Warehouse (bw)
+Aristocrats: Builder (ta10), Warehouse Manager (a10), Controller (a14), Administrator (a7), Administrator (a7)
+
+> Player 2 buys Warehouse Manager from the lower card row for 8 rubles.
+
+Round: 8, Phase: Building, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    85 (0, 15, 10)	    78 (30, 0, 31)	          8	Building, Trading
+     2	    50 (0, 7, 1)	    28 (36, 0, 19)	          4	Worker, Aristocrat
+Deck Sizes: Worker: 4, Building: 16, Aristocrat: 1, Trading: 25
+
+Upper Card Row: Fur Trapper (w6), Shepherd (w5), Gold Miner (w4)
+Lower Card Row: Gold Miner (w4), Hospital (b14), Market (b5), Warehouse Manager (a10)
+
+Player 1:
+Hand: 
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Fur Trapper (w6), Fur Trapper (w6), Lumberjack (w3)
+Buildings: Academy (b23), Market (b5), Market (b5), Theater (b20)
+Aristocrats: Author (a4), Author (a4), Author (a4), Author (a4), Administrator (a7), Judge (a16), Controller (a14), Minister of Foreign Affairs (ta20), Warehouse Manager (a10), Secretary (a12), Mistress of Ceremonies (a18), Author (a4)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Gold Miner (w4), Gold Miner (w4), Ship Builder (w7), Ship Builder (w7)
+Buildings: Library (b17), Pub (bpu), Pub (bpu), Customs House (b8), Warehouse (bw)
+Aristocrats: Builder (ta10), Warehouse Manager (a10), Controller (a14), Administrator (a7), Administrator (a7), Warehouse Manager (a10)
+
+> Player 1 passes.
+
+Round: 8, Phase: Building, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    85 (0, 15, 10)	    78 (30, 0, 31)	          8	Building, Trading
+     2	    50 (0, 7, 1)	    28 (36, 0, 19)	          4	Worker, Aristocrat
+Deck Sizes: Worker: 4, Building: 16, Aristocrat: 1, Trading: 25
+
+Upper Card Row: Fur Trapper (w6), Shepherd (w5), Gold Miner (w4)
+Lower Card Row: Gold Miner (w4), Hospital (b14), Market (b5), Warehouse Manager (a10)
+
+Player 1:
+Hand: 
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Fur Trapper (w6), Fur Trapper (w6), Lumberjack (w3)
+Buildings: Academy (b23), Market (b5), Market (b5), Theater (b20)
+Aristocrats: Author (a4), Author (a4), Author (a4), Author (a4), Administrator (a7), Judge (a16), Controller (a14), Minister of Foreign Affairs (ta20), Warehouse Manager (a10), Secretary (a12), Mistress of Ceremonies (a18), Author (a4)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Gold Miner (w4), Gold Miner (w4), Ship Builder (w7), Ship Builder (w7)
+Buildings: Library (b17), Pub (bpu), Pub (bpu), Customs House (b8), Warehouse (bw)
+Aristocrats: Builder (ta10), Warehouse Manager (a10), Controller (a14), Administrator (a7), Administrator (a7), Warehouse Manager (a10)
+
+> Player 2 buys Hospital from the lower card row for 13 rubles.
+
+Round: 8, Phase: Building, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    85 (0, 15, 10)	    78 (30, 0, 31)	          8	Building, Trading
+     2	    50 (0, 11, 1)	    15 (36, 0, 19)	          4	Worker, Aristocrat
+Deck Sizes: Worker: 4, Building: 16, Aristocrat: 1, Trading: 25
+
+Upper Card Row: Fur Trapper (w6), Shepherd (w5), Gold Miner (w4)
+Lower Card Row: Gold Miner (w4), Market (b5), Warehouse Manager (a10)
+
+Player 1:
+Hand: 
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Fur Trapper (w6), Fur Trapper (w6), Lumberjack (w3)
+Buildings: Academy (b23), Market (b5), Market (b5), Theater (b20)
+Aristocrats: Author (a4), Author (a4), Author (a4), Author (a4), Administrator (a7), Judge (a16), Controller (a14), Minister of Foreign Affairs (ta20), Warehouse Manager (a10), Secretary (a12), Mistress of Ceremonies (a18), Author (a4)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Gold Miner (w4), Gold Miner (w4), Ship Builder (w7), Ship Builder (w7)
+Buildings: Library (b17), Pub (bpu), Pub (bpu), Customs House (b8), Warehouse (bw), Hospital (b14)
+Aristocrats: Builder (ta10), Warehouse Manager (a10), Controller (a14), Administrator (a7), Administrator (a7), Warehouse Manager (a10)
+
+> Player 1 passes.
+
+Round: 8, Phase: Building, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    85 (0, 15, 10)	    78 (30, 0, 31)	          8	Building, Trading
+     2	    50 (0, 11, 1)	    15 (36, 0, 19)	          4	Worker, Aristocrat
+Deck Sizes: Worker: 4, Building: 16, Aristocrat: 1, Trading: 25
+
+Upper Card Row: Fur Trapper (w6), Shepherd (w5), Gold Miner (w4)
+Lower Card Row: Gold Miner (w4), Market (b5), Warehouse Manager (a10)
+
+Player 1:
+Hand: 
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Fur Trapper (w6), Fur Trapper (w6), Lumberjack (w3)
+Buildings: Academy (b23), Market (b5), Market (b5), Theater (b20)
+Aristocrats: Author (a4), Author (a4), Author (a4), Author (a4), Administrator (a7), Judge (a16), Controller (a14), Minister of Foreign Affairs (ta20), Warehouse Manager (a10), Secretary (a12), Mistress of Ceremonies (a18), Author (a4)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Gold Miner (w4), Gold Miner (w4), Ship Builder (w7), Ship Builder (w7)
+Buildings: Library (b17), Pub (bpu), Pub (bpu), Customs House (b8), Warehouse (bw), Hospital (b14)
+Aristocrats: Builder (ta10), Warehouse Manager (a10), Controller (a14), Administrator (a7), Administrator (a7), Warehouse Manager (a10)
+
+> Player 2 buys Warehouse Manager from the lower card row for 7 rubles.
+
+Round: 8, Phase: Building, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    85 (0, 15, 10)	    78 (30, 0, 31)	          8	Building, Trading
+     2	    50 (0, 11, 1)	     8 (36, 0, 22)	          4	Worker, Aristocrat
+Deck Sizes: Worker: 4, Building: 16, Aristocrat: 1, Trading: 25
+
+Upper Card Row: Fur Trapper (w6), Shepherd (w5), Gold Miner (w4)
+Lower Card Row: Gold Miner (w4), Market (b5)
+
+Player 1:
+Hand: 
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Fur Trapper (w6), Fur Trapper (w6), Lumberjack (w3)
+Buildings: Academy (b23), Market (b5), Market (b5), Theater (b20)
+Aristocrats: Author (a4), Author (a4), Author (a4), Author (a4), Administrator (a7), Judge (a16), Controller (a14), Minister of Foreign Affairs (ta20), Warehouse Manager (a10), Secretary (a12), Mistress of Ceremonies (a18), Author (a4)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Gold Miner (w4), Gold Miner (w4), Ship Builder (w7), Ship Builder (w7)
+Buildings: Library (b17), Pub (bpu), Pub (bpu), Customs House (b8), Warehouse (bw), Hospital (b14)
+Aristocrats: Builder (ta10), Warehouse Manager (a10), Controller (a14), Administrator (a7), Administrator (a7), Warehouse Manager (a10), Warehouse Manager (a10)
+
+> Player 1 passes.
+
+Round: 8, Phase: Building, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    85 (0, 15, 10)	    78 (30, 0, 31)	          8	Building, Trading
+     2	    50 (0, 11, 1)	     8 (36, 0, 22)	          4	Worker, Aristocrat
+Deck Sizes: Worker: 4, Building: 16, Aristocrat: 1, Trading: 25
+
+Upper Card Row: Fur Trapper (w6), Shepherd (w5), Gold Miner (w4)
+Lower Card Row: Gold Miner (w4), Market (b5)
+
+Player 1:
+Hand: 
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Fur Trapper (w6), Fur Trapper (w6), Lumberjack (w3)
+Buildings: Academy (b23), Market (b5), Market (b5), Theater (b20)
+Aristocrats: Author (a4), Author (a4), Author (a4), Author (a4), Administrator (a7), Judge (a16), Controller (a14), Minister of Foreign Affairs (ta20), Warehouse Manager (a10), Secretary (a12), Mistress of Ceremonies (a18), Author (a4)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Gold Miner (w4), Gold Miner (w4), Ship Builder (w7), Ship Builder (w7)
+Buildings: Library (b17), Pub (bpu), Pub (bpu), Customs House (b8), Warehouse (bw), Hospital (b14)
+Aristocrats: Builder (ta10), Warehouse Manager (a10), Controller (a14), Administrator (a7), Administrator (a7), Warehouse Manager (a10), Warehouse Manager (a10)
+
+> Player 2 buys Gold Miner from the upper card row for 2 rubles.
+
+Round: 8, Phase: Building, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    85 (0, 15, 10)	    78 (30, 0, 31)	          8	Building, Trading
+     2	    50 (0, 11, 1)	     6 (39, 0, 22)	          4	Worker, Aristocrat
+Deck Sizes: Worker: 4, Building: 16, Aristocrat: 1, Trading: 25
+
+Upper Card Row: Fur Trapper (w6), Shepherd (w5)
+Lower Card Row: Gold Miner (w4), Market (b5)
+
+Player 1:
+Hand: 
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Fur Trapper (w6), Fur Trapper (w6), Lumberjack (w3)
+Buildings: Academy (b23), Market (b5), Market (b5), Theater (b20)
+Aristocrats: Author (a4), Author (a4), Author (a4), Author (a4), Administrator (a7), Judge (a16), Controller (a14), Minister of Foreign Affairs (ta20), Warehouse Manager (a10), Secretary (a12), Mistress of Ceremonies (a18), Author (a4)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Gold Miner (w4), Gold Miner (w4), Ship Builder (w7), Ship Builder (w7), Gold Miner (w4)
+Buildings: Library (b17), Pub (bpu), Pub (bpu), Customs House (b8), Warehouse (bw), Hospital (b14)
+Aristocrats: Builder (ta10), Warehouse Manager (a10), Controller (a14), Administrator (a7), Administrator (a7), Warehouse Manager (a10), Warehouse Manager (a10)
+
+> Player 1 buys Market from the lower card row for 2 rubles.
+
+Round: 8, Phase: Building, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    85 (0, 16, 10)	    76 (30, 0, 31)	          8	Building, Trading
+     2	    50 (0, 11, 1)	     6 (39, 0, 22)	          4	Worker, Aristocrat
+Deck Sizes: Worker: 4, Building: 16, Aristocrat: 1, Trading: 25
+
+Upper Card Row: Fur Trapper (w6), Shepherd (w5)
+Lower Card Row: Gold Miner (w4)
+
+Player 1:
+Hand: 
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Fur Trapper (w6), Fur Trapper (w6), Lumberjack (w3)
+Buildings: Academy (b23), Market (b5), Market (b5), Theater (b20), Market (b5)
+Aristocrats: Author (a4), Author (a4), Author (a4), Author (a4), Administrator (a7), Judge (a16), Controller (a14), Minister of Foreign Affairs (ta20), Warehouse Manager (a10), Secretary (a12), Mistress of Ceremonies (a18), Author (a4)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Gold Miner (w4), Gold Miner (w4), Ship Builder (w7), Ship Builder (w7), Gold Miner (w4)
+Buildings: Library (b17), Pub (bpu), Pub (bpu), Customs House (b8), Warehouse (bw), Hospital (b14)
+Aristocrats: Builder (ta10), Warehouse Manager (a10), Controller (a14), Administrator (a7), Administrator (a7), Warehouse Manager (a10), Warehouse Manager (a10)
+
+> Player 2 buys Shepherd from the upper card row for 2 rubles.
+
+Round: 8, Phase: Building, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    85 (0, 16, 10)	    76 (30, 0, 31)	          8	Building, Trading
+     2	    50 (0, 11, 1)	     4 (42, 0, 22)	          4	Worker, Aristocrat
+Deck Sizes: Worker: 4, Building: 16, Aristocrat: 1, Trading: 25
+
+Upper Card Row: Fur Trapper (w6)
+Lower Card Row: Gold Miner (w4)
+
+Player 1:
+Hand: 
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Fur Trapper (w6), Fur Trapper (w6), Lumberjack (w3)
+Buildings: Academy (b23), Market (b5), Market (b5), Theater (b20), Market (b5)
+Aristocrats: Author (a4), Author (a4), Author (a4), Author (a4), Administrator (a7), Judge (a16), Controller (a14), Minister of Foreign Affairs (ta20), Warehouse Manager (a10), Secretary (a12), Mistress of Ceremonies (a18), Author (a4)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Gold Miner (w4), Gold Miner (w4), Ship Builder (w7), Ship Builder (w7), Gold Miner (w4), Shepherd (w5)
+Buildings: Library (b17), Pub (bpu), Pub (bpu), Customs House (b8), Warehouse (bw), Hospital (b14)
+Aristocrats: Builder (ta10), Warehouse Manager (a10), Controller (a14), Administrator (a7), Administrator (a7), Warehouse Manager (a10), Warehouse Manager (a10)
+
+> Player 1 buys Gold Miner from the lower card row for 3 rubles.
+
+Round: 8, Phase: Building, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    85 (0, 16, 10)	    73 (33, 0, 31)	          8	Building, Trading
+     2	    50 (0, 11, 1)	     4 (42, 0, 22)	          4	Worker, Aristocrat
+Deck Sizes: Worker: 4, Building: 16, Aristocrat: 1, Trading: 25
+
+Upper Card Row: Fur Trapper (w6)
+Lower Card Row: 
+
+Player 1:
+Hand: 
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Fur Trapper (w6), Fur Trapper (w6), Lumberjack (w3), Gold Miner (w4)
+Buildings: Academy (b23), Market (b5), Market (b5), Theater (b20), Market (b5)
+Aristocrats: Author (a4), Author (a4), Author (a4), Author (a4), Administrator (a7), Judge (a16), Controller (a14), Minister of Foreign Affairs (ta20), Warehouse Manager (a10), Secretary (a12), Mistress of Ceremonies (a18), Author (a4)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Gold Miner (w4), Gold Miner (w4), Ship Builder (w7), Ship Builder (w7), Gold Miner (w4), Shepherd (w5)
+Buildings: Library (b17), Pub (bpu), Pub (bpu), Customs House (b8), Warehouse (bw), Hospital (b14)
+Aristocrats: Builder (ta10), Warehouse Manager (a10), Controller (a14), Administrator (a7), Administrator (a7), Warehouse Manager (a10), Warehouse Manager (a10)
+
+> Player 2 passes.
+
+Round: 8, Phase: Building, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    85 (0, 16, 10)	    73 (33, 0, 31)	          8	Building, Trading
+     2	    50 (0, 11, 1)	     4 (42, 0, 22)	          4	Worker, Aristocrat
+Deck Sizes: Worker: 4, Building: 16, Aristocrat: 1, Trading: 25
+
+Upper Card Row: Fur Trapper (w6)
+Lower Card Row: 
+
+Player 1:
+Hand: 
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Fur Trapper (w6), Fur Trapper (w6), Lumberjack (w3), Gold Miner (w4)
+Buildings: Academy (b23), Market (b5), Market (b5), Theater (b20), Market (b5)
+Aristocrats: Author (a4), Author (a4), Author (a4), Author (a4), Administrator (a7), Judge (a16), Controller (a14), Minister of Foreign Affairs (ta20), Warehouse Manager (a10), Secretary (a12), Mistress of Ceremonies (a18), Author (a4)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Gold Miner (w4), Gold Miner (w4), Ship Builder (w7), Ship Builder (w7), Gold Miner (w4), Shepherd (w5)
+Buildings: Library (b17), Pub (bpu), Pub (bpu), Customs House (b8), Warehouse (bw), Hospital (b14)
+Aristocrats: Builder (ta10), Warehouse Manager (a10), Controller (a14), Administrator (a7), Administrator (a7), Warehouse Manager (a10), Warehouse Manager (a10)
+
+> Player 1 passes.
+
+Round: 8, Phase: Pub, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	   101 (0, 16, 10)	    73 (33, 0, 31)	          8	Building, Trading
+     2	    61 (0, 11, 1)	     4 (42, 0, 22)	          4	Worker, Aristocrat
+Deck Sizes: Worker: 4, Building: 16, Aristocrat: 1, Trading: 25
+
+Upper Card Row: Fur Trapper (w6)
+Lower Card Row: 
+
+Player 1:
+Hand: 
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Fur Trapper (w6), Fur Trapper (w6), Lumberjack (w3), Gold Miner (w4)
+Buildings: Academy (b23), Market (b5), Market (b5), Theater (b20), Market (b5)
+Aristocrats: Author (a4), Author (a4), Author (a4), Author (a4), Administrator (a7), Judge (a16), Controller (a14), Minister of Foreign Affairs (ta20), Warehouse Manager (a10), Secretary (a12), Mistress of Ceremonies (a18), Author (a4)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Gold Miner (w4), Gold Miner (w4), Ship Builder (w7), Ship Builder (w7), Gold Miner (w4), Shepherd (w5)
+Buildings: Library (b17), Pub (bpu), Pub (bpu), Customs House (b8), Warehouse (bw), Hospital (b14)
+Aristocrats: Builder (ta10), Warehouse Manager (a10), Controller (a14), Administrator (a7), Administrator (a7), Warehouse Manager (a10), Warehouse Manager (a10)
+
+> Player 2 opts not to use the pub.
+
+Round: 8, Phase: Aristocrat, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	   101 (0, 16, 10)	    73 (33, 0, 31)	          8	Building, Trading
+     2	    61 (0, 11, 1)	     4 (42, 0, 22)	          4	Worker, Aristocrat
+Deck Sizes: Worker: 4, Building: 16, Aristocrat: 0, Trading: 25
+
+Upper Card Row: Fur Trapper (w6), Judge (a16)
+Lower Card Row: 
+
+Player 1:
+Hand: 
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Fur Trapper (w6), Fur Trapper (w6), Lumberjack (w3), Gold Miner (w4)
+Buildings: Academy (b23), Market (b5), Market (b5), Theater (b20), Market (b5)
+Aristocrats: Author (a4), Author (a4), Author (a4), Author (a4), Administrator (a7), Judge (a16), Controller (a14), Minister of Foreign Affairs (ta20), Warehouse Manager (a10), Secretary (a12), Mistress of Ceremonies (a18), Author (a4)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Gold Miner (w4), Gold Miner (w4), Ship Builder (w7), Ship Builder (w7), Gold Miner (w4), Shepherd (w5)
+Buildings: Library (b17), Pub (bpu), Pub (bpu), Customs House (b8), Warehouse (bw), Hospital (b14)
+Aristocrats: Builder (ta10), Warehouse Manager (a10), Controller (a14), Administrator (a7), Administrator (a7), Warehouse Manager (a10), Warehouse Manager (a10)
+
+> Player 2 buys Fur Trapper from the upper card row for 4 rubles.
+
+Round: 8, Phase: Aristocrat, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	   101 (0, 16, 10)	    73 (33, 0, 31)	          8	Building, Trading
+     2	    61 (0, 11, 1)	     0 (45, 0, 22)	          4	Worker, Aristocrat
+Deck Sizes: Worker: 4, Building: 16, Aristocrat: 0, Trading: 25
+
+Upper Card Row: Judge (a16)
+Lower Card Row: 
+
+Player 1:
+Hand: 
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Fur Trapper (w6), Fur Trapper (w6), Lumberjack (w3), Gold Miner (w4)
+Buildings: Academy (b23), Market (b5), Market (b5), Theater (b20), Market (b5)
+Aristocrats: Author (a4), Author (a4), Author (a4), Author (a4), Administrator (a7), Judge (a16), Controller (a14), Minister of Foreign Affairs (ta20), Warehouse Manager (a10), Secretary (a12), Mistress of Ceremonies (a18), Author (a4)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Gold Miner (w4), Gold Miner (w4), Ship Builder (w7), Ship Builder (w7), Gold Miner (w4), Shepherd (w5), Fur Trapper (w6)
+Buildings: Library (b17), Pub (bpu), Pub (bpu), Customs House (b8), Warehouse (bw), Hospital (b14)
+Aristocrats: Builder (ta10), Warehouse Manager (a10), Controller (a14), Administrator (a7), Administrator (a7), Warehouse Manager (a10), Warehouse Manager (a10)
+
+> Player 1 buys Judge from the upper card row for 15 rubles.
+
+Round: 8, Phase: Aristocrat, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	   101 (0, 16, 12)	    58 (33, 0, 36)	          8	Building, Trading
+     2	    61 (0, 11, 1)	     0 (45, 0, 22)	          4	Worker, Aristocrat
+Deck Sizes: Worker: 4, Building: 16, Aristocrat: 0, Trading: 25
+
+Upper Card Row: 
+Lower Card Row: 
+
+Player 1:
+Hand: 
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Fur Trapper (w6), Fur Trapper (w6), Lumberjack (w3), Gold Miner (w4)
+Buildings: Academy (b23), Market (b5), Market (b5), Theater (b20), Market (b5)
+Aristocrats: Author (a4), Author (a4), Author (a4), Author (a4), Administrator (a7), Judge (a16), Controller (a14), Minister of Foreign Affairs (ta20), Warehouse Manager (a10), Secretary (a12), Mistress of Ceremonies (a18), Author (a4), Judge (a16)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Gold Miner (w4), Gold Miner (w4), Ship Builder (w7), Ship Builder (w7), Gold Miner (w4), Shepherd (w5), Fur Trapper (w6)
+Buildings: Library (b17), Pub (bpu), Pub (bpu), Customs House (b8), Warehouse (bw), Hospital (b14)
+Aristocrats: Builder (ta10), Warehouse Manager (a10), Controller (a14), Administrator (a7), Administrator (a7), Warehouse Manager (a10), Warehouse Manager (a10)
+
+> Player 2 passes.
+
+Round: 8, Phase: Aristocrat, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	   101 (0, 16, 12)	    58 (33, 0, 36)	          8	Building, Trading
+     2	    61 (0, 11, 1)	     0 (45, 0, 22)	          4	Worker, Aristocrat
+Deck Sizes: Worker: 4, Building: 16, Aristocrat: 0, Trading: 25
+
+Upper Card Row: 
+Lower Card Row: 
+
+Player 1:
+Hand: 
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Fur Trapper (w6), Fur Trapper (w6), Lumberjack (w3), Gold Miner (w4)
+Buildings: Academy (b23), Market (b5), Market (b5), Theater (b20), Market (b5)
+Aristocrats: Author (a4), Author (a4), Author (a4), Author (a4), Administrator (a7), Judge (a16), Controller (a14), Minister of Foreign Affairs (ta20), Warehouse Manager (a10), Secretary (a12), Mistress of Ceremonies (a18), Author (a4), Judge (a16)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Gold Miner (w4), Gold Miner (w4), Ship Builder (w7), Ship Builder (w7), Gold Miner (w4), Shepherd (w5), Fur Trapper (w6)
+Buildings: Library (b17), Pub (bpu), Pub (bpu), Customs House (b8), Warehouse (bw), Hospital (b14)
+Aristocrats: Builder (ta10), Warehouse Manager (a10), Controller (a14), Administrator (a7), Administrator (a7), Warehouse Manager (a10), Warehouse Manager (a10)
+
+> Player 1 passes.
+
+Round: 8, Phase: Trading, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	   113 (0, 16, 12)	    94 (33, 0, 36)	          8	Building, Trading
+     2	    62 (0, 11, 1)	    22 (45, 0, 22)	          4	Worker, Aristocrat
+Deck Sizes: Worker: 4, Building: 16, Aristocrat: 0, Trading: 17
+
+Upper Card Row: Pope (ta6), Patriarch (ta14), Admiral (ta18), Czar (ta24), Hermitage (tb18), Fur Shop (tw10), Carpenter Workshop (tw4), Peterhof (tb14)
+Lower Card Row: 
+
+Player 1:
+Hand: 
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Fur Trapper (w6), Fur Trapper (w6), Lumberjack (w3), Gold Miner (w4)
+Buildings: Academy (b23), Market (b5), Market (b5), Theater (b20), Market (b5)
+Aristocrats: Author (a4), Author (a4), Author (a4), Author (a4), Administrator (a7), Judge (a16), Controller (a14), Minister of Foreign Affairs (ta20), Warehouse Manager (a10), Secretary (a12), Mistress of Ceremonies (a18), Author (a4), Judge (a16)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Gold Miner (w4), Gold Miner (w4), Ship Builder (w7), Ship Builder (w7), Gold Miner (w4), Shepherd (w5), Fur Trapper (w6)
+Buildings: Library (b17), Pub (bpu), Pub (bpu), Customs House (b8), Warehouse (bw), Hospital (b14)
+Aristocrats: Builder (ta10), Warehouse Manager (a10), Controller (a14), Administrator (a7), Administrator (a7), Warehouse Manager (a10), Warehouse Manager (a10)
+
+> Player 1 buys Patriarch from the upper card row for 1 ruble replacing Judge.
+
+Round: 8, Phase: Trading, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	   113 (0, 16, 14)	    93 (33, 0, 31)	          9	Building, Trading
+     2	    62 (0, 11, 1)	    22 (45, 0, 22)	          4	Worker, Aristocrat
+Deck Sizes: Worker: 4, Building: 16, Aristocrat: 0, Trading: 17
+
+Upper Card Row: Pope (ta6), Admiral (ta18), Czar (ta24), Hermitage (tb18), Fur Shop (tw10), Carpenter Workshop (tw4), Peterhof (tb14)
+Lower Card Row: 
+
+Player 1:
+Hand: 
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Fur Trapper (w6), Fur Trapper (w6), Lumberjack (w3), Gold Miner (w4)
+Buildings: Academy (b23), Market (b5), Market (b5), Theater (b20), Market (b5)
+Aristocrats: Author (a4), Author (a4), Author (a4), Author (a4), Administrator (a7), Controller (a14), Minister of Foreign Affairs (ta20), Warehouse Manager (a10), Secretary (a12), Mistress of Ceremonies (a18), Author (a4), Judge (a16), Patriarch (ta14)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Gold Miner (w4), Gold Miner (w4), Ship Builder (w7), Ship Builder (w7), Gold Miner (w4), Shepherd (w5), Fur Trapper (w6)
+Buildings: Library (b17), Pub (bpu), Pub (bpu), Customs House (b8), Warehouse (bw), Hospital (b14)
+Aristocrats: Builder (ta10), Warehouse Manager (a10), Controller (a14), Administrator (a7), Administrator (a7), Warehouse Manager (a10), Warehouse Manager (a10)
+
+> Player 2 buys Admiral from the upper card row for 4 rubles replacing Controller.
+
+Round: 8, Phase: Trading, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	   113 (0, 16, 14)	    93 (33, 0, 31)	          9	Building, Trading
+     2	    62 (0, 11, 3)	    18 (45, 0, 21)	          4	Worker, Aristocrat
+Deck Sizes: Worker: 4, Building: 16, Aristocrat: 0, Trading: 17
+
+Upper Card Row: Pope (ta6), Czar (ta24), Hermitage (tb18), Fur Shop (tw10), Carpenter Workshop (tw4), Peterhof (tb14)
+Lower Card Row: 
+
+Player 1:
+Hand: 
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Fur Trapper (w6), Fur Trapper (w6), Lumberjack (w3), Gold Miner (w4)
+Buildings: Academy (b23), Market (b5), Market (b5), Theater (b20), Market (b5)
+Aristocrats: Author (a4), Author (a4), Author (a4), Author (a4), Administrator (a7), Controller (a14), Minister of Foreign Affairs (ta20), Warehouse Manager (a10), Secretary (a12), Mistress of Ceremonies (a18), Author (a4), Judge (a16), Patriarch (ta14)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Gold Miner (w4), Gold Miner (w4), Ship Builder (w7), Ship Builder (w7), Gold Miner (w4), Shepherd (w5), Fur Trapper (w6)
+Buildings: Library (b17), Pub (bpu), Pub (bpu), Customs House (b8), Warehouse (bw), Hospital (b14)
+Aristocrats: Builder (ta10), Warehouse Manager (a10), Administrator (a7), Administrator (a7), Warehouse Manager (a10), Warehouse Manager (a10), Admiral (ta18)
+
+> Player 1 buys Pope from the upper card row for 2 rubles replacing Author.
+
+Round: 8, Phase: Trading, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	   113 (0, 16, 15)	    91 (33, 0, 31)	         10	Building, Trading
+     2	    62 (0, 11, 3)	    18 (45, 0, 21)	          4	Worker, Aristocrat
+Deck Sizes: Worker: 4, Building: 16, Aristocrat: 0, Trading: 17
+
+Upper Card Row: Czar (ta24), Hermitage (tb18), Fur Shop (tw10), Carpenter Workshop (tw4), Peterhof (tb14)
+Lower Card Row: 
+
+Player 1:
+Hand: 
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Fur Trapper (w6), Fur Trapper (w6), Lumberjack (w3), Gold Miner (w4)
+Buildings: Academy (b23), Market (b5), Market (b5), Theater (b20), Market (b5)
+Aristocrats: Author (a4), Author (a4), Author (a4), Administrator (a7), Controller (a14), Minister of Foreign Affairs (ta20), Warehouse Manager (a10), Secretary (a12), Mistress of Ceremonies (a18), Author (a4), Judge (a16), Patriarch (ta14), Pope (ta6)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Gold Miner (w4), Gold Miner (w4), Ship Builder (w7), Ship Builder (w7), Gold Miner (w4), Shepherd (w5), Fur Trapper (w6)
+Buildings: Library (b17), Pub (bpu), Pub (bpu), Customs House (b8), Warehouse (bw), Hospital (b14)
+Aristocrats: Builder (ta10), Warehouse Manager (a10), Administrator (a7), Administrator (a7), Warehouse Manager (a10), Warehouse Manager (a10), Admiral (ta18)
+
+> Player 2 buys Fur Shop from the upper card row for 4 rubles replacing Fur Trapper.
+
+Round: 8, Phase: Trading, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	   113 (0, 16, 15)	    91 (33, 0, 31)	         10	Building, Trading
+     2	    62 (2, 11, 3)	    14 (45, 0, 21)	          4	Worker, Aristocrat
+Deck Sizes: Worker: 4, Building: 16, Aristocrat: 0, Trading: 17
+
+Upper Card Row: Czar (ta24), Hermitage (tb18), Carpenter Workshop (tw4), Peterhof (tb14)
+Lower Card Row: 
+
+Player 1:
+Hand: 
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Fur Trapper (w6), Fur Trapper (w6), Lumberjack (w3), Gold Miner (w4)
+Buildings: Academy (b23), Market (b5), Market (b5), Theater (b20), Market (b5)
+Aristocrats: Author (a4), Author (a4), Author (a4), Administrator (a7), Controller (a14), Minister of Foreign Affairs (ta20), Warehouse Manager (a10), Secretary (a12), Mistress of Ceremonies (a18), Author (a4), Judge (a16), Patriarch (ta14), Pope (ta6)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Gold Miner (w4), Gold Miner (w4), Ship Builder (w7), Ship Builder (w7), Gold Miner (w4), Shepherd (w5), Fur Trapper (w6), Fur Shop (tw10)
+Buildings: Library (b17), Pub (bpu), Pub (bpu), Customs House (b8), Warehouse (bw), Hospital (b14)
+Aristocrats: Builder (ta10), Warehouse Manager (a10), Administrator (a7), Administrator (a7), Warehouse Manager (a10), Warehouse Manager (a10), Admiral (ta18)
+
+> Player 1 buys Czar from the upper card row for 6 rubles replacing Mistress of Ceremonies.
+
+Round: 8, Phase: Trading, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	   113 (0, 16, 18)	    85 (33, 0, 25)	         10	Building, Trading
+     2	    62 (2, 11, 3)	    14 (45, 0, 21)	          4	Worker, Aristocrat
+Deck Sizes: Worker: 4, Building: 16, Aristocrat: 0, Trading: 17
+
+Upper Card Row: Hermitage (tb18), Carpenter Workshop (tw4), Peterhof (tb14)
+Lower Card Row: 
+
+Player 1:
+Hand: 
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Fur Trapper (w6), Fur Trapper (w6), Lumberjack (w3), Gold Miner (w4)
+Buildings: Academy (b23), Market (b5), Market (b5), Theater (b20), Market (b5)
+Aristocrats: Author (a4), Author (a4), Author (a4), Administrator (a7), Controller (a14), Minister of Foreign Affairs (ta20), Warehouse Manager (a10), Secretary (a12), Author (a4), Judge (a16), Patriarch (ta14), Pope (ta6), Czar (ta24)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Gold Miner (w4), Gold Miner (w4), Ship Builder (w7), Ship Builder (w7), Gold Miner (w4), Shepherd (w5), Fur Trapper (w6), Fur Shop (tw10)
+Buildings: Library (b17), Pub (bpu), Pub (bpu), Customs House (b8), Warehouse (bw), Hospital (b14)
+Aristocrats: Builder (ta10), Warehouse Manager (a10), Administrator (a7), Administrator (a7), Warehouse Manager (a10), Warehouse Manager (a10), Admiral (ta18)
+
+> Player 2 buys Peterhof from the upper card row for 1 ruble replacing Library.
+
+Round: 8, Phase: Trading, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	   113 (0, 16, 18)	    85 (33, 0, 25)	         10	Building, Trading
+     2	    62 (2, 8, 3)	    13 (45, 4, 21)	          4	Worker, Aristocrat
+Deck Sizes: Worker: 4, Building: 16, Aristocrat: 0, Trading: 17
+
+Upper Card Row: Hermitage (tb18), Carpenter Workshop (tw4)
+Lower Card Row: 
+
+Player 1:
+Hand: 
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Fur Trapper (w6), Fur Trapper (w6), Lumberjack (w3), Gold Miner (w4)
+Buildings: Academy (b23), Market (b5), Market (b5), Theater (b20), Market (b5)
+Aristocrats: Author (a4), Author (a4), Author (a4), Administrator (a7), Controller (a14), Minister of Foreign Affairs (ta20), Warehouse Manager (a10), Secretary (a12), Author (a4), Judge (a16), Patriarch (ta14), Pope (ta6), Czar (ta24)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Gold Miner (w4), Gold Miner (w4), Ship Builder (w7), Ship Builder (w7), Gold Miner (w4), Shepherd (w5), Fur Trapper (w6), Fur Shop (tw10)
+Buildings: Pub (bpu), Pub (bpu), Customs House (b8), Warehouse (bw), Hospital (b14), Peterhof (tb14)
+Aristocrats: Builder (ta10), Warehouse Manager (a10), Administrator (a7), Administrator (a7), Warehouse Manager (a10), Warehouse Manager (a10), Admiral (ta18)
+
+> Player 1 buys Hermitage from the upper card row for 1 ruble replacing Theater.
+
+Round: 8, Phase: Trading, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	   113 (0, 14, 18)	    84 (33, 3, 25)	         10	Building, Trading
+     2	    62 (2, 8, 3)	    13 (45, 4, 21)	          4	Worker, Aristocrat
+Deck Sizes: Worker: 4, Building: 16, Aristocrat: 0, Trading: 17
+
+Upper Card Row: Carpenter Workshop (tw4)
+Lower Card Row: 
+
+Player 1:
+Hand: 
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Fur Trapper (w6), Fur Trapper (w6), Lumberjack (w3), Gold Miner (w4)
+Buildings: Academy (b23), Market (b5), Market (b5), Market (b5), Hermitage (tb18)
+Aristocrats: Author (a4), Author (a4), Author (a4), Administrator (a7), Controller (a14), Minister of Foreign Affairs (ta20), Warehouse Manager (a10), Secretary (a12), Author (a4), Judge (a16), Patriarch (ta14), Pope (ta6), Czar (ta24)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Gold Miner (w4), Gold Miner (w4), Ship Builder (w7), Ship Builder (w7), Gold Miner (w4), Shepherd (w5), Fur Trapper (w6), Fur Shop (tw10)
+Buildings: Pub (bpu), Pub (bpu), Customs House (b8), Warehouse (bw), Hospital (b14), Peterhof (tb14)
+Aristocrats: Builder (ta10), Warehouse Manager (a10), Administrator (a7), Administrator (a7), Warehouse Manager (a10), Warehouse Manager (a10), Admiral (ta18)
+
+> Player 2 passes.
+
+Round: 8, Phase: Trading, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	   113 (0, 14, 18)	    84 (33, 3, 25)	         10	Building, Trading
+     2	    62 (2, 8, 3)	    13 (45, 4, 21)	          4	Worker, Aristocrat
+Deck Sizes: Worker: 4, Building: 16, Aristocrat: 0, Trading: 17
+
+Upper Card Row: Carpenter Workshop (tw4)
+Lower Card Row: 
+
+Player 1:
+Hand: 
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Fur Trapper (w6), Fur Trapper (w6), Lumberjack (w3), Gold Miner (w4)
+Buildings: Academy (b23), Market (b5), Market (b5), Market (b5), Hermitage (tb18)
+Aristocrats: Author (a4), Author (a4), Author (a4), Administrator (a7), Controller (a14), Minister of Foreign Affairs (ta20), Warehouse Manager (a10), Secretary (a12), Author (a4), Judge (a16), Patriarch (ta14), Pope (ta6), Czar (ta24)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Gold Miner (w4), Gold Miner (w4), Ship Builder (w7), Ship Builder (w7), Gold Miner (w4), Shepherd (w5), Fur Trapper (w6), Fur Shop (tw10)
+Buildings: Pub (bpu), Pub (bpu), Customs House (b8), Warehouse (bw), Hospital (b14), Peterhof (tb14)
+Aristocrats: Builder (ta10), Warehouse Manager (a10), Administrator (a7), Administrator (a7), Warehouse Manager (a10), Warehouse Manager (a10), Admiral (ta18)
+
+> Player 1 passes.
+
+Round: 9, Phase: End, Game Over
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	   176 (0, 14, 18)	    84 (33, 3, 25)	         10	Building, Trading
+     2	    73 (2, 8, 3)	    13 (45, 4, 21)	          4	Worker, Aristocrat
+Deck Sizes: Worker: 4, Building: 16, Aristocrat: 0, Trading: 17
+
+Upper Card Row: Carpenter Workshop (tw4)
+Lower Card Row: 
+
+Player 1:
+Hand: 
+Workers: Lumberjack (w3), Weaving Mill (tw8), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Fur Trapper (w6), Fur Trapper (w6), Lumberjack (w3), Gold Miner (w4)
+Buildings: Academy (b23), Market (b5), Market (b5), Market (b5), Hermitage (tb18)
+Aristocrats: Author (a4), Author (a4), Author (a4), Administrator (a7), Controller (a14), Minister of Foreign Affairs (ta20), Warehouse Manager (a10), Secretary (a12), Author (a4), Judge (a16), Patriarch (ta14), Pope (ta6), Czar (ta24)
+
+Player 2:
+Hand: 
+Workers: Ship Builder (w7), Shepherd (w5), Ship Builder (w7), Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Shepherd (w5), Gold Miner (w4), Gold Miner (w4), Ship Builder (w7), Ship Builder (w7), Gold Miner (w4), Shepherd (w5), Fur Trapper (w6), Fur Shop (tw10)
+Buildings: Pub (bpu), Pub (bpu), Customs House (b8), Warehouse (bw), Hospital (b14), Peterhof (tb14)
+Aristocrats: Builder (ta10), Warehouse Manager (a10), Administrator (a7), Administrator (a7), Warehouse Manager (a10), Warehouse Manager (a10), Admiral (ta18)
+
+Player 1 (AIDanSPPlayerHybridObjective) wins!
