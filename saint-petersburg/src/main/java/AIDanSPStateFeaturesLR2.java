@@ -17,6 +17,7 @@ public class AIDanSPStateFeaturesLR2 {
     ArrayList<SPFeature> features;
     private SharedInterpreter interp;
     private boolean knnInitialized = false;
+    private boolean cbInitialized = false;
     // private final String[] knnFeatureCols = new String[] {
     //         "round",
     //         "min_deck_size",
@@ -38,7 +39,7 @@ public class AIDanSPStateFeaturesLR2 {
         return values;
     }
 
-    public ArrayList<Object> getKnnTrainFeatureValues(SPState state) {
+    public ArrayList<Object> getRLTrainFeatureValues(SPState state) {
         ArrayList<Object> values = new ArrayList<>();
         for (SPFeature feature : features) {
             if (feature instanceof SPFeatureInteractionTerm) {
@@ -52,7 +53,7 @@ public class AIDanSPStateFeaturesLR2 {
         return values;
     }
 
-    public ArrayList<String> getKnnTrainFeature () {
+    public ArrayList<String> getRLTrainFeature () {
         ArrayList<String> result = new ArrayList<>();
         for (SPFeature feature : features) {
             if (feature instanceof SPFeatureInteractionTerm) {
@@ -146,7 +147,8 @@ public class AIDanSPStateFeaturesLR2 {
         // features.add(new SPFeatureInteractionTerm(new SPFeatureBuyingAdv(), new
         // SPFeatureMinDeckSize()));
 
-        knnInitialized = initPythonKNN("AIDanSPRoundsLeftTrainingData.csv");
+        // knnInitialized = initPythonKNN("AIDanSPRoundsLeftTrainingData.csv");
+        cbInitialized = initPythonCB("AIDanSPRoundsLeftTrainingData.csv");
         initializeModel();
     }
 
@@ -206,6 +208,9 @@ public class AIDanSPStateFeaturesLR2 {
             for (int i = 0; i < numGames; i++) {
                 SPGameTranscript transcript = SPSimulateGame.simulateGame(new SPRandomPlayer(), new SPRandomPlayer());
                 writer.print(getCSVRows(transcript));
+                // if ((i + 1) % (numGames / 10) == 0) {
+                //     System.out.println("Generated game " + (i + 1) + "/" + numGames);
+                // }
                 System.out.println("Generated game " + (i + 1) + "/" + numGames);
             }
         } catch (IOException e) {
@@ -215,7 +220,7 @@ public class AIDanSPStateFeaturesLR2 {
 
     public String getRLCSVHeader() {
         StringBuilder header = new StringBuilder();
-        ArrayList<String> knnFeatureCols = getKnnTrainFeature();
+        ArrayList<String> knnFeatureCols = getRLTrainFeature();
         for (String feature : knnFeatureCols) {
             header.append(feature).append(",");
         }
@@ -233,22 +238,13 @@ public class AIDanSPStateFeaturesLR2 {
                 boolean[] isWinner = transcript.getWinners();
                 int numRounds = transcript.getNumRounds();
                 for (SPState state : transcript.getStates()) {
-                    ArrayList<Object> featureValues = getFeatureValues(state);
+                    ArrayList<Object> featureValues = getRLTrainFeatureValues(state);
                     StringBuilder row = new StringBuilder();
-                    ArrayList<String> knnFeatureCols = getKnnTrainFeature();
-                    for (String col : knnFeatureCols) {
-                        boolean found = false;
-                        for (int j = 0; j < features.size(); j++) {
-                            if (features.get(j).getName().equals(col)) {
-                                row.append(featureValues.get(j)).append(",");
-                                found = true;
-                                break;
-                            }
-                        }
-                        if (!found) {
-                            row.append("0,"); // Default value if feature not found
-                        }
+
+                    for (Object value : featureValues) {
+                        row.append(value).append(",");
                     }
+
                     int currPhase = (state.phase < 4) ? state.phase : (state.phase == 4) ? 2 : 0;
                     double round = (double) state.round + (currPhase % 4) / 4.0;
                     double rounds_left = numRounds - round;
@@ -669,24 +665,100 @@ public class AIDanSPStateFeaturesLR2 {
     }
 
     // est_rounds_left - the estimate of rounds left in the game - offline approach
+    // class SPFeatureRoundsLeft extends SPFeature {
+    //     public SPFeatureRoundsLeft() {
+    //         super("rounds_left", "the estimate of rounds left in the game - offline approach");
+    //     }
+
+    //     public Object getValue(SPState state) {
+    //         if (!knnInitialized) {
+    //             return -1;
+    //         }
+    //         try {
+    //             ArrayList<Object> featureValues = getKnnTrainFeatureValues(state);
+    //             if (!knnInitialized || interp == null) {
+    //                 System.err.println("Python KNN not initialized. Returning fallback value.");
+    //                 return -1;
+    //             }
+
+    //             interp.set("query", featureValues);
+    //             interp.exec("result = knn.query(query, k=5)");
+    //             return (Double) interp.getValue("result");
+    //         } catch (JepException e) {
+    //             System.err.println("[SPFeatureRoundsLeft] Jep exception: " + e.getMessage());
+    //             return -1;
+    //         } catch (Exception e) {
+    //             System.err.println("[SPFeatureRoundsLeft] General exception: " + e.getMessage());
+    //             return -1;
+    //         }
+    //     }
+    // }
+
+    // private boolean initPythonKNN(String dfPath) {
+    //     String roundsLeftTrainingDataFile = "AIDanSPRoundsLeftTrainingData.csv";
+    //     int roundsLeftNumGames = 5000; // Number of games to simulate for rounds left training data
+    //     generateRLCSVData(roundsLeftTrainingDataFile, roundsLeftNumGames);
+
+    //     System.out.println("Generated rounds left training data: " + roundsLeftTrainingDataFile);
+
+    //     try {
+    //         interp = new SharedInterpreter();
+
+    //         // Import dependencies
+    //         interp.exec("import pandas as pd");
+    //         interp.exec("import sys");
+    //         // Add the actual python source directory
+    //         interp.exec("sys.path.append('C:/Users/sidan/Desktop/Mine/College/6. 2025 Fall/CS 391 - AI in Games/Maven Test/saint-petersburg/src/main/python')");
+
+    //         // Import GameStateKNN from rounds_left_estimator.py
+    //         // interp.exec("from rounds_left_estimator import GameStateKNN");
+    //         interp.exec("from rounds_left_estimator_update import GameStateRegressor");
+
+    //         // Load dataframe
+    //         interp.set("df_path", dfPath);
+    //         interp.exec("df = pd.read_csv(df_path)");
+
+    //         // Initialize GameStateKNN
+    //         // interp.exec("knn = GameStateKNN(df)");
+
+    //         // Initialize GameStateRegressor
+    //         interp.exec("model = GameStateRegressor(df)");
+
+    //         Boolean valid = (Boolean) interp.getValue("model is not None");
+    //         if (!valid) {
+    //             System.err.println("[initPythonKNN] Python KNN initialization failed.");
+    //             return false;
+    //         }
+
+    //         return true;
+    //     } catch (JepException e) {
+    //         System.err.println("[initPythonKNN] Jep exception: " + e.getMessage());
+    //         return false;
+    //     } catch (Exception e) {
+    //         System.err.println("[initPythonKNN] General exception: " + e.getMessage());
+    //         return false;
+    //     }
+    // }
+
+    // est_rounds_left - the estimate of rounds left in the game - offline approach
     class SPFeatureRoundsLeft extends SPFeature {
         public SPFeatureRoundsLeft() {
             super("rounds_left", "the estimate of rounds left in the game - offline approach");
         }
 
         public Object getValue(SPState state) {
-            if (!knnInitialized) {
+            if (!cbInitialized) {
                 return -1;
             }
             try {
-                ArrayList<Object> featureValues = getKnnTrainFeatureValues(state);
-                if (!knnInitialized || interp == null) {
-                    System.err.println("Python KNN not initialized. Returning fallback value.");
+                ArrayList<Object> featureValues = getRLTrainFeatureValues(state);
+                if (!cbInitialized || interp == null) {
+                    System.err.println("Python CB not initialized. Returning fallback value.");
                     return -1;
                 }
 
                 interp.set("query", featureValues);
-                interp.exec("result = knn.query(query, k=5)");
+                interp.exec("result = model.query(query)");
                 return (Double) interp.getValue("result");
             } catch (JepException e) {
                 System.err.println("[SPFeatureRoundsLeft] Jep exception: " + e.getMessage());
@@ -698,8 +770,8 @@ public class AIDanSPStateFeaturesLR2 {
         }
     }
 
-    private boolean initPythonKNN(String dfPath) {
-        String roundsLeftTrainingDataFile = "AIDanSPRoundsLeftTrainingData.csv";
+    private boolean initPythonCB(String dfPath) {
+        String roundsLeftTrainingDataFile = dfPath;
         int roundsLeftNumGames = 5000; // Number of games to simulate for rounds left training data
         generateRLCSVData(roundsLeftTrainingDataFile, roundsLeftNumGames);
 
@@ -715,27 +787,27 @@ public class AIDanSPStateFeaturesLR2 {
             interp.exec("sys.path.append('C:/Users/sidan/Desktop/Mine/College/6. 2025 Fall/CS 391 - AI in Games/Maven Test/saint-petersburg/src/main/python')");
 
             // Import GameStateKNN from rounds_left_estimator.py
-            interp.exec("from rounds_left_estimator import GameStateKNN");
+            interp.exec("from rounds_left_estimator_update import GameStateRegressor");
 
             // Load dataframe
             interp.set("df_path", dfPath);
             interp.exec("df = pd.read_csv(df_path)");
 
-            // Initialize GameStateKNN
-            interp.exec("knn = GameStateKNN(df)");
+            // Initialize GameStateRegressor
+            interp.exec("model = GameStateRegressor(df)");
 
-            Boolean valid = (Boolean) interp.getValue("knn.nn is not None");
+            Boolean valid = (Boolean) interp.getValue("model is not None");
             if (!valid) {
-                System.err.println("[initPythonKNN] Python KNN initialization failed.");
+                System.err.println("[initPythonCB] Python CB initialization failed.");
                 return false;
             }
 
             return true;
         } catch (JepException e) {
-            System.err.println("[initPythonKNN] Jep exception: " + e.getMessage());
+            System.err.println("[initPythonCB] Jep exception: " + e.getMessage());
             return false;
         } catch (Exception e) {
-            System.err.println("[initPythonKNN] General exception: " + e.getMessage());
+            System.err.println("[initPythonCB] General exception: " + e.getMessage());
             return false;
         }
     }
