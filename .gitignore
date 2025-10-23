@@ -1,6 +1,10 @@
 # Ignore all CSV files
 *.csv
 **/*.csv
+*.xlsx
+*.xls
+**/*.xlsx
+**/*.xls
 
 # But keep cards.csv tracked
 !cards.csv

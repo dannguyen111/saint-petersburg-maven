@@ -23,8 +23,8 @@ class GameStateRegressor:
 
             # Initialize and fit CatBoost model
             self.model = CatBoostRegressor(
-                depth=8,
-                learning_rate=0.05,
+                depth=5,
+                learning_rate=0.1,
                 iterations=500,
                 loss_function='RMSE',
                 verbose=False
@@ -39,7 +39,7 @@ class GameStateRegressor:
             self.X = None
             self.y = None
 
-    def query(self, query_data):
+    def query(self, query_data, rounds=None):
         try:
             if self.model is None:
                 raise RuntimeError("Model not initialized. Cannot perform query.")
@@ -56,6 +56,11 @@ class GameStateRegressor:
                 )
 
             prediction = self.model.predict(query_data)
+            
+            # if rounds:
+            #     total_round_pred = round(float(prediction[0]) + rounds)
+            #     return total_round_pred - rounds
+            # else:
             return float(prediction[0])
 
         except Exception as e:
