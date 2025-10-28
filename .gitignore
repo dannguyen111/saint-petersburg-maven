@@ -8,3 +8,20 @@
 
 # But keep cards.csv tracked
 !cards.csv
+
+# Ignore all log files
+*.log
+**/*.log
+
+# Ignore model files
+*.model
+**/*.model
+
+# Ignore other Team's files
+saint-petersburg/src/main/java/JFMTFeatures.java
+saint-petersburg\src\main\java\JFMTPlayer.java
+saint-petersburg\src\main\java\MaiNeLR2.java
+saint-petersburg\src\main\java\MaiNePlayer.java
+saint-petersburg\src\main\java\MiMaPlayer.java
+saint-petersburg\src\main\java\MiMaStateFeatures.java
+saint-petersburg\src\main\java\OKHybridPlayer.java

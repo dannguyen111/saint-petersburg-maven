@@ -41,10 +41,6 @@ public class SPStateFeaturesLR1 {
         features.add(new SPFeatureInteractionTerm(new SPFeatureRublesRoundGain(), new SPFeatureMinDeckSize()));
         features.add(new SPFeatureRublesRoundGainDiff());
         features.add(new SPFeatureInteractionTerm(new SPFeatureRublesRoundGainDiff(), new SPFeatureMinDeckSize()));
-        features.add(new SPFeatureUniqueAristocrats());
-        features.add(new SPFeatureInteractionTerm(new SPFeatureUniqueAristocrats(), new SPFeatureMinDeckSize()));
-        features.add(new SPFeatureUniqueAristocratsDiff());
-        features.add(new SPFeatureInteractionTerm(new SPFeatureUniqueAristocratsDiff(), new SPFeatureMinDeckSize()));
         features.add(new SPFeatureCardsInHand());
         features.add(new SPFeatureInteractionTerm(new SPFeatureCardsInHand(), new SPFeatureMinDeckSize()));
         features.add(new SPFeatureCardsInHandDiff());
@@ -111,9 +107,9 @@ public class SPStateFeaturesLR1 {
         // It generates training data by simulating games and saves it to a CSV file.
         // Then it uses logistic regression to learn a model and saves it to a file.
 
-        String trainingDataFile = "SPTrainingData.csv";
-        int numGames = 10000; // Number of games to simulate for training data
-        generateCSVData(trainingDataFile, numGames);
+        String trainingDataFile = "AIDanSPFMCTrainingDataFlatMCvsFlatMC.csv";
+        // int numGames = 10000; // Number of games to simulate for training data
+        // generateCSVData(trainingDataFile, numGames);
 
         // Load the training data from the CSV file into a Smile dataset (Anh code)
         List<double[]> values = new ArrayList<>();

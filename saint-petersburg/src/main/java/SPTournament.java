@@ -18,7 +18,7 @@ import java.util.ArrayList;
  */
 public class SPTournament {
 
-	private static final int NUM_GAMES = 99; // TODO - set the number of games per match
+	private static final int NUM_GAMES = 15; // TODO - set the number of games per match
 	// private static final long MILLISECONDS_PER_GAME = 30000; // TODO - set the maximum milliseconds per game
 	// (300000 ms/game = 300 seconds/game = 5 minutes/game)
     // Note: We will not enforce this time limit in the first tournament, but may later as there is greater freedom 
@@ -34,7 +34,7 @@ public class SPTournament {
 
 		// TODO - List class names for the competing SPPlayer class file names.
 //		String[] playerIdentifiers = {"SPPlayerFlatMC", "AIDanSPPlayerHybridObjective", "JFMTPlayer", "MaiNePlayer", "MiMaPlayer", "OKHybridPlayer"};
-		String[] playerIdentifiers = {"SPPlayerFlatMC", "AIDanSPPlayerHybridObjective", "MaiNePlayer"};
+		String[] playerIdentifiers = {"SPPlayerFlatMC", "AIDanSPPlayerHybridObjective"};
 
 		String[] competitors = new String[playerIdentifiers.length];
 		for (int i = 0; i < playerIdentifiers.length; i++)
