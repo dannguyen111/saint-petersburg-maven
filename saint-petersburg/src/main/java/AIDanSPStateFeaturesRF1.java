@@ -1,3 +1,4 @@
+import java.io.File;
 import java.io.FileOutputStream;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -8,8 +9,9 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-import jep.JepException;
-import jep.SharedInterpreter;
+import ai.catboost.CatBoostError;
+import ai.catboost.CatBoostModel;
+import ai.catboost.CatBoostPredictions;
 import smile.classification.RandomForest;
 import smile.classification.RandomForest.Options;
 import smile.data.DataFrame;
@@ -26,8 +28,11 @@ public class AIDanSPStateFeaturesRF1 {
     private RandomForest model;
     ArrayList<SPFeature> features;
     ArrayList<SPFeature> rlFeatures;
-    private SharedInterpreter interp;
-    private boolean cbInitialized = false;
+    // private SharedInterpreter interp;
+    // private boolean cbInitialized = false;
+    // ADD THESE
+    private CatBoostModel roundsLeftModel;
+    String rlModelFilename = "rounds_left_model.cbm";
 
     public ArrayList<Object> getFeatureValues(SPState state) {
         ArrayList<Object> values = new ArrayList<>();
@@ -62,36 +67,67 @@ public class AIDanSPStateFeaturesRF1 {
     }
 
     public AIDanSPStateFeaturesRF1() {
+        // features = new ArrayList<>();
+        // features.add(new SPFeatureMinDeckSize());
+        // features.add(new SPFeaturePoints());
+        // features.add(new SPFeatureInteractionTerm(new SPFeaturePoints(), new SPFeatureMinDeckSize()));
+        // features.add(new SPFeaturePointsDiff());
+        // features.add(new SPFeatureInteractionTerm(new SPFeaturePointsDiff(), new SPFeatureMinDeckSize()));
+        // features.add(new SPFeatureRubles());
+        // features.add(new SPFeatureInteractionTerm(new SPFeatureRubles(), new SPFeatureMinDeckSize()));
+        // features.add(new SPFeatureRublesDiff());
+        // features.add(new SPFeatureInteractionTerm(new SPFeatureRublesDiff(), new SPFeatureMinDeckSize()));
+        // features.add(new SPFeatureUniqueAristocratsPointsDiff());
+        // features.add(new SPFeatureInteractionTerm(new SPFeatureUniqueAristocratsPointsDiff(), new SPFeatureMinDeckSize()));
+        // features.add(new SPFeaturePointsRoundGain());
+        // features.add(new SPFeatureInteractionTerm(new SPFeaturePointsRoundGain(), new SPFeatureMinDeckSize()));
+        // features.add(new SPFeaturePointsRoundGainDiff());
+        // features.add(new SPFeatureInteractionTerm(new SPFeaturePointsRoundGainDiff(), new SPFeatureMinDeckSize()));
+        // features.add(new SPFeatureRublesRoundGain());
+        // features.add(new SPFeatureInteractionTerm(new SPFeatureRublesRoundGain(), new SPFeatureMinDeckSize()));
+        // features.add(new SPFeatureRublesRoundGainDiff());
+        // features.add(new SPFeatureInteractionTerm(new SPFeatureRublesRoundGainDiff(), new SPFeatureMinDeckSize()));
+        // features.add(new SPFeatureCardsInHand());
+        // features.add(new SPFeatureInteractionTerm(new SPFeatureCardsInHand(), new SPFeatureMinDeckSize()));
+        // features.add(new SPFeatureCardsInHandDiff());
+        // features.add(new SPFeatureInteractionTerm(new SPFeatureCardsInHandDiff(), new SPFeatureMinDeckSize()));
+        // features.add(new SPFeatureHandSpaceDiff());
+        // features.add(new SPFeatureInteractionTerm(new SPFeatureHandSpaceDiff(), new SPFeatureMinDeckSize()));
+        // features.add(new SPFeatureBuyableCardsInHand());
+        // features.add(new SPFeatureInteractionTerm(new SPFeatureBuyableCardsInHand(), new SPFeatureMinDeckSize()));
+        // features.add(new SPFeatureDupAristoCount());
+        // features.add(new SPFeatureInteractionTerm(new SPFeatureDupAristoCount(), new SPFeatureMinDeckSize()));
+
         features = new ArrayList<>();
-        features.add(new SPFeatureMinDeckSize());
+        features.add(new SPFeatureRoundsLeft());
         features.add(new SPFeaturePoints());
-        features.add(new SPFeatureInteractionTerm(new SPFeaturePoints(), new SPFeatureMinDeckSize()));
+        features.add(new SPFeatureInteractionTerm(new SPFeaturePoints(), new SPFeatureRoundsLeft()));
         features.add(new SPFeaturePointsDiff());
-        features.add(new SPFeatureInteractionTerm(new SPFeaturePointsDiff(), new SPFeatureMinDeckSize()));
+        features.add(new SPFeatureInteractionTerm(new SPFeaturePointsDiff(), new SPFeatureRoundsLeft()));
         features.add(new SPFeatureRubles());
-        features.add(new SPFeatureInteractionTerm(new SPFeatureRubles(), new SPFeatureMinDeckSize()));
+        features.add(new SPFeatureInteractionTerm(new SPFeatureRubles(), new SPFeatureRoundsLeft()));
         features.add(new SPFeatureRublesDiff());
-        features.add(new SPFeatureInteractionTerm(new SPFeatureRublesDiff(), new SPFeatureMinDeckSize()));
+        features.add(new SPFeatureInteractionTerm(new SPFeatureRublesDiff(), new SPFeatureRoundsLeft()));
         features.add(new SPFeatureUniqueAristocratsPointsDiff());
-        features.add(new SPFeatureInteractionTerm(new SPFeatureUniqueAristocratsPointsDiff(), new SPFeatureMinDeckSize()));
+        features.add(new SPFeatureInteractionTerm(new SPFeatureUniqueAristocratsPointsDiff(), new SPFeatureRoundsLeft()));
         features.add(new SPFeaturePointsRoundGain());
-        features.add(new SPFeatureInteractionTerm(new SPFeaturePointsRoundGain(), new SPFeatureMinDeckSize()));
+        features.add(new SPFeatureInteractionTerm(new SPFeaturePointsRoundGain(), new SPFeatureRoundsLeft()));
         features.add(new SPFeaturePointsRoundGainDiff());
-        features.add(new SPFeatureInteractionTerm(new SPFeaturePointsRoundGainDiff(), new SPFeatureMinDeckSize()));
+        features.add(new SPFeatureInteractionTerm(new SPFeaturePointsRoundGainDiff(), new SPFeatureRoundsLeft()));
         features.add(new SPFeatureRublesRoundGain());
-        features.add(new SPFeatureInteractionTerm(new SPFeatureRublesRoundGain(), new SPFeatureMinDeckSize()));
+        features.add(new SPFeatureInteractionTerm(new SPFeatureRublesRoundGain(), new SPFeatureRoundsLeft()));
         features.add(new SPFeatureRublesRoundGainDiff());
-        features.add(new SPFeatureInteractionTerm(new SPFeatureRublesRoundGainDiff(), new SPFeatureMinDeckSize()));
+        features.add(new SPFeatureInteractionTerm(new SPFeatureRublesRoundGainDiff(), new SPFeatureRoundsLeft()));
         features.add(new SPFeatureCardsInHand());
-        features.add(new SPFeatureInteractionTerm(new SPFeatureCardsInHand(), new SPFeatureMinDeckSize()));
+        features.add(new SPFeatureInteractionTerm(new SPFeatureCardsInHand(), new SPFeatureRoundsLeft()));
         features.add(new SPFeatureCardsInHandDiff());
-        features.add(new SPFeatureInteractionTerm(new SPFeatureCardsInHandDiff(), new SPFeatureMinDeckSize()));
+        features.add(new SPFeatureInteractionTerm(new SPFeatureCardsInHandDiff(), new SPFeatureRoundsLeft()));
         features.add(new SPFeatureHandSpaceDiff());
-        features.add(new SPFeatureInteractionTerm(new SPFeatureHandSpaceDiff(), new SPFeatureMinDeckSize()));
+        features.add(new SPFeatureInteractionTerm(new SPFeatureHandSpaceDiff(), new SPFeatureRoundsLeft()));
         features.add(new SPFeatureBuyableCardsInHand());
-        features.add(new SPFeatureInteractionTerm(new SPFeatureBuyableCardsInHand(), new SPFeatureMinDeckSize()));
+        features.add(new SPFeatureInteractionTerm(new SPFeatureBuyableCardsInHand(), new SPFeatureRoundsLeft()));
         features.add(new SPFeatureDupAristoCount());
-        features.add(new SPFeatureInteractionTerm(new SPFeatureDupAristoCount(), new SPFeatureMinDeckSize()));
+        features.add(new SPFeatureInteractionTerm(new SPFeatureDupAristoCount(), new SPFeatureRoundsLeft()));
 
         // features = new ArrayList<>();
         // features.add(new SPFeatureMinDeckSize());
@@ -148,6 +184,7 @@ public class AIDanSPStateFeaturesRF1 {
         rlFeatures.add(new SPFeatureCardsOfferedBottom());
 
         // cbInitialized = initPythonCB("rounds_remaining.csv");
+        initializeRoundsLeftModel();
         initializeModel();
     }
 
@@ -253,12 +290,33 @@ public class AIDanSPStateFeaturesRF1 {
         }
     }
 
+    private void initializeRoundsLeftModel() {
+        File modelFile = new File(rlModelFilename);
+        if (!modelFile.exists()) {
+            System.err.println("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
+            System.err.println("Rounds Left Model file not found: " + rlModelFilename);
+            System.err.println("Please train the model using Python and place it in the project root.");
+            System.err.println("You can generate training data by calling generateRLCSVData()");
+            System.err.println("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
+            roundsLeftModel = null;
+        } else {
+            try {
+                roundsLeftModel = CatBoostModel.loadModel(rlModelFilename);
+                System.out.println("Rounds Left CatBoost model loaded successfully.");
+            } catch (CatBoostError e) {
+                System.err.println("CatBoost model loading failed:");
+                e.printStackTrace();
+                roundsLeftModel = null;
+            }
+        }
+    }
+
     public void learnModel() {
 
         try {
-            String trainingDataFile = "AIDanSPTrainingDataFlatMCvsFlatMC.csv";
-            // int numGames = 10000; // Number of games to simulate for training data
-            // generateCSVData(trainingDataFile, numGames);
+            String trainingDataFile = "AIDanSPTrainingData.csv";
+            int numGames = 10000; // Number of games to simulate for training data
+            generateCSVData(trainingDataFile, numGames);
             DataFrame df = Read.csv(trainingDataFile, "header=true");
 
             df = df.factorize("is_winner");
@@ -311,7 +369,7 @@ public class AIDanSPStateFeaturesRF1 {
 
         // Get posterior probabilities via voting
         double[] posteriori = new double[2];
-        int predictedClass = model.vote(testInstance, posteriori); // fills posteriori
+        int predictedClass = model.predict(testInstance, posteriori); // fills posteriori
 
         // posteriori[0] = P(class 0), posteriori[1] = P(class 1)
         // Return probability that is_winner == class 1
@@ -655,96 +713,136 @@ public class AIDanSPStateFeaturesRF1 {
     }
 
     // est_rounds_left - the estimate of rounds left in the game - offline approach
+    // class SPFeatureRoundsLeft extends SPFeature {
+    //     public SPFeatureRoundsLeft() {
+    //         super("rounds_left", "the estimate of rounds left in the game - offline approach");
+    //     }
+
+    //     public Object getValue(SPState state) {
+
+    //         SPFeatureRound roundFeature = new SPFeatureRound();
+    //         Object rounds = roundFeature.getValue(state);
+
+    //         if (!cbInitialized) {
+    //             return -1;
+    //         }
+    //         try {
+    //             ArrayList<Object> featureValues = getRLTrainFeatureValues(state);
+    //             if (!cbInitialized || interp == null) {
+    //                 System.err.println("Python CB not initialized. Returning fallback value.");
+    //                 return -1;
+    //             }
+
+    //             interp.set("query", featureValues);
+    //             interp.set("curRound", rounds);
+    //             interp.exec("result = model.query(query, curRound)");
+    //             return (Double) interp.getValue("result");
+    //         } catch (JepException e) {
+    //             System.err.println("[SPFeatureRoundsLeft] Jep exception: " + e.getMessage());
+    //             return -1;
+    //         } catch (Exception e) {
+    //             System.err.println("[SPFeatureRoundsLeft] General exception: " + e.getMessage());
+    //             return -1;
+    //         }
+    //     }
+    // }
+
+    // est_rounds_left - the estimate of rounds left in the game - CatBoost approach
     class SPFeatureRoundsLeft extends SPFeature {
         public SPFeatureRoundsLeft() {
-            super("rounds_left", "the estimate of rounds left in the game - offline approach");
+            super("rounds_left", "the estimate of rounds left in the game - CatBoost approach");
         }
 
         public Object getValue(SPState state) {
-
-            SPFeatureRound roundFeature = new SPFeatureRound();
-            Object rounds = roundFeature.getValue(state);
-
-            if (!cbInitialized) {
-                return -1;
+            if (roundsLeftModel == null) {
+                System.err.println("Rounds Left model not loaded. Returning fallback value -1.");
+                return -1.0; // Return a default/fallback value
             }
+
             try {
-                ArrayList<Object> featureValues = getRLTrainFeatureValues(state);
-                if (!cbInitialized || interp == null) {
-                    System.err.println("Python CB not initialized. Returning fallback value.");
-                    return -1;
+                // 1. Get feature values from the existing helper method
+                ArrayList<Object> values = getRLTrainFeatureValues(state);
+                
+                // 2. Convert features to float[] for CatBoost
+                //    CatBoost Java API requires float[] for num features and String[] for cat features
+                //    Based on your rlFeatures, they all appear to be numeric.
+                float[] numericFeatures = new float[values.size()];
+                for (int i = 0; i < values.size(); i++) {
+                    // Cast all feature values to float
+                    numericFeatures[i] = ((Number) values.get(i)).floatValue();
                 }
 
-                interp.set("query", featureValues);
-                interp.set("curRound", rounds);
-                interp.exec("result = model.query(query, curRound)");
-                return (Double) interp.getValue("result");
-            } catch (JepException e) {
-                System.err.println("[SPFeatureRoundsLeft] Jep exception: " + e.getMessage());
-                return -1;
-            } catch (Exception e) {
-                System.err.println("[SPFeatureRoundsLeft] General exception: " + e.getMessage());
-                return -1;
+                // 3. Predict
+                //    We pass an empty String[0] for categorical features to resolve ambiguity
+                CatBoostPredictions prediction = roundsLeftModel.predict(numericFeatures, new String[0]);
+                
+                // 4. Return the first (and only) prediction value
+                return prediction.get(0, 0);
+
+            } catch (Exception e) { // This will catch CatBoostError
+                System.err.println("[SPFeatureRoundsLeft] CatBoost prediction exception: " + e.getMessage());
+                e.printStackTrace();
+                return -1.0; // Return fallback on error
             }
         }
     }
 
-    private boolean initPythonCB(String dfPath) {
+    // private boolean initPythonCB(String dfPath) {
 
-        // System.out.println("Generating rounds left training data: " + dfPath);
+    //     // System.out.println("Generating rounds left training data: " + dfPath);
 
-        // int roundsLeftNumGames = 5000; // Number of games to simulate for rounds left training data
-        // generateRLCSVData(dfPath, roundsLeftNumGames);
+    //     // int roundsLeftNumGames = 5000; // Number of games to simulate for rounds left training data
+    //     // generateRLCSVData(dfPath, roundsLeftNumGames);
 
-        // System.out.println("Generated rounds left training data: " + dfPath);
+    //     // System.out.println("Generated rounds left training data: " + dfPath);
 
-        try {
-            System.out.println("Initializing Python CB with data from: " + dfPath);
+    //     try {
+    //         System.out.println("Initializing Python CB with data from: " + dfPath);
 
-            interp = new SharedInterpreter();
+    //         interp = new SharedInterpreter();
 
-            // Import dependencies
-            interp.exec("import pandas as pd");
-            interp.exec("import sys");
-            // Add the actual python source directory
-            interp.exec("sys.path.append('C:/Users/sidan/Desktop/Mine/College/6. 2025 Fall/CS 391 - AI in Games/Maven Test/saint-petersburg/src/main/python')");
+    //         // Import dependencies
+    //         interp.exec("import pandas as pd");
+    //         interp.exec("import sys");
+    //         // Add the actual python source directory
+    //         interp.exec("sys.path.append('C:/Users/sidan/Desktop/Mine/College/6. 2025 Fall/CS 391 - AI in Games/Maven Test/saint-petersburg/src/main/python')");
 
-            // Import GameStateKNN from rounds_left_estimator.py
-            interp.exec("from rounds_left_estimator_update import GameStateRegressor");
+    //         // Import GameStateKNN from rounds_left_estimator.py
+    //         interp.exec("from rounds_left_estimator_update import GameStateRegressor");
 
-            // Load dataframe
-            interp.set("df_path", dfPath);
-            interp.exec("df = pd.read_csv(df_path)");
+    //         // Load dataframe
+    //         interp.set("df_path", dfPath);
+    //         interp.exec("df = pd.read_csv(df_path)");
 
-            // Initialize GameStateRegressor
-            interp.exec("model = GameStateRegressor(df, target_col='rounds_remaining')");
+    //         // Initialize GameStateRegressor
+    //         interp.exec("model = GameStateRegressor(df, target_col='rounds_remaining')");
 
-            Boolean valid = (Boolean) interp.getValue("model is not None");
-            if (!valid) {
-                System.err.println("[initPythonCB] Python CB initialization failed.");
-                return false;
-            }
+    //         Boolean valid = (Boolean) interp.getValue("model is not None");
+    //         if (!valid) {
+    //             System.err.println("[initPythonCB] Python CB initialization failed.");
+    //             return false;
+    //         }
 
-            return true;
-        } catch (JepException e) {
-            System.err.println("[initPythonCB] Jep exception: " + e.getMessage());
-            return false;
-        } catch (Exception e) {
-            System.err.println("[initPythonCB] General exception: " + e.getMessage());
-            return false;
-        }
-    }
+    //         return true;
+    //     } catch (JepException e) {
+    //         System.err.println("[initPythonCB] Jep exception: " + e.getMessage());
+    //         return false;
+    //     } catch (Exception e) {
+    //         System.err.println("[initPythonCB] General exception: " + e.getMessage());
+    //         return false;
+    //     }
+    // }
 
 
-    private void close() {
-        if (interp != null) {
-            try {
-                interp.close();
-            } catch (JepException e) {
-                System.err.println("[close] Failed to close Jep: " + e.getMessage());
-            }
-        }
-    }
+    // private void close() {
+    //     if (interp != null) {
+    //         try {
+    //             interp.close();
+    //         } catch (JepException e) {
+    //             System.err.println("[close] Failed to close Jep: " + e.getMessage());
+    //         }
+    //     }
+    // }
 
 
 

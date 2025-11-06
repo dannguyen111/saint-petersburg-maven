@@ -107,9 +107,9 @@ public class SPStateFeaturesLR1 {
         // It generates training data by simulating games and saves it to a CSV file.
         // Then it uses logistic regression to learn a model and saves it to a file.
 
-        String trainingDataFile = "AIDanSPFMCTrainingDataFlatMCvsFlatMC.csv";
-        // int numGames = 10000; // Number of games to simulate for training data
-        // generateCSVData(trainingDataFile, numGames);
+        String trainingDataFile = "AIDanSPFMCTrainingData.csv";
+        int numGames = 10000; // Number of games to simulate for training data
+        generateCSVData(trainingDataFile, numGames);
 
         // Load the training data from the CSV file into a Smile dataset (Anh code)
         List<double[]> values = new ArrayList<>();
