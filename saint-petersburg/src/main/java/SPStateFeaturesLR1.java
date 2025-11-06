@@ -155,12 +155,12 @@ public class SPStateFeaturesLR1 {
         }
 
         // Delete the training data file after learning the model
-        java.nio.file.Path path = java.nio.file.Paths.get(trainingDataFile);
-        try {
-            java.nio.file.Files.delete(path);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+        // java.nio.file.Path path = java.nio.file.Paths.get(trainingDataFile);
+        // try {
+        //     java.nio.file.Files.delete(path);
+        // } catch (IOException e) {
+        //     e.printStackTrace();
+        // }
     }
 
     public double predict(SPState state) {
