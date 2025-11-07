@@ -277,23 +277,6 @@ public class AIDanSPStateFeaturesRF1 {
         }
     }
 
-    public void generateCSVData2(String filename, int numGames) {
-        try (PrintWriter writer = new PrintWriter(new FileWriter(filename))) {
-            writer.println(getCSVHeader());
-            for (int i = 0; i < numGames; i++) {
-                SPGameTranscript transcript = SPSimulateGame.simulateGame(new SPRandomPlayer(), new SPRandomPlayer());
-                // SPGameTranscript transcript = SPSimulateGame.simulateGame(new SPPlayerFlatMC(), new SPPlayerFlatMC());
-                writer.print(getCSVRows(transcript));
-                if ((i + 1) % (numGames / 10) == 0) {
-                    System.out.println("Generated game " + (i + 1) + "/" + numGames);
-                }
-                // System.out.println("Generated game " + (i + 1) + "/" + numGames);
-            }
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
-
     public String getRLCSVHeader() {
         StringBuilder header = new StringBuilder();
         ArrayList<String> rlFeatureCols = getRLTrainFeature();
