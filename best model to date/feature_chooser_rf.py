@@ -20,7 +20,7 @@ def find_best_features(file_path, target_col="is_winner", max_features=10):
     y = df[target_col]
 
     # Base model
-    rf = RandomForestClassifier(n_estimators=100, random_state=42, n_jobs=-1)
+    rf = RandomForestClassifier(n_estimators=200, random_state=42, n_jobs=-1)
     rf.fit(X, y)
 
     # Rank features by importance
@@ -32,7 +32,7 @@ def find_best_features(file_path, target_col="is_winner", max_features=10):
     best_num = 0
 
     # Test from 1 to max_features
-    for i in range(1, max_features + 1):
+    for i in range(10, max_features + 1):
         selected = ranked_features.index[:i]
         score = cross_val_score(rf, X[selected], y, cv=3, scoring='accuracy', n_jobs=-1).mean()
         print(f"{i} features: accuracy = {score:.4f}")
@@ -50,4 +50,4 @@ def find_best_features(file_path, target_col="is_winner", max_features=10):
 
 
 # Example usage
-find_best_features("AIDanSPTrainingDataFlatMCvsFlatMC.csv", target_col="is_winner", max_features=20)
+find_best_features("AIDanSPTrainingData.csv", target_col="is_winner", max_features=20)

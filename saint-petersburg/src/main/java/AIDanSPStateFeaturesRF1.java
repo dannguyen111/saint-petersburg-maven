@@ -120,14 +120,6 @@ public class AIDanSPStateFeaturesRF1 {
         features.add(new SPFeatureInteractionTerm(new SPFeatureRublesRoundGainDiff(), new SPFeatureRoundsLeft()));
         features.add(new SPFeatureCardsInHand());
         features.add(new SPFeatureInteractionTerm(new SPFeatureCardsInHand(), new SPFeatureRoundsLeft()));
-        features.add(new SPFeatureCardsInHandDiff());
-        features.add(new SPFeatureInteractionTerm(new SPFeatureCardsInHandDiff(), new SPFeatureRoundsLeft()));
-        features.add(new SPFeatureHandSpaceDiff());
-        features.add(new SPFeatureInteractionTerm(new SPFeatureHandSpaceDiff(), new SPFeatureRoundsLeft()));
-        features.add(new SPFeatureBuyableCardsInHand());
-        features.add(new SPFeatureInteractionTerm(new SPFeatureBuyableCardsInHand(), new SPFeatureRoundsLeft()));
-        features.add(new SPFeatureDupAristoCount());
-        features.add(new SPFeatureInteractionTerm(new SPFeatureDupAristoCount(), new SPFeatureRoundsLeft()));
 
         // features = new ArrayList<>();
         // features.add(new SPFeatureMinDeckSize());
@@ -163,7 +155,6 @@ public class AIDanSPStateFeaturesRF1 {
         // Initialize features list for rounds left estimator
         rlFeatures = new ArrayList();
         rlFeatures.add(new SPFeatureCurrentRound());
-        rlFeatures.add(new SPFeatureCurrentPhase());
         for (int phase = 0; phase < 4; phase++) {
             rlFeatures.add(new SPFeatureCardsInDeck(phase));
             if (phase < 3) 
@@ -213,13 +204,48 @@ public class AIDanSPStateFeaturesRF1 {
     public String getCSVRow(SPState state, boolean[] isWinner, int numRounds) {
         int currentPlayerIndex = state.playerTurn;
         int winnerVal = isWinner[currentPlayerIndex] ? 1 : 0;
+
+        // The "actual" rounds_left value
         int currPhase = (state.phase < 4) ? state.phase : (state.phase == 4) ? 2 : 0;
         double round = (double) state.round + (currPhase % 4) / 4.0;
         double rounds_left = numRounds - round;
+
         StringBuilder row = new StringBuilder();
+
         for (SPFeature feature : features) {
-            row.append(feature.getValue(state)).append(",");
+            Object valueToAppend;
+
+            // If it's an interaction term involving "rounds_left"
+            if (feature instanceof SPFeatureInteractionTerm) {
+                SPFeatureInteractionTerm interactionFeature = (SPFeatureInteractionTerm) feature;
+                
+                SPFeature otherFeature = interactionFeature.getOtherFeatureIfRoundsLeft();
+
+                if (otherFeature != null) {
+
+                    Object otherValue = otherFeature.getValue(state);
+                    
+                    // Calculate the product using the *actual* rounds_left
+                    if (otherValue instanceof Number) {
+                        valueToAppend = ((Number) otherValue).doubleValue() * rounds_left;
+                    } else {
+                        valueToAppend = 0.0;
+                    }
+                } else {
+                    // It's a different interaction term, use default behavior
+                    valueToAppend = feature.getValue(state);
+                }
+            } 
+            else if (feature.getName().equals("rounds_left")) {
+                valueToAppend = rounds_left;
+            } 
+            else {
+                valueToAppend = feature.getValue(state);
+            }
+            
+            row.append(valueToAppend).append(",");
         }
+
         row.append(winnerVal);
         return row.toString();
     }
@@ -235,6 +261,23 @@ public class AIDanSPStateFeaturesRF1 {
     }
 
     public void generateCSVData(String filename, int numGames) {
+        try (PrintWriter writer = new PrintWriter(new FileWriter(filename))) {
+            writer.println(getCSVHeader());
+            for (int i = 0; i < numGames; i++) {
+                SPGameTranscript transcript = SPSimulateGame.simulateGame(new SPRandomPlayer(), new SPRandomPlayer());
+                // SPGameTranscript transcript = SPSimulateGame.simulateGame(new SPPlayerFlatMC(), new SPPlayerFlatMC());
+                writer.print(getCSVRows(transcript));
+                if ((i + 1) % (numGames / 10) == 0) {
+                    System.out.println("Generated game " + (i + 1) + "/" + numGames);
+                }
+                // System.out.println("Generated game " + (i + 1) + "/" + numGames);
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void generateCSVData2(String filename, int numGames) {
         try (PrintWriter writer = new PrintWriter(new FileWriter(filename))) {
             writer.println(getCSVHeader());
             for (int i = 0; i < numGames; i++) {
@@ -712,41 +755,6 @@ public class AIDanSPStateFeaturesRF1 {
         }
     }
 
-    // est_rounds_left - the estimate of rounds left in the game - offline approach
-    // class SPFeatureRoundsLeft extends SPFeature {
-    //     public SPFeatureRoundsLeft() {
-    //         super("rounds_left", "the estimate of rounds left in the game - offline approach");
-    //     }
-
-    //     public Object getValue(SPState state) {
-
-    //         SPFeatureRound roundFeature = new SPFeatureRound();
-    //         Object rounds = roundFeature.getValue(state);
-
-    //         if (!cbInitialized) {
-    //             return -1;
-    //         }
-    //         try {
-    //             ArrayList<Object> featureValues = getRLTrainFeatureValues(state);
-    //             if (!cbInitialized || interp == null) {
-    //                 System.err.println("Python CB not initialized. Returning fallback value.");
-    //                 return -1;
-    //             }
-
-    //             interp.set("query", featureValues);
-    //             interp.set("curRound", rounds);
-    //             interp.exec("result = model.query(query, curRound)");
-    //             return (Double) interp.getValue("result");
-    //         } catch (JepException e) {
-    //             System.err.println("[SPFeatureRoundsLeft] Jep exception: " + e.getMessage());
-    //             return -1;
-    //         } catch (Exception e) {
-    //             System.err.println("[SPFeatureRoundsLeft] General exception: " + e.getMessage());
-    //             return -1;
-    //         }
-    //     }
-    // }
-
     // est_rounds_left - the estimate of rounds left in the game - CatBoost approach
     class SPFeatureRoundsLeft extends SPFeature {
         public SPFeatureRoundsLeft() {
@@ -764,87 +772,24 @@ public class AIDanSPStateFeaturesRF1 {
                 ArrayList<Object> values = getRLTrainFeatureValues(state);
                 
                 // 2. Convert features to float[] for CatBoost
-                //    CatBoost Java API requires float[] for num features and String[] for cat features
-                //    Based on your rlFeatures, they all appear to be numeric.
                 float[] numericFeatures = new float[values.size()];
                 for (int i = 0; i < values.size(); i++) {
-                    // Cast all feature values to float
                     numericFeatures[i] = ((Number) values.get(i)).floatValue();
                 }
 
                 // 3. Predict
-                //    We pass an empty String[0] for categorical features to resolve ambiguity
                 CatBoostPredictions prediction = roundsLeftModel.predict(numericFeatures, new String[0]);
                 
                 // 4. Return the first (and only) prediction value
                 return prediction.get(0, 0);
 
-            } catch (Exception e) { // This will catch CatBoostError
+            } catch (Exception e) {
                 System.err.println("[SPFeatureRoundsLeft] CatBoost prediction exception: " + e.getMessage());
                 e.printStackTrace();
-                return -1.0; // Return fallback on error
+                return -1.0;
             }
         }
     }
-
-    // private boolean initPythonCB(String dfPath) {
-
-    //     // System.out.println("Generating rounds left training data: " + dfPath);
-
-    //     // int roundsLeftNumGames = 5000; // Number of games to simulate for rounds left training data
-    //     // generateRLCSVData(dfPath, roundsLeftNumGames);
-
-    //     // System.out.println("Generated rounds left training data: " + dfPath);
-
-    //     try {
-    //         System.out.println("Initializing Python CB with data from: " + dfPath);
-
-    //         interp = new SharedInterpreter();
-
-    //         // Import dependencies
-    //         interp.exec("import pandas as pd");
-    //         interp.exec("import sys");
-    //         // Add the actual python source directory
-    //         interp.exec("sys.path.append('C:/Users/sidan/Desktop/Mine/College/6. 2025 Fall/CS 391 - AI in Games/Maven Test/saint-petersburg/src/main/python')");
-
-    //         // Import GameStateKNN from rounds_left_estimator.py
-    //         interp.exec("from rounds_left_estimator_update import GameStateRegressor");
-
-    //         // Load dataframe
-    //         interp.set("df_path", dfPath);
-    //         interp.exec("df = pd.read_csv(df_path)");
-
-    //         // Initialize GameStateRegressor
-    //         interp.exec("model = GameStateRegressor(df, target_col='rounds_remaining')");
-
-    //         Boolean valid = (Boolean) interp.getValue("model is not None");
-    //         if (!valid) {
-    //             System.err.println("[initPythonCB] Python CB initialization failed.");
-    //             return false;
-    //         }
-
-    //         return true;
-    //     } catch (JepException e) {
-    //         System.err.println("[initPythonCB] Jep exception: " + e.getMessage());
-    //         return false;
-    //     } catch (Exception e) {
-    //         System.err.println("[initPythonCB] General exception: " + e.getMessage());
-    //         return false;
-    //     }
-    // }
-
-
-    // private void close() {
-    //     if (interp != null) {
-    //         try {
-    //             interp.close();
-    //         } catch (JepException e) {
-    //             System.err.println("[close] Failed to close Jep: " + e.getMessage());
-    //         }
-    //     }
-    // }
-
-
 
     // Special features for rounds left estimator
     class SPFeatureCardsInDeck extends SPFeature {
@@ -970,16 +915,6 @@ public class AIDanSPStateFeaturesRF1 {
         }
     }
 
-    class SPFeatureCurrentPhase extends SPFeature {
-        public SPFeatureCurrentPhase() {
-            super("current_phase", "current phase number");
-        }
-
-        public Object getValue(SPState state) {
-            return state.phase;
-        }
-    }
-
     // current_round - current round number
     class SPFeatureCurrentRound extends SPFeature {
         public SPFeatureCurrentRound() {
@@ -987,7 +922,9 @@ public class AIDanSPStateFeaturesRF1 {
         }
 
         public Object getValue(SPState state) {
-            return state.round;
+            int currPhase = (state.phase < 4) ? state.phase : (state.phase == 4) ? 2 : 0;
+            double round = (double) state.round + (currPhase % 4) / 4.0;
+            return round;
         }
     }
 

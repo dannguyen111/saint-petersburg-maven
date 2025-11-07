@@ -34,7 +34,6 @@ def compare_ml_models(file_path, feature_list, target_col="is_winner"):
     models = {
         "Logistic Regression": make_pipeline(StandardScaler(), LogisticRegression(max_iter=1000)),
         "Random Forest": RandomForestClassifier(n_estimators=200, random_state=42, n_jobs=-1),
-        "Gradient Boosting": GradientBoostingClassifier(random_state=42),
         "Decision Tree": DecisionTreeClassifier(random_state=42),
         "K-Nearest Neighbors": make_pipeline(StandardScaler(), KNeighborsClassifier(n_neighbors=5))
     }
@@ -94,4 +93,4 @@ def compare_ml_models(file_path, feature_list, target_col="is_winner"):
     }
 
 # Example usage:
-best_result = compare_ml_models("best model to date/SPTrainingData.csv", ['rubles_round_gain_diff_x_min_deck_size', 'rubles_round_gain_diff', 'points_diff', 'unique_aristocrats_points_diff', 'points_round_gain_diff', 'rubles_diff', 'points_round_gain_diff_x_min_deck_size', 'rubles_diff_x_min_deck_size', 'unique_aristocrats_points_diff_x_min_deck_size', 'points_diff_x_min_deck_size', 'rubles_round_gain', 'rubles_round_gain_x_min_deck_size', 'points', 'points_round_gain'], "is_winner")
+best_result = compare_ml_models("AIDanSPTrainingData.csv", ['rubles_round_gain_diff_x_rounds_left', 'rubles_round_gain_diff', 'points_round_gain_diff_x_rounds_left', 'unique_aristocrats_points_diff', 'unique_aristocrats_points_diff_x_rounds_left', 'points_diff', 'points_round_gain_diff', 'points_diff_x_rounds_left', 'rubles_round_gain_x_rounds_left', 'rubles_diff_x_rounds_left', 'points_round_gain_x_rounds_left', 'rounds_left', 'rubles_round_gain', 'cards_in_hand_x_rounds_left', 'points_x_rounds_left', 'rubles_x_rounds_left', 'rubles_diff', 'points', 'points_round_gain', 'cards_in_hand_diff_x_rounds_left'], "is_winner")

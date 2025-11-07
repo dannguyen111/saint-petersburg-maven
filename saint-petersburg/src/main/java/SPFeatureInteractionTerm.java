@@ -9,6 +9,16 @@ public class SPFeatureInteractionTerm extends SPFeature {
         this.feature2 = feature2;
     }
 
+    // return the other feature if one of the feature is SPFeatureRoundsLeft
+    public SPFeature getOtherFeatureIfRoundsLeft() {
+        if (feature1.getName().equals("rounds_left")) {
+            return feature2;
+        } else if (feature2.getName().equals("rounds_left")) {
+            return feature1;
+        }
+        return null;
+    }
+
     @Override
     public Object getValue(SPState state) {
         Object value1 = feature1.getValue(state);
