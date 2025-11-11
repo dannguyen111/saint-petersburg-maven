@@ -8,6 +8,14 @@ import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
+import java.util.concurrent.CompletionService;
+import java.util.concurrent.ExecutionException;
+import java.util.concurrent.ExecutorCompletionService;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.Future;
+import java.util.concurrent.TimeUnit;
+import java.util.concurrent.atomic.AtomicInteger;
 
 import ai.catboost.CatBoostError;
 import ai.catboost.CatBoostModel;
@@ -121,6 +129,11 @@ public class AIDanSPStateFeaturesRF1 {
         features.add(new SPFeatureCardsInHand());
         features.add(new SPFeatureInteractionTerm(new SPFeatureCardsInHand(), new SPFeatureRoundsLeft()));
         features.add(new SPFeatureNumLegalMoves());
+        features.add(new SPFeatureInteractionTerm(new SPFeatureNumLegalMoves(), new SPFeatureRoundsLeft()));
+        features.add(new SPFeatureCardsInHandDiff());
+        features.add(new SPFeatureInteractionTerm(new SPFeatureCardsInHandDiff(), new SPFeatureRoundsLeft()));
+        features.add(new SPFeatureHandSpaceDiff());
+        features.add(new SPFeatureInteractionTerm(new SPFeatureHandSpaceDiff(), new SPFeatureRoundsLeft()));
 
         // features = new ArrayList<>();
         // features.add(new SPFeatureMinDeckSize());
@@ -262,19 +275,56 @@ public class AIDanSPStateFeaturesRF1 {
     }
 
     public void generateCSVData(String filename, int numGames) {
+        int numThreads = 10;
+        ExecutorService executor = Executors.newFixedThreadPool(numThreads);
+        
+        CompletionService<String> completionService = new ExecutorCompletionService<>(executor);
+        
+        AtomicInteger gamesCompleted = new AtomicInteger(0);
+    
         try (PrintWriter writer = new PrintWriter(new FileWriter(filename))) {
             writer.println(getCSVHeader());
+    
             for (int i = 0; i < numGames; i++) {
-                SPGameTranscript transcript = SPSimulateGame.simulateGame(new SPRandomPlayer(), new SPRandomPlayer());
-                // SPGameTranscript transcript = SPSimulateGame.simulateGame(new SPPlayerFlatMC(), new SPPlayerFlatMC());
-                writer.print(getCSVRows(transcript));
-                if ((i + 1) % (numGames / 10) == 0) {
-                    System.out.println("Generated game " + (i + 1) + "/" + numGames);
-                }
-                // System.out.println("Generated game " + (i + 1) + "/" + numGames);
+                completionService.submit(() -> {
+                    // SPGameTranscript transcript = SPSimulateGame.simulateGame(new SPRandomPlayer(), new SPRandomPlayer());
+                    SPGameTranscript transcript = SPSimulateGame.simulateGame(new SPPlayerFlatMC(), new SPPlayerFlatMC());
+                    return getCSVRows(transcript); 
+                });
             }
+    
+            for (int i = 0; i < numGames; i++) {
+                try {
+                    Future<String> future = completionService.take(); 
+                    
+                    String csvRow = future.get(); 
+                    
+                    writer.print(csvRow);
+    
+                    int done = gamesCompleted.incrementAndGet();
+                    System.out.println("Generated game " + done + "/" + numGames);
+    
+                } catch (InterruptedException e) {
+                    Thread.currentThread().interrupt(); 
+                    e.printStackTrace();
+                } catch (ExecutionException e) {
+                    System.err.println("Error during game simulation: " + e.getCause());
+                    e.printStackTrace();
+                }
+            }
+    
         } catch (IOException e) {
             e.printStackTrace();
+        } finally {
+            executor.shutdown(); 
+            try {
+                if (!executor.awaitTermination(60, TimeUnit.SECONDS)) {
+                    executor.shutdownNow();
+                }
+            } catch (InterruptedException e) {
+                executor.shutdownNow(); 
+                Thread.currentThread().interrupt();
+            }
         }
     }
 
@@ -342,7 +392,7 @@ public class AIDanSPStateFeaturesRF1 {
 
         try {
             String trainingDataFile = "AIDanSPTrainingData.csv";
-            int numGames = 10000; // Number of games to simulate for training data
+            int numGames = 1000; // Number of games to simulate for training data
             generateCSVData(trainingDataFile, numGames);
             DataFrame df = Read.csv(trainingDataFile, "header=true");
 
