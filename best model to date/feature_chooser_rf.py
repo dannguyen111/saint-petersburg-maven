@@ -31,15 +31,17 @@ def find_best_features(file_path, target_col="is_winner", max_features=10):
     best_features = []
     best_num = 0
 
+    print(ranked_features)
+
     # Test from 1 to max_features
-    for i in range(10, max_features + 1):
-        selected = ranked_features.index[:i]
-        score = cross_val_score(rf, X[selected], y, cv=3, scoring='accuracy', n_jobs=-1).mean()
-        print(f"{i} features: accuracy = {score:.4f}")
-        if score > best_score:
-            best_score = score
-            best_features = selected.tolist()
-            best_num = i
+    # for i in range(10, max_features + 1):
+    #     selected = ranked_features.index[:i]
+    #     score = cross_val_score(rf, X[selected], y, cv=3, scoring='accuracy', n_jobs=-1).mean()
+    #     print(f"{i} features: accuracy = {score:.4f}")
+    #     if score > best_score:
+    #         best_score = score
+    #         best_features = selected.tolist()
+    #         best_num = i
 
     print("\n✅ Best feature set:")
     print(f"Number of features: {best_num}")

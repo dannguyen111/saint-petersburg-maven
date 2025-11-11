@@ -120,6 +120,7 @@ public class AIDanSPStateFeaturesRF1 {
         features.add(new SPFeatureInteractionTerm(new SPFeatureRublesRoundGainDiff(), new SPFeatureRoundsLeft()));
         features.add(new SPFeatureCardsInHand());
         features.add(new SPFeatureInteractionTerm(new SPFeatureCardsInHand(), new SPFeatureRoundsLeft()));
+        features.add(new SPFeatureNumLegalMoves());
 
         // features = new ArrayList<>();
         // features.add(new SPFeatureMinDeckSize());
@@ -735,6 +736,17 @@ public class AIDanSPStateFeaturesRF1 {
         public Object getValue(SPState state) {
             return state.playerAristocrats.get(state.playerTurn).size()
                     - state.playerAristocrats.get(state.playerTurn).stream().distinct().count();
+        }
+    }
+
+    // num_legal_moves - the number of legal moves available to the current player
+    class SPFeatureNumLegalMoves extends SPFeature {
+        public SPFeatureNumLegalMoves() {
+            super("num_legal_moves", "the number of legal moves available to the current player.");
+        }
+
+        public Object getValue(SPState state) {
+            return state.getLegalActions().size();
         }
     }
 
