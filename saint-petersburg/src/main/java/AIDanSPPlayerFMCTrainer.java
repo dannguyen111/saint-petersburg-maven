@@ -5,7 +5,7 @@ public class AIDanSPPlayerFMCTrainer extends SPPlayer {
     int numSimulationsPerAction = 10000;
     int playoutTerminationDepth = 4;
     AIDanSPStateFeaturesLR3 features = new AIDanSPStateFeaturesLR3();
-    boolean verbose = true;
+    boolean verbose = false;
 
     public AIDanSPPlayerFMCTrainer() {
         super("AIDanSPPlayerFMCTrainer");

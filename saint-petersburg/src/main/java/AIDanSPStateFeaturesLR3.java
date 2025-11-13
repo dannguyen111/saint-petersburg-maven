@@ -110,30 +110,58 @@ public class AIDanSPStateFeaturesLR3 {
         }
     }
 
+    public ArrayList<String> getFeatureNames() {
+        ArrayList<String> names = new ArrayList<>();
+        for (SPFeature feature : features) {
+            names.add(feature.getName());
+        }
+        return names;
+    }
+
     public void learnModel() {
-        // This method assumes that the logistic regression model has not been created and saved yet.
-        // It generates training data by simulating games and saves it to a CSV file.
-        // Then it uses logistic regression to learn a model and saves it to a file.
-
         String trainingDataFile = "AIDanSPTrainingDataFlatMCvsFlatMC.csv";
-        // int numGames = 10000; // Number of games to simulate for training data
-        // generateCSVData(trainingDataFile, numGames);
 
-        // Load the training data from the CSV file into a Smile dataset (Anh code)
+        ArrayList<String> desiredFeatureNames = getFeatureNames();
+        List<Integer> featureIndicesToKeep = new ArrayList<>();
+
         List<double[]> values = new ArrayList<>();
         List<Integer> labels = new ArrayList<>();
 
         try (BufferedReader br = new BufferedReader(new FileReader(trainingDataFile))) {
-            String line = br.readLine(); 
+            
+            String headerLine = br.readLine(); 
+            String[] allCsvHeaders = headerLine.split(",");
+
+            for (int i = 0; i < allCsvHeaders.length; i++) {
+                String csvColumnName = allCsvHeaders[i];
+                if (desiredFeatureNames.contains(csvColumnName)) {
+                    featureIndicesToKeep.add(i);
+                }
+            }
+            
+            if (featureIndicesToKeep.size() != desiredFeatureNames.size()) {
+                System.err.println("ERROR: Mismatch between features in code and CSV!");
+                System.err.println("Code features: " + desiredFeatureNames);
+                System.err.println("Found " + featureIndicesToKeep.size() + " matching columns in CSV.");
+                return;
+            }
+
+            String line;
             while ((line = br.readLine()) != null) {
                 String[] parts = line.split(",");
-                double[] row = new double[parts.length - 1];
-                for (int i = 0; i < row.length; i++) {
-                    row[i] = Double.parseDouble(parts[i]);
+                
+                // Build the feature row *selectively* using our index map
+                double[] row = new double[featureIndicesToKeep.size()];
+                for (int i = 0; i < featureIndicesToKeep.size(); i++) {
+                    int csvIndex = featureIndicesToKeep.get(i);
+                    row[i] = Double.parseDouble(parts[csvIndex]);
                 }
                 values.add(row);
+                
+                // Add the label (it's always the last part)
                 labels.add(Integer.parseInt(parts[parts.length - 1]));
             }
+
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (IOException e) {
@@ -154,21 +182,15 @@ public class AIDanSPStateFeaturesLR3 {
         }
 
         // Print the model coefficients along with their feature names
+        // This printout will now work correctly!
         System.out.println("Model coefficients:");
-        System.out.println(features.size() + " features");
-        System.out.println(model.coefficients().length + " coefficients");
+        System.out.println(features.size() + " features"); // Will print 14
+        System.out.println(model.coefficients().length + " coefficients"); // Will print 15 (14 + intercept)
         System.out.printf("%.4f\tIntercept%n", model.coefficients()[0]);
-        for (int i = 0; i < model.coefficients().length - 1; i++) {
+        for (int i = 0; i < model.coefficients().length - 1; i++) { // Will loop 14 times
+            // This is now safe and won't crash
             System.out.printf("%.4f\t%s%n", model.coefficients()[i + 1], features.get(i).getName());
         }
-
-        // Delete the training data file after learning the model
-//        java.nio.file.Path path = java.nio.file.Paths.get(trainingDataFile);
-//        try {
-//            java.nio.file.Files.delete(path);
-//        } catch (IOException e) {
-//            e.printStackTrace();
-//        }
     }
 
     public double predict(SPState state) {

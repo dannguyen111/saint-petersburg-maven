@@ -5,7 +5,7 @@ public class AIDanSPPlayerHybridObjective extends SPPlayer {
 	int numSimulationsPerAction = 10000;
     int playoutTerminationDepth = 4;
     AIDanSPStateFeaturesRF1 features = new AIDanSPStateFeaturesRF1();
-    boolean verbose = true;
+    boolean verbose = false;
 
     public AIDanSPPlayerHybridObjective() {
       super("AIDanSPPlayerHybridObjective");
