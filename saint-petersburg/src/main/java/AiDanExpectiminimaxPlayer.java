@@ -1,9 +1,8 @@
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Random;
-import java.util.Collections;
-import java.io.*;
 
 public class AiDanExpectiminimaxPlayer extends SPPlayer {
 

@@ -45,6 +45,8 @@ public class SPStateFeaturesLR1 {
         features.add(new SPFeatureInteractionTerm(new SPFeatureCardsInHand(), new SPFeatureMinDeckSize()));
         features.add(new SPFeatureCardsInHandDiff());
         features.add(new SPFeatureInteractionTerm(new SPFeatureCardsInHandDiff(), new SPFeatureMinDeckSize()));
+        features.add(new SPFeatureUniqueAristocratsPointsDiff());
+        features.add(new SPFeatureInteractionTerm(new SPFeatureUniqueAristocratsPointsDiff(), new SPFeatureMinDeckSize()));
 
         initializeModel();
     }
@@ -343,6 +345,25 @@ public class SPStateFeaturesLR1 {
             int opponentCardsInHand = state.playerHands.get(1 - state.playerTurn).size();
             return cardsInHand - opponentCardsInHand;
         }   
+    }
+
+    // unique_aristocrats_points_diff – the difference in potential point added
+    // based on the number of unique aristocrats of the current player relative to
+    // the opponent
+    class SPFeatureUniqueAristocratsPointsDiff extends SPFeature {
+        public SPFeatureUniqueAristocratsPointsDiff() {
+            super("unique_aristocrats_points_diff",
+                    "the difference in potential point added based on the number of unique aristocrats of the current player relative to the opponent");
+        }
+
+        public Object getValue(SPState state) {
+            long uniqueAristocrats = Math.min(SPState.MAX_UNIQUE_ARISTOCRATS,
+                    state.playerAristocrats.get(state.playerTurn).stream().distinct().count());
+            long opponentUniqueAristocrats = Math.min(SPState.MAX_UNIQUE_ARISTOCRATS,
+                    state.playerAristocrats.get(1 - state.playerTurn).stream().distinct().count());
+            return SPState.UNIQUE_ARISTOCRAT_BONUS_POINTS.get((int) uniqueAristocrats)
+                    - SPState.UNIQUE_ARISTOCRAT_BONUS_POINTS.get((int) opponentUniqueAristocrats);
+        }
     }
 
     public static void main(String[] args) {

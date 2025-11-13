@@ -5,7 +5,7 @@ public class SPPlayerFlatMC extends SPPlayer {
     int numSimulationsPerAction = 10000;
     int playoutTerminationDepth = 4;
     SPStateFeaturesLR1 features = new SPStateFeaturesLR1();
-    boolean verbose = true;
+    boolean verbose = false;
 
     public SPPlayerFlatMC() {
         super("SPPlayerFlatMC");

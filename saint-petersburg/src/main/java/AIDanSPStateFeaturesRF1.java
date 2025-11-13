@@ -8,6 +8,14 @@ import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
+import java.util.concurrent.CompletionService;
+import java.util.concurrent.ExecutionException;
+import java.util.concurrent.ExecutorCompletionService;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.Future;
+import java.util.concurrent.TimeUnit;
+import java.util.concurrent.atomic.AtomicInteger;
 
 import ai.catboost.CatBoostError;
 import ai.catboost.CatBoostModel;
@@ -98,6 +106,38 @@ public class AIDanSPStateFeaturesRF1 {
         // features.add(new SPFeatureDupAristoCount());
         // features.add(new SPFeatureInteractionTerm(new SPFeatureDupAristoCount(), new SPFeatureMinDeckSize()));
 
+<<<<<<< HEAD
+=======
+        features = new ArrayList<>();
+        features.add(new SPFeatureRoundsLeft());
+        features.add(new SPFeaturePoints());
+        features.add(new SPFeatureInteractionTerm(new SPFeaturePoints(), new SPFeatureRoundsLeft()));
+        features.add(new SPFeaturePointsDiff());
+        features.add(new SPFeatureInteractionTerm(new SPFeaturePointsDiff(), new SPFeatureRoundsLeft()));
+        features.add(new SPFeatureRubles());
+        features.add(new SPFeatureInteractionTerm(new SPFeatureRubles(), new SPFeatureRoundsLeft()));
+        features.add(new SPFeatureRublesDiff());
+        features.add(new SPFeatureInteractionTerm(new SPFeatureRublesDiff(), new SPFeatureRoundsLeft()));
+        features.add(new SPFeatureUniqueAristocratsPointsDiff());
+        features.add(new SPFeatureInteractionTerm(new SPFeatureUniqueAristocratsPointsDiff(), new SPFeatureRoundsLeft()));
+        features.add(new SPFeaturePointsRoundGain());
+        features.add(new SPFeatureInteractionTerm(new SPFeaturePointsRoundGain(), new SPFeatureRoundsLeft()));
+        features.add(new SPFeaturePointsRoundGainDiff());
+        features.add(new SPFeatureInteractionTerm(new SPFeaturePointsRoundGainDiff(), new SPFeatureRoundsLeft()));
+        features.add(new SPFeatureRublesRoundGain());
+        features.add(new SPFeatureInteractionTerm(new SPFeatureRublesRoundGain(), new SPFeatureRoundsLeft()));
+        features.add(new SPFeatureRublesRoundGainDiff());
+        features.add(new SPFeatureInteractionTerm(new SPFeatureRublesRoundGainDiff(), new SPFeatureRoundsLeft()));
+        features.add(new SPFeatureCardsInHand());
+        features.add(new SPFeatureInteractionTerm(new SPFeatureCardsInHand(), new SPFeatureRoundsLeft()));
+        features.add(new SPFeatureNumLegalMoves());
+        features.add(new SPFeatureInteractionTerm(new SPFeatureNumLegalMoves(), new SPFeatureRoundsLeft()));
+        features.add(new SPFeatureCardsInHandDiff());
+        features.add(new SPFeatureInteractionTerm(new SPFeatureCardsInHandDiff(), new SPFeatureRoundsLeft()));
+        features.add(new SPFeatureHandSpaceDiff());
+        features.add(new SPFeatureInteractionTerm(new SPFeatureHandSpaceDiff(), new SPFeatureRoundsLeft()));
+
+>>>>>>> 0a20a8abc6ca483ad8a4bf92b34c7684809be615
         // features = new ArrayList<>();
         // features.add(new SPFeatureRoundsLeft());
         // features.add(new SPFeaturePoints());
@@ -268,19 +308,56 @@ public class AIDanSPStateFeaturesRF1 {
     }
 
     public void generateCSVData(String filename, int numGames) {
+        int numThreads = 10;
+        ExecutorService executor = Executors.newFixedThreadPool(numThreads);
+        
+        CompletionService<String> completionService = new ExecutorCompletionService<>(executor);
+        
+        AtomicInteger gamesCompleted = new AtomicInteger(0);
+    
         try (PrintWriter writer = new PrintWriter(new FileWriter(filename))) {
             writer.println(getCSVHeader());
+    
             for (int i = 0; i < numGames; i++) {
-                SPGameTranscript transcript = SPSimulateGame.simulateGame(new SPRandomPlayer(), new SPRandomPlayer());
-                // SPGameTranscript transcript = SPSimulateGame.simulateGame(new SPPlayerFlatMC(), new SPPlayerFlatMC());
-                writer.print(getCSVRows(transcript));
-                if ((i + 1) % (numGames / 10) == 0) {
-                    System.out.println("Generated game " + (i + 1) + "/" + numGames);
-                }
-                // System.out.println("Generated game " + (i + 1) + "/" + numGames);
+                completionService.submit(() -> {
+                    // SPGameTranscript transcript = SPSimulateGame.simulateGame(new SPRandomPlayer(), new SPRandomPlayer());
+                    SPGameTranscript transcript = SPSimulateGame.simulateGame(new SPPlayerFlatMC(), new SPPlayerFlatMC());
+                    return getCSVRows(transcript); 
+                });
             }
+    
+            for (int i = 0; i < numGames; i++) {
+                try {
+                    Future<String> future = completionService.take(); 
+                    
+                    String csvRow = future.get(); 
+                    
+                    writer.print(csvRow);
+    
+                    int done = gamesCompleted.incrementAndGet();
+                    System.out.println("Generated game " + done + "/" + numGames);
+    
+                } catch (InterruptedException e) {
+                    Thread.currentThread().interrupt(); 
+                    e.printStackTrace();
+                } catch (ExecutionException e) {
+                    System.err.println("Error during game simulation: " + e.getCause());
+                    e.printStackTrace();
+                }
+            }
+    
         } catch (IOException e) {
             e.printStackTrace();
+        } finally {
+            executor.shutdown(); 
+            try {
+                if (!executor.awaitTermination(60, TimeUnit.SECONDS)) {
+                    executor.shutdownNow();
+                }
+            } catch (InterruptedException e) {
+                executor.shutdownNow(); 
+                Thread.currentThread().interrupt();
+            }
         }
     }
 
@@ -347,9 +424,15 @@ public class AIDanSPStateFeaturesRF1 {
     public void learnModel() {
 
         try {
+<<<<<<< HEAD
             String trainingDataFile = "AIDanSPTrainingDataFlatMCvsFlatMC.csv";
             // int numGames = 10000; // Number of games to simulate for training data
             // generateCSVData(trainingDataFile, numGames);
+=======
+            String trainingDataFile = "AIDanSPTrainingData.csv";
+            int numGames = 1000; // Number of games to simulate for training data
+            generateCSVData(trainingDataFile, numGames);
+>>>>>>> 0a20a8abc6ca483ad8a4bf92b34c7684809be615
             DataFrame df = Read.csv(trainingDataFile, "header=true");
 
             df = df.factorize("is_winner");
