@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public class AIDanSPPlayerHybridObjective extends SPPlayer {
 	
-	int numSimulationsPerAction = 2000;
+	int numSimulationsPerAction = 10000;
     int playoutTerminationDepth = 4;
     AIDanSPStateFeaturesRF1 features = new AIDanSPStateFeaturesRF1();
     boolean verbose = true;

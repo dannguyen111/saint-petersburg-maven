@@ -24,35 +24,35 @@ public class AIDanSPStateFeaturesLR3 {
 
     public AIDanSPStateFeaturesLR3() {
     	features = new ArrayList<>();
-        features.add(new SPFeatureMinDeckSize());
-        features.add(new SPFeaturePoints());
-        features.add(new SPFeatureInteractionTerm(new SPFeaturePoints(), new SPFeatureMinDeckSize()));
+        // features.add(new SPFeatureMinDeckSize());
+        // features.add(new SPFeaturePoints());
+        // features.add(new SPFeatureInteractionTerm(new SPFeaturePoints(), new SPFeatureMinDeckSize()));
         features.add(new SPFeaturePointsDiff());
         features.add(new SPFeatureInteractionTerm(new SPFeaturePointsDiff(), new SPFeatureMinDeckSize()));
-        features.add(new SPFeatureRubles());
-        features.add(new SPFeatureInteractionTerm(new SPFeatureRubles(), new SPFeatureMinDeckSize()));
+        // features.add(new SPFeatureRubles());
+        // features.add(new SPFeatureInteractionTerm(new SPFeatureRubles(), new SPFeatureMinDeckSize()));
         features.add(new SPFeatureRublesDiff());
         features.add(new SPFeatureInteractionTerm(new SPFeatureRublesDiff(), new SPFeatureMinDeckSize()));
         features.add(new SPFeatureUniqueAristocratsPointsDiff());
         features.add(new SPFeatureInteractionTerm(new SPFeatureUniqueAristocratsPointsDiff(), new SPFeatureMinDeckSize()));
-        features.add(new SPFeaturePointsRoundGain());
-        features.add(new SPFeatureInteractionTerm(new SPFeaturePointsRoundGain(), new SPFeatureMinDeckSize()));
+        // features.add(new SPFeaturePointsRoundGain());
+        // features.add(new SPFeatureInteractionTerm(new SPFeaturePointsRoundGain(), new SPFeatureMinDeckSize()));
         features.add(new SPFeaturePointsRoundGainDiff());
         features.add(new SPFeatureInteractionTerm(new SPFeaturePointsRoundGainDiff(), new SPFeatureMinDeckSize()));
-        features.add(new SPFeatureRublesRoundGain());
-        features.add(new SPFeatureInteractionTerm(new SPFeatureRublesRoundGain(), new SPFeatureMinDeckSize()));
+        // features.add(new SPFeatureRublesRoundGain());
+        // features.add(new SPFeatureInteractionTerm(new SPFeatureRublesRoundGain(), new SPFeatureMinDeckSize()));
         features.add(new SPFeatureRublesRoundGainDiff());
         features.add(new SPFeatureInteractionTerm(new SPFeatureRublesRoundGainDiff(), new SPFeatureMinDeckSize()));
-        features.add(new SPFeatureCardsInHand());
-        features.add(new SPFeatureInteractionTerm(new SPFeatureCardsInHand(), new SPFeatureMinDeckSize()));
+        // features.add(new SPFeatureCardsInHand());
+        // features.add(new SPFeatureInteractionTerm(new SPFeatureCardsInHand(), new SPFeatureMinDeckSize()));
         features.add(new SPFeatureCardsInHandDiff());
         features.add(new SPFeatureInteractionTerm(new SPFeatureCardsInHandDiff(), new SPFeatureMinDeckSize()));
         features.add(new SPFeatureHandSpaceDiff());
         features.add(new SPFeatureInteractionTerm(new SPFeatureHandSpaceDiff(), new SPFeatureMinDeckSize()));
-        features.add(new SPFeatureBuyableCardsInHand());
-        features.add(new SPFeatureInteractionTerm(new SPFeatureBuyableCardsInHand(), new SPFeatureMinDeckSize()));
-        features.add(new SPFeatureDupAristoCount());
-        features.add(new SPFeatureInteractionTerm(new SPFeatureDupAristoCount(), new SPFeatureMinDeckSize()));
+        // features.add(new SPFeatureBuyableCardsInHand());
+        // features.add(new SPFeatureInteractionTerm(new SPFeatureBuyableCardsInHand(), new SPFeatureMinDeckSize()));
+        // features.add(new SPFeatureDupAristoCount());
+        // features.add(new SPFeatureInteractionTerm(new SPFeatureDupAristoCount(), new SPFeatureMinDeckSize()));
 
         initializeModel();
     }

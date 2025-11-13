@@ -59,4 +59,4 @@ def find_best_features(file_path, target_col="is_winner", max_features=10):
     return best_num, best_features, best_score
 
 # Example usage
-find_best_features("AIDanSPTrainingData.csv", target_col="is_winner", max_features=20)
+find_best_features("AIDanSPTrainingDataFlatMCvsFlatMC.csv", target_col="is_winner", max_features=27)
