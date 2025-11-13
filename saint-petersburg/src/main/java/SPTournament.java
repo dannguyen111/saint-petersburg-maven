@@ -28,11 +28,11 @@ import java.util.concurrent.TimeUnit; // Added for error handling
 public class SPTournament {
 
 	private static final int NUM_GAMES = 11; // TODO - set the number of games per match (e.g., 11)
-	private static final long MILLISECONDS_PER_GAME = 60000; // TODO - set the maximum milliseconds per game
+	private static final long MILLISECONDS_PER_GAME = 600000; // TODO - set the maximum milliseconds per game
 	// (300000 ms/game = 300 seconds/game = 5 minutes/game)
     
     // TODO - set the number of processors (threads) to use for parallel games
-    private static final int NUM_PROCESSORS = 10; 
+    private static final int NUM_PROCESSORS = 11; 
 
     /**
      * Helper class to store the result of a single game.
