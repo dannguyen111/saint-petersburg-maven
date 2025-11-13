@@ -10,7 +10,7 @@ public class SPMCTSPlayer extends SPPlayer { // simplified and ported from
     int numChanceSamples = 10; // Number of chance samples per chance node
     int numIterations = 1000000; // Number of MCTS iterations per move
     int playoutTerminationDepth = 4; // Depth at which to terminate playouts
-    SPStateFeaturesLR1 features = new SPStateFeaturesLR1(); // Features for heuristic evaluation
+    AIDanSPStateFeaturesLR3 features = new AIDanSPStateFeaturesLR3(); // Features for heuristic evaluation
     boolean verbose = true; // Verbosity flag
     Random chanceSeedRng = new java.util.Random(); // RNG for chance seeds
     int nodes = 0; // Node counter

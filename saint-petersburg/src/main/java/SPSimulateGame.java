@@ -52,7 +52,7 @@ public class SPSimulateGame {
 	public static void main(String[] args) {
 		// Against random player using no hand:
 //		SPGameTranscript transcript = simulateGame(new SPPlayerFlatMC(), new SPRandomNoHandPlayer());
-		SPGameTranscript transcript = simulateGame(new AIDanSPPlayerFMCTrainer(), new AIDanSPPlayerFMCWTrainer());
+		SPGameTranscript transcript = simulateGame(new AIDanSPMCTSPlayer(), new AIDanSPPlayerFMCTrainerTimeManaged());
 
 		// Against itself:
 		// SPGameTranscript transcript = simulateGame(new SPPlayerFlatMC(), new SPPlayerFlatMC());

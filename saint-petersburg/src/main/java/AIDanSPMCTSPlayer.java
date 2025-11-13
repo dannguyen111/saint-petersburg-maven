@@ -238,7 +238,10 @@ public class AIDanSPMCTSPlayer extends SPPlayer { // simplified and ported from
             } else {
                 // Non-terminal state: use heuristic evaluation
                 int scoreDiff = state.playerPoints[state.playerTurn] - state.playerPoints[1 - state.playerTurn];
-                double winProb = features.predict(state) + 0.005 * scoreDiff;
+                long uniqueAristocrats = Math.min(SPState.MAX_UNIQUE_ARISTOCRATS, state.playerAristocrats.get(state.playerTurn).stream().distinct().count());
+                long opponentUniqueAristocrats = Math.min(SPState.MAX_UNIQUE_ARISTOCRATS, state.playerAristocrats.get(1 - state.playerTurn).stream().distinct().count());
+                long uniqueAristocratsPointsDiff = SPState.UNIQUE_ARISTOCRAT_BONUS_POINTS.get((int) uniqueAristocrats) - SPState.UNIQUE_ARISTOCRAT_BONUS_POINTS.get((int) opponentUniqueAristocrats);
+                double winProb = features.predict(state) + 0.0005 * (scoreDiff + uniqueAristocratsPointsDiff);
                 if (state.playerTurn == 0) {
                     returns[0] = winProb;
                     returns[1] = 1.0 - winProb;
@@ -246,7 +249,6 @@ public class AIDanSPMCTSPlayer extends SPPlayer { // simplified and ported from
                     returns[0] = 1.0 - winProb;
                     returns[1] = winProb;
                 }
-                
             }
 
             // Backpropagation phase (BACKUP)
