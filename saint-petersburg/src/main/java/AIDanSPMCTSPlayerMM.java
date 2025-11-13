@@ -3,14 +3,14 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.Random;
 
-public class AIDanSPMCTSPlayer extends SPPlayer { // simplified and ported from
+public class AIDanSPMCTSPlayerMM extends SPPlayer { // simplified and ported from
     // Marc Lanctot's OpenSpiel MCTS implementation in C++
 
     double uctC = 2.0; // UCT exploration constant
     int numChanceSamples = 10; // Number of chance samples per chance node
     int numIterations = 1000000; // Number of MCTS iterations per move
     int playoutTerminationDepth = 4; // Depth at which to terminate playouts
-    AIDanSPStateFeaturesLR3 features = new AIDanSPStateFeaturesLR3(); // Features for heuristic evaluation
+    AIDanSPStateFeaturesLR5 features = new AIDanSPStateFeaturesLR5(); // Features for heuristic evaluation
     boolean verbose = true; // Verbosity flag
     Random chanceSeedRng = new java.util.Random(); // RNG for chance seeds
     int nodes = 0; // Node counter
@@ -23,8 +23,8 @@ public class AIDanSPMCTSPlayer extends SPPlayer { // simplified and ported from
     //   Tree Search in Go" (ACG 2013)
     // see also their "Time Management for Monte-Carlo Tree Search" (2016)
 
-    public AIDanSPMCTSPlayer() {
-        super("AIDanSPMCTSPlayer");
+    public AIDanSPMCTSPlayerMM() {
+        super("AIDanSPMCTSPlayerMM");
     }
 
     class SearchNode {
@@ -237,8 +237,7 @@ public class AIDanSPMCTSPlayer extends SPPlayer { // simplified and ported from
                 }
             } else {
                 // Non-terminal state: use heuristic evaluation
-                int scoreDiff = state.playerPoints[state.playerTurn] - state.playerPoints[1 - state.playerTurn];
-                double winProb = features.predict(state) + 0.005 * scoreDiff;
+                double winProb = features.predict(state);
                 if (state.playerTurn == 0) {
                     returns[0] = winProb;
                     returns[1] = 1.0 - winProb;

@@ -36,7 +36,8 @@ public class AIDanSPPlayerFMCTrainer extends SPPlayer {
                     randomAction.take();
                 }
 
-                double heuristicValue = eval(simCopy);
+                int scoreDiff = simCopy.playerPoints[state.playerTurn] - simCopy.playerPoints[1 - state.playerTurn];
+                double heuristicValue = eval(simCopy) + 0.005 * scoreDiff;
                 if (state.playerTurn != simCopy.playerTurn) {
                     heuristicValue = 1 - heuristicValue; // assuming two players, the estimated probability of winning
                                                          // is 1 minus the opponent's value

@@ -187,7 +187,7 @@ public class SPTournament {
 //		String[] playerIdentifiers = {"SPPlayerFlatMC", "AIDanSPPlayerHybridObjective", "MaiNePlayer"};
 		// String[] playerIdentifiers = {"SPPlayerFlatMC", "AiDanExpectiminimaxPlayer", "JFMTPlayer2",  "MiMaPlayer", "MaiNeNNPlayer", "OKTurnBasedFeaturesPlayer"};
 		//String[] playerIdentifiers = {"AiDanExpectiminimaxPlayer", "OKTurnBasedFeaturesPlayer"};
-		String[] playerIdentifiers = {"AIDanSPPlayerHybridObjective", "AIDanSPPlayerFMCTrainer"};
+		String[] playerIdentifiers = {"AIDanSPPlayerFMCTrainer", "AIDanSPMCTSPlayerMM"};
 
 		String[] competitors = new String[playerIdentifiers.length];
 		for (int i = 0; i < playerIdentifiers.length; i++)
