@@ -24,9 +24,9 @@ import java.util.stream.Collectors;
  */
 public class SPCardAnalysisTwo {
 
-    private static final int NUM_GAMES = 2200; 
-    private static final long MILLISECONDS_PER_GAME = 300000;
-    private static final int NUM_PROCESSORS = 15; 
+    private static final int NUM_GAMES = 700; 
+    private static final long MILLISECONDS_PER_GAME = 210000;
+    private static final int NUM_PROCESSORS = 15;
     
     // --- PIVOT ROUND SET TO 5 ---
     private static final int PIVOT_ROUND = 5; 

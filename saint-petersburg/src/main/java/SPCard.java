@@ -10,7 +10,7 @@ import java.util.Scanner;
 
 public class SPCard {
 	// Immutable lists for each type of card
-	public static final int EDITION = 1; // Edition number for the game
+	public static final int EDITION = 2; // Edition number for the game
 	public static final List<SPCard> WORKER_CARDS;
 	public static final List<SPCard> BUILDING_CARDS;
 	public static final List<SPCard> ARISTOCRAT_CARDS;
