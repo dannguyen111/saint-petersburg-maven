@@ -25,3 +25,15 @@ saint-petersburg/src/main/java/MaiNePlayer.java
 saint-petersburg/src/main/java/MiMaPlayer.java
 saint-petersburg/src/main/java/MiMaStateFeatures.java
 saint-petersburg/src/main/java/OKHybridPlayer.java
+
+# ...and their compiled output
+saint-petersburg/target/classes/JFMTFeatures.class
+saint-petersburg/target/classes/JFMTFeatures$*.class
+saint-petersburg/target/classes/JFMTPlayer.class
+saint-petersburg/target/classes/MaiNeLR2.class
+saint-petersburg/target/classes/MaiNeLR2$*.class
+saint-petersburg/target/classes/MaiNePlayer.class
+saint-petersburg/target/classes/MiMaPlayer.class
+saint-petersburg/target/classes/MiMaStateFeatures.class
+saint-petersburg/target/classes/MiMaStateFeatures$*.class
+saint-petersburg/target/classes/OKHybridPlayer.class
