@@ -13,6 +13,10 @@
 *.log
 **/*.log
 
+# Ignore generated game transcripts
+game_transcript.txt
+**/game_transcript.txt
+
 # Ignore model files
 *.model
 **/*.model

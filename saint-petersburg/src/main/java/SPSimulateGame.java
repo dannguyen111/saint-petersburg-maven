@@ -57,7 +57,7 @@ public class SPSimulateGame {
 		// Against itself:
 		// SPGameTranscript transcript = simulateGame(new SPPlayerFlatMC(), new SPPlayerFlatMC());
 		
-		boolean toFile = true; // Change to true to write to a file
+		boolean toFile = false; // Change to true to write to a file
 		if (toFile) {
 			try (PrintStream out = new PrintStream("game_transcript.txt")) {
 				printGameTranscript(transcript, out);
